@@ -1,0 +1,4097 @@
+[
+  {
+    "Id": 1,
+    "Pokemon": "Bulbasaur",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 45,
+      "Attack": 49,
+      "Defense": 49,
+      "SpecialAttack": 65,
+      "SpecialDefense": 65,
+      "Speed": 45,
+      "Total": 318
+    },
+    "Moves": [
+      "Tackle",
+      "Growl",
+      "LeechSeed",
+      "VineWhip",
+      "PoisonPowder",
+      "RazorLeaf",
+      "Growth",
+      "SleepPowder",
+      "SolarBeam"
+    ]
+  },
+  {
+    "Id": 2,
+    "Pokemon": "Ivysaur",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 60,
+      "Attack": 62,
+      "Defense": 63,
+      "SpecialAttack": 80,
+      "SpecialDefense": 80,
+      "Speed": 60,
+      "Total": 405
+    },
+    "Moves": [
+      "Tackle",
+      "Growl",
+      "LeechSeed",
+      "VineWhip",
+      "PoisonPowder",
+      "RazorLeaf",
+      "Growth",
+      "SleepPowder",
+      "SolarBeam"
+    ]
+  },
+  {
+    "Id": 3,
+    "Pokemon": "Venusaur",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 80,
+      "Attack": 82,
+      "Defense": 83,
+      "SpecialAttack": 100,
+      "SpecialDefense": 100,
+      "Speed": 80,
+      "Total": 525
+    },
+    "Moves": [
+      "Tackle",
+      "Growl",
+      "LeechSeed",
+      "VineWhip",
+      "PoisonPowder",
+      "RazorLeaf",
+      "Growth",
+      "SleepPowder",
+      "SolarBeam",
+      "Earthquake"
+    ]
+  },
+  {
+    "Id": 4,
+    "Pokemon": "Charmander",
+    "PrimaryType": "Fire",
+    "Stats": {
+      "HP": 39,
+      "Attack": 52,
+      "Defense": 43,
+      "SpecialAttack": 60,
+      "SpecialDefense": 50,
+      "Speed": 65,
+      "Total": 309
+    },
+    "Moves": [
+      "Scratch",
+      "Growl",
+      "Ember",
+      "Smokescreen",
+      "Rage",
+      "Slash",
+      "Flamethrower",
+      "FireSpin"
+    ]
+  },
+  {
+    "Id": 5,
+    "Pokemon": "Charmeleon",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 58,
+      "Attack": 64,
+      "Defense": 58,
+      "SpecialAttack": 80,
+      "SpecialDefense": 65,
+      "Speed": 80,
+      "Total": 405
+    },
+    "Moves": [
+      "Scratch",
+      "Growl",
+      "Ember",
+      "Smokescreen",
+      "Rage",
+      "Slash",
+      "Flamethrower",
+      "FireSpin"
+    ]
+  },
+  {
+    "Id": 6,
+    "Pokemon": "Charizard",
+    "PrimaryType": "Fire",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 78,
+      "Attack": 84,
+      "Defense": 78,
+      "SpecialAttack": 109,
+      "SpecialDefense": 85,
+      "Speed": 100,
+      "Total": 534
+    },
+    "Moves": [
+      "Scratch",
+      "Growl",
+      "Ember",
+      "Smokescreen",
+      "Rage",
+      "Slash",
+      "Flamethrower",
+      "FireSpin",
+      "Fly",
+      "Earthquake",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 7,
+    "Pokemon": "Squirtle",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 44,
+      "Attack": 48,
+      "Defense": 65,
+      "SpecialAttack": 50,
+      "SpecialDefense": 64,
+      "Speed": 43,
+      "Total": 314
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "Bubble",
+      "WaterGun",
+      "Bite",
+      "Withdraw",
+      "SkullBash",
+      "HydroPump",
+      "Surf"
+    ]
+  },
+  {
+    "Id": 8,
+    "Pokemon": "Wartortle",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 59,
+      "Attack": 63,
+      "Defense": 80,
+      "SpecialAttack": 65,
+      "SpecialDefense": 80,
+      "Speed": 58,
+      "Total": 405
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "Bubble",
+      "WaterGun",
+      "Bite",
+      "Withdraw",
+      "SkullBash",
+      "HydroPump",
+      "Surf"
+    ]
+  },
+  {
+    "Id": 9,
+    "Pokemon": "Blastoise",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 79,
+      "Attack": 83,
+      "Defense": 100,
+      "SpecialAttack": 85,
+      "SpecialDefense": 105,
+      "Speed": 78,
+      "Total": 530
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "Bubble",
+      "WaterGun",
+      "Bite",
+      "Withdraw",
+      "SkullBash",
+      "HydroPump",
+      "Surf",
+      "IceBeam",
+      "Blizzard",
+      "Earthquake"
+    ]
+  },
+  {
+    "Id": 10,
+    "Pokemon": "Caterpie",
+    "PrimaryType": "Bug",
+
+    "Stats": {
+      "HP": 45,
+      "Attack": 30,
+      "Defense": 35,
+      "SpecialAttack": 20,
+      "SpecialDefense": 20,
+      "Speed": 45,
+      "Total": 195
+    },
+    "Moves": [
+      "Tackle",
+      "StringShot"
+    ]
+  },
+  {
+    "Id": 11,
+    "Pokemon": "Metapod",
+    "PrimaryType": "Bug",
+
+    "Stats": {
+      "HP": 50,
+      "Attack": 20,
+      "Defense": 55,
+      "SpecialAttack": 25,
+      "SpecialDefense": 25,
+      "Speed": 30,
+      "Total": 205
+    },
+    "Moves": [
+      "Harden"
+    ]
+  },
+  {
+    "Id": 12,
+    "Pokemon": "Butterfree",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 60,
+      "Attack": 45,
+      "Defense": 50,
+      "SpecialAttack": 90,
+      "SpecialDefense": 80,
+      "Speed": 70,
+      "Total": 395
+    },
+    "Moves": [
+      "Tackle",
+      "StringShot",
+      "Harden",
+      "Confusion",
+      "PoisonPowder",
+      "StunSpore",
+      "SleepPowder",
+      "Supersonic",
+      "Psybeam",
+      "Whirlwind",
+      "Gust",
+      "SolarBeam",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 13,
+    "Pokemon": "Weedle",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 40,
+      "Attack": 35,
+      "Defense": 30,
+      "SpecialAttack": 20,
+      "SpecialDefense": 20,
+      "Speed": 50,
+      "Total": 195
+    },
+    "Moves": [
+      "PoisonSting",
+      "StringShot"
+    ]
+  },
+  {
+    "Id": 14,
+    "Pokemon": "Kakuna",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 45,
+      "Attack": 25,
+      "Defense": 50,
+      "SpecialAttack": 25,
+      "SpecialDefense": 25,
+      "Speed": 35,
+      "Total": 205
+    },
+    "Moves": [
+      "Harden"
+    ]
+  },
+  {
+    "Id": 15,
+    "Pokemon": "Beedrill",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 65,
+      "Attack": 90,
+      "Defense": 40,
+      "SpecialAttack": 45,
+      "SpecialDefense": 80,
+      "Speed": 75,
+      "Total": 395
+    },
+    "Moves": [
+      "PoisonSting",
+      "StringShot",
+      "Harden",
+      "FuryAttack",
+      "Rage",
+      "PinMissile",
+      "Agility",
+      "HyperBeam",
+      "SwordsDance",
+      "Twineedle"
+    ]
+  },
+  {
+    "Id": 16,
+    "Pokemon": "Pidgey",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 40,
+      "Attack": 45,
+      "Defense": 40,
+      "SpecialAttack": 35,
+      "SpecialDefense": 35,
+      "Speed": 56,
+      "Total": 251
+    },
+    "Moves": [
+      "Gust",
+      "SandAttack",
+      "QuickAttack",
+      "WingAttack",
+      "Whirlwind",
+      "Agility",
+      "DoubleTeam",
+      "Fly",
+      "HyperBeam",
+      "Swift"
+    ]
+  },
+  {
+    "Id": 17,
+    "Pokemon": "Pidgeotto",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 63,
+      "Attack": 60,
+      "Defense": 55,
+      "SpecialAttack": 50,
+      "SpecialDefense": 50,
+      "Speed": 71,
+      "Total": 349
+    },
+    "Moves": [
+      "Gust",
+      "SandAttack",
+      "QuickAttack",
+      "WingAttack",
+      "Whirlwind",
+      "Agility",
+      "DoubleTeam",
+      "Fly",
+      "HyperBeam",
+      "Swift"
+    ]
+  },
+  {
+    "Id": 18,
+    "Pokemon": "Pidgeot",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 83,
+      "Attack": 80,
+      "Defense": 75,
+      "SpecialAttack": 70,
+      "SpecialDefense": 70,
+      "Speed": 101,
+      "Total": 479
+    },
+    "Moves": [
+      "Gust",
+      "SandAttack",
+      "QuickAttack",
+      "WingAttack",
+      "Whirlwind",
+      "Agility",
+      "DoubleTeam",
+      "Fly",
+      "HyperBeam",
+      "Swift",
+      "MirrorMove",
+      "SkyAttack"
+    ]
+  },
+  {
+    "Id": 19,
+    "Pokemon": "Rattata",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 30,
+      "Attack": 56,
+      "Defense": 35,
+      "SpecialAttack": 25,
+      "SpecialDefense": 35,
+      "Speed": 72,
+      "Total": 253
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "QuickAttack",
+      "HyperFang",
+      "FocusEnergy",
+      "Bite",
+      "SuperFang",
+      "DoubleEdge",
+      "DoubleTeam"
+    ]
+  },
+  {
+    "Id": 20,
+    "Pokemon": "Raticate",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 55,
+      "Attack": 81,
+      "Defense": 60,
+      "SpecialAttack": 50,
+      "SpecialDefense": 70,
+      "Speed": 97,
+      "Total": 413
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "QuickAttack",
+      "HyperFang",
+      "FocusEnergy",
+      "Bite",
+      "SuperFang",
+      "DoubleEdge",
+      "DoubleTeam",
+      "SwordsDance",
+      "Thunderbolt",
+      "IceBeam",
+      "Blizzard"
+    ]
+  },
+  {
+    "Id": 21,
+    "Pokemon": "Spearow",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 40,
+      "Attack": 60,
+      "Defense": 30,
+      "SpecialAttack": 31,
+      "SpecialDefense": 31,
+      "Speed": 70,
+      "Total": 262
+    },
+    "Moves": [
+      "Peck",
+      "Growl",
+      "Leer",
+      "FuryAttack",
+      "Agility",
+      "Pursuit",
+      "DrillPeck",
+      "MirrorMove",
+      "DoubleEdge",
+      "Fly",
+      "Swift"
+    ]
+  },
+  {
+    "Id": 22,
+    "Pokemon": "Fearow",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 65,
+      "Attack": 90,
+      "Defense": 65,
+      "SpecialAttack": 61,
+      "SpecialDefense": 61,
+      "Speed": 100,
+      "Total": 442
+    },
+    "Moves": [
+      "Peck",
+      "Growl",
+      "Leer",
+      "FuryAttack",
+      "Agility",
+      "Pursuit",
+      "DrillPeck",
+      "MirrorMove",
+      "DoubleEdge",
+      "Fly",
+      "Swift",
+      "HyperBeam",
+      "Roar",
+      "SkyAttack",
+      "SandAttack"
+    ]
+  },
+  {
+    "Id": 23,
+    "Pokemon": "Ekans",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 35,
+      "Attack": 60,
+      "Defense": 44,
+      "SpecialAttack": 40,
+      "SpecialDefense": 54,
+      "Speed": 55,
+      "Total": 288
+    },
+    "Moves": [
+      "Wrap",
+      "Leer",
+      "PoisonSting",
+      "Bite",
+      "Glare",
+      "Screech",
+      "Acid",
+      "Stockpile",
+      "SpitUp",
+      "Swallow",
+      "Haze",
+      "GunkShot",
+      "Dig",
+      "Earthquake",
+      "Toxic",
+      "SludgeBomb"
+    ]
+  },
+  {
+    "Id": 24,
+    "Pokemon": "Arbok",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 60,
+      "Attack": 95,
+      "Defense": 69,
+      "SpecialAttack": 65,
+      "SpecialDefense": 79,
+      "Speed": 80,
+      "Total": 448
+    },
+    "Moves": [
+      "Wrap",
+      "Leer",
+      "PoisonSting",
+      "Bite",
+      "Glare",
+      "Screech",
+      "Acid",
+      "Stockpile",
+      "SpitUp",
+      "Swallow",
+      "Haze",
+      "GunkShot",
+      "Dig",
+      "Earthquake",
+      "Toxic",
+      "SludgeBomb",
+      "Crunch",
+      "HyperBeam",
+      "RockSlide",
+      "Rest",
+      "BodySlam"
+    ]
+  },
+  {
+    "Id": 25,
+    "Pokemon": "Pikachu",
+    "PrimaryType": "Electric",
+
+    "Stats": {
+      "HP": 35,
+      "Attack": 55,
+      "Defense": 40,
+      "SpecialAttack": 50,
+      "SpecialDefense": 50,
+      "Speed": 90,
+      "Total": 320
+    },
+    "Moves": [
+      "ThunderShock",
+      "Growl",
+      "QuickAttack",
+      "ElectroBall",
+      "DoubleTeam",
+      "Spark",
+      "Nuzzle",
+      "Discharge",
+      "ThunderWave",
+      "Thunderbolt",
+      "Thunder",
+      "IronTail",
+      "Agility",
+      "Slam",
+      "VoltTackle",
+      "Surf"
+    ]
+  },
+  {
+    "Id": 26,
+    "Pokemon": "Raichu",
+    "PrimaryType": "Electric",
+
+    "Stats": {
+      "HP": 60,
+      "Attack": 90,
+      "Defense": 55,
+      "SpecialAttack": 90,
+      "SpecialDefense": 80,
+      "Speed": 110,
+      "Total": 485
+    },
+    "Moves": [
+      "ThunderShock",
+      "Growl",
+      "QuickAttack",
+      "ElectroBall",
+      "DoubleTeam",
+      "Spark",
+      "Nuzzle",
+      "Discharge",
+      "ThunderWave",
+      "Thunderbolt",
+      "Thunder",
+      "IronTail",
+      "Agility",
+      "Slam",
+      "VoltTackle",
+      "Surf",
+      "HyperBeam",
+      "FocusBlast",
+      "BrickBreak"
+    ]
+  },
+  {
+    "Id": 27,
+    "Pokemon": "Sandshrew",
+    "PrimaryType": "Ground",
+
+    "Stats": {
+      "HP": 50,
+      "Attack": 75,
+      "Defense": 85,
+      "SpecialAttack": 20,
+      "SpecialDefense": 30,
+      "Speed": 40,
+      "Total": 300
+    },
+    "Moves": [
+      "Scratch",
+      "DefenseCurl",
+      "SandAttack",
+      "Swift",
+      "PoisonSting",
+      "Dig",
+      "Toxic",
+      "Rollout",
+      "Earthquake",
+      "IronTail",
+      "FurySwipes",
+      "Slash",
+      "Screech"
+    ]
+  },
+  {
+    "Id": 28,
+    "Pokemon": "Sandslash",
+    "PrimaryType": "Ground",
+
+    "Stats": {
+      "HP": 75,
+      "Attack": 100,
+      "Defense": 110,
+      "SpecialAttack": 45,
+      "SpecialDefense": 55,
+      "Speed": 65,
+      "Total": 460
+    },
+    "Moves": [
+      "Scratch",
+      "DefenseCurl",
+      "SandAttack",
+      "Swift",
+      "PoisonSting",
+      "Dig",
+      "Toxic",
+      "Rollout",
+      "Earthquake",
+      "IronTail",
+      "FurySwipes",
+      "Slash",
+      "Screech",
+      "StealthRock",
+      "XScissor",
+      "Sandstorm"
+    ]
+  },
+  {
+    "Id": 29,
+    "Pokemon": "NidoranFemale",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 55,
+      "Attack": 47,
+      "Defense": 52,
+      "SpecialAttack": 40,
+      "SpecialDefense": 40,
+      "Speed": 41,
+      "Total": 275
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "PoisonSting",
+      "Growl",
+      "DoubleKick",
+      "HelpingHand",
+      "Charm",
+      "Toxic",
+      "Flatter",
+      "Attract",
+      "VenomDrench",
+      "PoisonPowder",
+      "BodySlam"
+    ]
+  },
+  {
+    "Id": 30,
+    "Pokemon": "Nidorina",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 70,
+      "Attack": 62,
+      "Defense": 67,
+      "SpecialAttack": 55,
+      "SpecialDefense": 55,
+      "Speed": 56,
+      "Total": 365
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "PoisonSting",
+      "Growl",
+      "DoubleKick",
+      "HelpingHand",
+      "Charm",
+      "Toxic",
+      "Flatter",
+      "Attract",
+      "VenomDrench",
+      "PoisonPowder",
+      "BodySlam",
+      "Crunch",
+      "EarthPower",
+      "IronTail",
+      "BodySlam"
+    ]
+  },
+  {
+    "Id": 31,
+    "Pokemon": "Nidoqueen",
+    "PrimaryType": "Poison",
+    "SecondaryType": "Ground",
+    "Stats": {
+      "HP": 90,
+      "Attack": 92,
+      "Defense": 87,
+      "SpecialAttack": 75,
+      "SpecialDefense": 85,
+      "Speed": 76,
+      "Total": 505
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "PoisonSting",
+      "Growl",
+      "DoubleKick",
+      "FocusEnergy",
+      "HornAttack",
+      "PoisonPowder",
+      "Toxic",
+      "Attract",
+      "BodySlam",
+      "DoubleTeam",
+      "TakeDown",
+      "Earthquake",
+      "IronTail",
+      "Blizzard",
+      "Surf",
+      "Rest",
+      "ShadowBall",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 32,
+    "Pokemon": "NidoranMale",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 46,
+      "Attack": 57,
+      "Defense": 40,
+      "SpecialAttack": 40,
+      "SpecialDefense": 40,
+      "Speed": 50,
+      "Total": 233
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "PoisonSting",
+      "Growl",
+      "DoubleKick",
+      "FocusEnergy",
+      "HornAttack",
+      "PoisonPowder",
+      "Toxic",
+      "Attract"
+    ]
+  },
+  {
+    "Id": 33,
+    "Pokemon": "Nidorino",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 61,
+      "Attack": 72,
+      "Defense": 57,
+      "SpecialAttack": 55,
+      "SpecialDefense": 55,
+      "Speed": 65,
+      "Total": 365
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "PoisonSting",
+      "Growl",
+      "DoubleKick",
+      "FocusEnergy",
+      "HornAttack",
+      "PoisonPowder",
+      "Toxic",
+      "Attract",
+      "HornDrill",
+      "TakeDown",
+      "Earthquake",
+      "IronTail"
+    ]
+  },
+  {
+    "Id": 34,
+    "Pokemon": "Nidoking",
+    "PrimaryType": "Poison",
+    "SecondaryType": "Ground",
+    "Stats": {
+      "HP": 81,
+      "Attack": 102,
+      "Defense": 77,
+      "SpecialAttack": 85,
+      "SpecialDefense": 75,
+      "Speed": 85,
+      "Total": 505
+    },
+    "Moves": [
+      "Tackle",
+      "TailWhip",
+      "PoisonSting",
+      "Growl",
+      "DoubleKick",
+      "FocusEnergy",
+      "HornAttack",
+      "PoisonPowder",
+      "Toxic",
+      "Attract",
+      "BodySlam",
+      "DoubleTeam",
+      "TakeDown",
+      "Earthquake",
+      "IronTail",
+      "Blizzard",
+      "FireBlast",
+      "HyperBeam",
+      "SwordsDance"
+    ]
+  },
+  {
+    "Id": 35,
+    "Pokemon": "Clefairy",
+    "PrimaryType": "Fairy",
+
+    "Stats": {
+      "HP": 70,
+      "Attack": 45,
+      "Defense": 48,
+      "SpecialAttack": 60,
+      "SpecialDefense": 65,
+      "Speed": 35,
+      "Total": 323
+    },
+    "Moves": [
+      "Pound",
+      "Growl",
+      "DoubleSlap",
+      "Metronome",
+      "Sing",
+      "DefenseCurl",
+      "LightScreen",
+      "Reflect",
+      "Rest",
+      "SleepTalk",
+      "MoonBlast",
+      "Encore",
+      "Attract"
+    ]
+  },
+  {
+    "Id": 36,
+    "Pokemon": "Clefable",
+    "PrimaryType": "Fairy",
+
+    "Stats": {
+      "HP": 95,
+      "Attack": 70,
+      "Defense": 73,
+      "SpecialAttack": 85,
+      "SpecialDefense": 90,
+      "Speed": 60,
+      "Total": 503
+    },
+    "Moves": [
+      "Pound",
+      "Growl",
+      "DoubleSlap",
+      "Metronome",
+      "Sing",
+      "DefenseCurl",
+      "LightScreen",
+      "Reflect",
+      "Rest",
+      "SleepTalk",
+      "Moonblast",
+      "Encore",
+      "Attract",
+      "Psychic",
+      "FireBlast",
+      "Thunderbolt",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 37,
+    "Pokemon": "Vulpix",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 38,
+      "Attack": 41,
+      "Defense": 40,
+      "SpecialAttack": 50,
+      "SpecialDefense": 65,
+      "Speed": 65,
+      "Total": 299
+    },
+    "Moves": [
+      "Ember",
+      "TailWhip",
+      "Roar",
+      "QuickAttack",
+      "FireSpin",
+      "ConfuseRay",
+      "Safeguard",
+      "WillOWisp",
+      "Flamethrower",
+      "FireBlast"
+    ]
+  },
+  {
+    "Id": 38,
+    "Pokemon": "Ninetales",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 73,
+      "Attack": 76,
+      "Defense": 75,
+      "SpecialAttack": 81,
+      "SpecialDefense": 100,
+      "Speed": 100,
+      "Total": 505
+    },
+    "Moves": [
+      "Ember",
+      "TailWhip",
+      "Roar",
+      "QuickAttack",
+      "FireSpin",
+      "ConfuseRay",
+      "Safeguard",
+      "WillOWisp",
+      "Flamethrower",
+      "FireBlast",
+      "Toxic",
+      "Hypnosis",
+      "Agility"
+    ]
+  },
+  {
+    "Id": 39,
+    "Pokemon": "Jigglypuff",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Fairy",
+    "Stats": {
+      "HP": 115,
+      "Attack": 45,
+      "Defense": 20,
+      "SpecialAttack": 45,
+      "SpecialDefense": 25,
+      "Speed": 20,
+      "Total": 250
+    },
+    "Moves": [
+      "Pound",
+      "Sing",
+      "Growl",
+      "DefenseCurl",
+      "Rest",
+      "SleepTalk",
+      "DoubleSlap",
+      "BodySlam",
+      "HyperBeam",
+      "PerishSong"
+    ]
+  },
+  {
+    "Id": 40,
+    "Pokemon": "Wigglytuff",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Fairy",
+    "Stats": {
+      "HP": 140,
+      "Attack": 70,
+      "Defense": 45,
+      "SpecialAttack": 50,
+      "SpecialDefense": 50,
+      "Speed": 45,
+      "Total": 400
+    },
+    "Moves": [
+      "Pound",
+      "Sing",
+      "Growl",
+      "DefenseCurl",
+      "Rest",
+      "SleepTalk",
+      "DoubleSlap",
+      "BodySlam",
+      "HyperBeam",
+      "PerishSong",
+      "Toxic",
+      "Encore",
+      "Attract"
+    ]
+  },
+  {
+    "Id": 41,
+    "Pokemon": "Zubat",
+    "PrimaryType": "Poison",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 40,
+      "Attack": 45,
+      "Defense": 35,
+      "SpecialAttack": 30,
+      "SpecialDefense": 40,
+      "Speed": 55,
+      "Total": 245
+    },
+    "Moves": [
+      "LeechLife",
+      "Supersonic",
+      "Astonish",
+      "Bite",
+      "ConfuseRay",
+      "PoisonFang",
+      "Haze",
+      "WingAttack"
+    ]
+  },
+  {
+    "Id": 42,
+    "Pokemon": "Golbat",
+    "PrimaryType": "Poison",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 75,
+      "Attack": 80,
+      "Defense": 70,
+      "SpecialAttack": 65,
+      "SpecialDefense": 75,
+      "Speed": 90,
+      "Total": 455
+    },
+    "Moves": [
+      "LeechLife",
+      "Supersonic",
+      "Astonish",
+      "Bite",
+      "ConfuseRay",
+      "PoisonFang",
+      "Haze",
+      "WingAttack",
+      "AirSlash",
+      "Toxic",
+      "Acrobatics",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 43,
+    "Pokemon": "Oddish",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 45,
+      "Attack": 50,
+      "Defense": 55,
+      "SpecialAttack": 75,
+      "SpecialDefense": 65,
+      "Speed": 30,
+      "Total": 320
+    },
+    "Moves": [
+      "Absorb",
+      "PoisonPowder",
+      "StunSpore",
+      "SleepPowder",
+      "Acid",
+      "MegaDrain",
+      "SwordsDance",
+      "Toxic",
+      "Growth",
+      "LeechSeed"
+    ]
+  },
+  {
+    "Id": 44,
+    "Pokemon": "Gloom",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 60,
+      "Attack": 65,
+      "Defense": 70,
+      "SpecialAttack": 85,
+      "SpecialDefense": 75,
+      "Speed": 40,
+      "Total": 395
+    },
+    "Moves": [
+      "Absorb",
+      "PoisonPowder",
+      "StunSpore",
+      "SleepPowder",
+      "Acid",
+      "MegaDrain",
+      "SwordsDance",
+      "Toxic",
+      "Growth",
+      "LeechSeed",
+      "PetalDance",
+      "SolarBeam"
+    ]
+  },
+  {
+    "Id": 45,
+    "Pokemon": "Vileplume",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 75,
+      "Attack": 80,
+      "Defense": 70,
+      "SpecialAttack": 90,
+      "SpecialDefense": 100,
+      "Speed": 50,
+      "Total": 465
+    },
+    "Moves": [
+      "Absorb",
+      "StunSpore",
+      "Acid",
+      "PoisonPowder",
+      "SleepPowder",
+      "SweetScent",
+      "PetalDance",
+      "AcidArmor",
+      "SolarBeam",
+      "SwordsDance",
+      "Toxic",
+      "LeechSeed",
+      "MegaDrain",
+      "Growth"
+    ]
+  },
+  {
+    "Id": 46,
+    "Pokemon": "Paras",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Grass",
+    "Stats": {
+      "HP": 35,
+      "Attack": 70,
+      "Defense": 55,
+      "SpecialAttack": 25,
+      "SpecialDefense": 55,
+      "Speed": 25,
+      "Total": 265
+    },
+    "Moves": [
+      "Scratch",
+      "LeechLife",
+      "StunSpore",
+      "PoisonPowder",
+      "SleepPowder",
+      "Growth",
+      "Cut",
+      "Toxic",
+      "FurySwipes",
+      "Spore"
+    ]
+  },
+  {
+    "Id": 47,
+    "Pokemon": "Parasect",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Grass",
+    "Stats": {
+      "HP": 60,
+      "Attack": 95,
+      "Defense": 80,
+      "SpecialAttack": 60,
+      "SpecialDefense": 80,
+      "Speed": 30,
+      "Total": 405
+    },
+    "Moves": [
+      "Scratch",
+      "LeechLife",
+      "StunSpore",
+      "PoisonPowder",
+      "SleepPowder",
+      "Growth",
+      "Cut",
+      "Toxic",
+      "FurySwipes",
+      "Spore",
+      "MegaDrain",
+      "SolarBeam"
+    ]
+  },
+  {
+    "Id": 48,
+    "Pokemon": "Venonat",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 60,
+      "Attack": 55,
+      "Defense": 50,
+      "SpecialAttack": 40,
+      "SpecialDefense": 55,
+      "Speed": 45,
+      "Total": 305
+    },
+    "Moves": [
+      "Tackle",
+      "Disable",
+      "Supersonic",
+      "Confusion",
+      "PoisonPowder",
+      "StunSpore",
+      "SleepPowder",
+      "Psybeam",
+      "LeechLife",
+      "Toxic",
+      "DoubleEdge"
+    ]
+  },
+  {
+    "Id": 49,
+    "Pokemon": "Venomoth",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 70,
+      "Attack": 65,
+      "Defense": 60,
+      "SpecialAttack": 90,
+      "SpecialDefense": 75,
+      "Speed": 90,
+      "Total": 450
+    },
+    "Moves": [
+      "Tackle",
+      "Disable",
+      "Supersonic",
+      "Confusion",
+      "PoisonPowder",
+      "StunSpore",
+      "SleepPowder",
+      "Psybeam",
+      "LeechLife",
+      "Psychic",
+      "Toxic",
+      "DoubleEdge"
+    ]
+  },
+  {
+    "Id": 50,
+    "Pokemon": "Diglett",
+    "PrimaryType": "Ground",
+
+    "Stats": {
+      "HP": 10,
+      "Attack": 55,
+      "Defense": 25,
+      "SpecialAttack": 35,
+      "SpecialDefense": 45,
+      "Speed": 95,
+      "Total": 265
+    },
+    "Moves": [
+      "Scratch",
+      "Growl",
+      "Dig",
+      "SandAttack",
+      "Slash",
+      "Earthquake",
+      "Fissure",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 51,
+    "Pokemon": "Dugtrio",
+    "PrimaryType": "Ground",
+
+    "Stats": {
+      "HP": 35,
+      "Attack": 100,
+      "Defense": 50,
+      "SpecialAttack": 50,
+      "SpecialDefense": 70,
+      "Speed": 120,
+      "Total": 425
+    },
+    "Moves": [
+      "Scratch",
+      "Growl",
+      "Dig",
+      "SandAttack",
+      "Slash",
+      "Earthquake",
+      "Fissure",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 52,
+    "Pokemon": "Meowth",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 40,
+      "Attack": 45,
+      "Defense": 35,
+      "SpecialAttack": 40,
+      "SpecialDefense": 40,
+      "Speed": 90,
+      "Total": 290
+    },
+    "Moves": [
+      "Scratch",
+      "Growl",
+      "Bite",
+      "PayDay",
+      "Screech",
+      "Toxic",
+      "BodySlam",
+      "DoubleEdge"
+    ]
+  },
+  {
+    "Id": 53,
+    "Pokemon": "Persian",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 70,
+      "Defense": 60,
+      "SpecialAttack": 65,
+      "SpecialDefense": 65,
+      "Speed": 115,
+      "Total": 440
+    },
+    "Moves": [
+      "Scratch",
+      "Growl",
+      "Bite",
+      "PayDay",
+      "Screech",
+      "Slash",
+      "Toxic",
+      "BodySlam",
+      "DoubleEdge"
+    ]
+  },
+  {
+    "Id": 54,
+    "Pokemon": "Psyduck",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 50,
+      "Attack": 52,
+      "Defense": 48,
+      "SpecialAttack": 65,
+      "SpecialDefense": 50,
+      "Speed": 55,
+      "Total": 320
+    },
+    "Moves": [
+      "Scratch",
+      "TailWhip",
+      "WaterGun",
+      "Disable",
+      "Confusion",
+      "FurySwipes",
+      "HydroPump",
+      "Amnesia",
+      "Surf",
+      "IceBeam",
+      "Blizzard",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 55,
+    "Pokemon": "Golduck",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 80,
+      "Attack": 82,
+      "Defense": 78,
+      "SpecialAttack": 95,
+      "SpecialDefense": 80,
+      "Speed": 85,
+      "Total": 500
+    },
+    "Moves": [
+      "Scratch",
+      "TailWhip",
+      "WaterGun",
+      "Disable",
+      "Confusion",
+      "FurySwipes",
+      "HydroPump",
+      "Amnesia",
+      "Surf",
+      "IceBeam",
+      "Blizzard",
+      "Psychic",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 56,
+    "Pokemon": "Mankey",
+    "PrimaryType": "Fighting",
+
+    "Stats": {
+      "HP": 40,
+      "Attack": 80,
+      "Defense": 35,
+      "SpecialAttack": 35,
+      "SpecialDefense": 45,
+      "Speed": 70,
+      "Total": 305
+    },
+    "Moves": [
+      "Scratch",
+      "Leer",
+      "LowKick",
+      "KarateChop",
+      "FurySwipes",
+      "FocusEnergy",
+      "SeismicToss",
+      "Thrash",
+      "Counter",
+      "Earthquake",
+      "RockSlide",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 57,
+    "Pokemon": "Primeape",
+    "PrimaryType": "Fighting",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 105,
+      "Defense": 60,
+      "SpecialAttack": 60,
+      "SpecialDefense": 70,
+      "Speed": 95,
+      "Total": 455
+    },
+    "Moves": [
+      "Scratch",
+      "Leer",
+      "LowKick",
+      "KarateChop",
+      "FurySwipes",
+      "FocusEnergy",
+      "SeismicToss",
+      "Thrash",
+      "Counter",
+      "Earthquake",
+      "RockSlide",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 58,
+    "Pokemon": "Growlithe",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 55,
+      "Attack": 70,
+      "Defense": 45,
+      "SpecialAttack": 70,
+      "SpecialDefense": 50,
+      "Speed": 60,
+      "Total": 350
+    },
+    "Moves": [
+      "Bite",
+      "Roar",
+      "Ember",
+      "Leer",
+      "TakeDown",
+      "Flamethrower",
+      "Agility",
+      "FireBlast",
+      "BodySlam",
+      "DoubleEdge",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 59,
+    "Pokemon": "Arcanine",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 90,
+      "Attack": 110,
+      "Defense": 80,
+      "SpecialAttack": 100,
+      "SpecialDefense": 80,
+      "Speed": 95,
+      "Total": 555
+    },
+    "Moves": [
+      "Bite",
+      "Roar",
+      "Ember",
+      "Leer",
+      "TakeDown",
+      "Flamethrower",
+      "Agility",
+      "FireBlast",
+      "BodySlam",
+      "DoubleEdge",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 60,
+    "Pokemon": "Poliwag",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 40,
+      "Attack": 50,
+      "Defense": 40,
+      "SpecialAttack": 40,
+      "SpecialDefense": 40,
+      "Speed": 90,
+      "Total": 300
+    },
+    "Moves": [
+      "WaterGun",
+      "Hypnosis",
+      "Bubble",
+      "BodySlam",
+      "Amnesia",
+      "HydroPump",
+      "IceBeam",
+      "Blizzard",
+      "Surf",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 61,
+    "Pokemon": "Poliwhirl",
+    "PrimaryType": "Water",
+    "Stats": {
+      "HP": 65,
+      "Attack": 65,
+      "Defense": 65,
+      "SpecialAttack": 50,
+      "SpecialDefense": 50,
+      "Speed": 90,
+      "Total": 385
+    },
+    "Moves": [
+      "WaterGun",
+      "Hypnosis",
+      "Bubble",
+      "BodySlam",
+      "Amnesia",
+      "HydroPump",
+      "IceBeam",
+      "Blizzard",
+      "Surf",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 62,
+    "Pokemon": "Poliwrath",
+    "PrimaryType": "Water",
+    "SecondaryType": "Fighting",
+    "Stats": {
+      "HP": 90,
+      "Attack": 95,
+      "Defense": 95,
+      "SpecialAttack": 70,
+      "SpecialDefense": 90,
+      "Speed": 70,
+      "Total": 510
+    },
+    "Moves": [
+      "WaterGun",
+      "Hypnosis",
+      "Bubble",
+      "BodySlam",
+      "Amnesia",
+      "HydroPump",
+      "IceBeam",
+      "Blizzard",
+      "Surf",
+      "Toxic",
+      "Earthquake",
+      "SeismicToss",
+      "Submission"
+    ]
+  },
+  {
+    "Id": 63,
+    "Pokemon": "Abra",
+    "PrimaryType": "Psychic",
+
+    "Stats": {
+      "HP": 25,
+      "Attack": 20,
+      "Defense": 15,
+      "SpecialAttack": 105,
+      "SpecialDefense": 55,
+      "Speed": 90,
+      "Total": 310
+    },
+    "Moves": [
+      "Teleport",
+      "Psychic",
+      "Psybeam",
+      "Confusion",
+      "Reflect",
+      "LightScreen",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 64,
+    "Pokemon": "Kadabra",
+    "PrimaryType": "Psychic",
+
+    "Stats": {
+      "HP": 40,
+      "Attack": 35,
+      "Defense": 30,
+      "SpecialAttack": 120,
+      "SpecialDefense": 70,
+      "Speed": 105,
+      "Total": 400
+    },
+    "Moves": [
+      "Teleport",
+      "Psychic",
+      "Psybeam",
+      "Confusion",
+      "Reflect",
+      "LightScreen",
+      "Recover",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 65,
+    "Pokemon": "Alakazam",
+    "PrimaryType": "Psychic",
+
+    "Stats": {
+      "HP": 55,
+      "Attack": 50,
+      "Defense": 45,
+      "SpecialAttack": 135,
+      "SpecialDefense": 95,
+      "Speed": 120,
+      "Total": 500
+    },
+    "Moves": [
+      "Teleport",
+      "Psychic",
+      "Psybeam",
+      "Confusion",
+      "Reflect",
+      "LightScreen",
+      "Recover",
+      "Toxic",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 66,
+    "Pokemon": "Machop",
+    "PrimaryType": "Fighting",
+
+    "Stats": {
+      "HP": 70,
+      "Attack": 80,
+      "Defense": 50,
+      "SpecialAttack": 35,
+      "SpecialDefense": 35,
+      "Speed": 35,
+      "Total": 305
+    },
+    "Moves": [
+      "KarateChop",
+      "LowKick",
+      "SeismicToss",
+      "Submission",
+      "Strength",
+      "BodySlam",
+      "FocusEnergy",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 67,
+    "Pokemon": "Machoke",
+    "PrimaryType": "Fighting",
+
+    "Stats": {
+      "HP": 80,
+      "Attack": 100,
+      "Defense": 70,
+      "SpecialAttack": 50,
+      "SpecialDefense": 60,
+      "Speed": 45,
+      "Total": 405
+    },
+    "Moves": [
+      "KarateChop",
+      "LowKick",
+      "SeismicToss",
+      "Submission",
+      "Strength",
+      "BodySlam",
+      "FocusEnergy",
+      "Earthquake",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 68,
+    "Pokemon": "Machamp",
+    "PrimaryType": "Fighting",
+
+    "Stats": {
+      "HP": 90,
+      "Attack": 130,
+      "Defense": 80,
+      "SpecialAttack": 65,
+      "SpecialDefense": 85,
+      "Speed": 55,
+      "Total": 505
+    },
+    "Moves": [
+      "KarateChop",
+      "LowKick",
+      "SeismicToss",
+      "Submission",
+      "Strength",
+      "BodySlam",
+      "FocusEnergy",
+      "Earthquake",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 69,
+    "Pokemon": "Bellsprout",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 50,
+      "Attack": 75,
+      "Defense": 35,
+      "SpecialAttack": 70,
+      "SpecialDefense": 30,
+      "Speed": 40,
+      "Total": 300
+    },
+    "Moves": [
+      "VineWhip",
+      "RazorLeaf",
+      "Growth",
+      "Wrap",
+      "Acid",
+      "PoisonPowder",
+      "StunSpore",
+      "SleepPowder",
+      "SolarBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 70,
+    "Pokemon": "Weepinbell",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 65,
+      "Attack": 90,
+      "Defense": 50,
+      "SpecialAttack": 85,
+      "SpecialDefense": 45,
+      "Speed": 55,
+      "Total": 390
+    },
+    "Moves": [
+      "VineWhip",
+      "RazorLeaf",
+      "Growth",
+      "Wrap",
+      "Acid",
+      "PoisonPowder",
+      "StunSpore",
+      "SleepPowder",
+      "SolarBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 71,
+    "Pokemon": "Victreebel",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 80,
+      "Attack": 105,
+      "Defense": 65,
+      "SpecialAttack": 100,
+      "SpecialDefense": 70,
+      "Speed": 70,
+      "Total": 490
+    },
+    "Moves": [
+      "VineWhip",
+      "RazorLeaf",
+      "Growth",
+      "Wrap",
+      "Acid",
+      "PoisonPowder",
+      "StunSpore",
+      "SleepPowder",
+      "SolarBeam",
+      "Toxic",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 72,
+    "Pokemon": "Tentacool",
+    "PrimaryType": "Water",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 40,
+      "Attack": 40,
+      "Defense": 35,
+      "SpecialAttack": 50,
+      "SpecialDefense": 100,
+      "Speed": 70,
+      "Total": 335
+    },
+    "Moves": [
+      "Acid",
+      "BubbleBeam",
+      "HydroPump",
+      "Wrap",
+      "PoisonSting",
+      "Barrier",
+      "Supersonic",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 73,
+    "Pokemon": "Tentacruel",
+    "PrimaryType": "Water",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 80,
+      "Attack": 70,
+      "Defense": 65,
+      "SpecialAttack": 80,
+      "SpecialDefense": 120,
+      "Speed": 100,
+      "Total": 515
+    },
+    "Moves": [
+      "Acid",
+      "BubbleBeam",
+      "HydroPump",
+      "Wrap",
+      "PoisonSting",
+      "Barrier",
+      "Supersonic",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 74,
+    "Pokemon": "Geodude",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Ground",
+    "Stats": {
+      "HP": 40,
+      "Attack": 80,
+      "Defense": 100,
+      "SpecialAttack": 30,
+      "SpecialDefense": 30,
+      "Speed": 20,
+      "Total": 300
+    },
+    "Moves": [
+      "Tackle",
+      "RockThrow",
+      "Earthquake",
+      "DefenseCurl",
+      "SelfDestruct",
+      "Explosion",
+      "RockSlide",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 75,
+    "Pokemon": "Graveler",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Ground",
+    "Stats": {
+      "HP": 55,
+      "Attack": 95,
+      "Defense": 115,
+      "SpecialAttack": 45,
+      "SpecialDefense": 45,
+      "Speed": 35,
+      "Total": 405
+    },
+    "Moves": [
+      "Tackle",
+      "RockThrow",
+      "Earthquake",
+      "DefenseCurl",
+      "SelfDestruct",
+      "Explosion",
+      "RockSlide",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 76,
+    "Pokemon": "Golem",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Ground",
+    "Stats": {
+      "HP": 80,
+      "Attack": 120,
+      "Defense": 130,
+      "SpecialAttack": 55,
+      "SpecialDefense": 65,
+      "Speed": 45,
+      "Total": 495
+    },
+    "Moves": [
+      "Tackle",
+      "RockThrow",
+      "Earthquake",
+      "DefenseCurl",
+      "SelfDestruct",
+      "Explosion",
+      "RockSlide",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 77,
+    "Pokemon": "Ponyta",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 50,
+      "Attack": 85,
+      "Defense": 55,
+      "SpecialAttack": 65,
+      "SpecialDefense": 65,
+      "Speed": 90,
+      "Total": 410
+    },
+    "Moves": [
+      "Ember",
+      "FireSpin",
+      "Flamethrower",
+      "Agility",
+      "Stomp",
+      "BodySlam",
+      "TakeDown",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 78,
+    "Pokemon": "Rapidash",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 100,
+      "Defense": 70,
+      "SpecialAttack": 80,
+      "SpecialDefense": 80,
+      "Speed": 105,
+      "Total": 520
+    },
+    "Moves": [
+      "Ember",
+      "FireSpin",
+      "Flamethrower",
+      "Agility",
+      "Stomp",
+      "BodySlam",
+      "TakeDown",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 79,
+    "Pokemon": "Slowpoke",
+    "PrimaryType": "Water",
+    "SecondaryType": "Psychic",
+    "Stats": {
+      "HP": 90,
+      "Attack": 65,
+      "Defense": 65,
+      "SpecialAttack": 40,
+      "SpecialDefense": 40,
+      "Speed": 15,
+      "Total": 315
+    },
+    "Moves": [
+      "WaterGun",
+      "Confusion",
+      "Headbutt",
+      "Growl",
+      "Surf",
+      "Amnesia",
+      "Psychic",
+      "Rest",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 80,
+    "Pokemon": "Slowbro",
+    "PrimaryType": "Water",
+    "SecondaryType": "Psychic",
+    "Stats": {
+      "HP": 95,
+      "Attack": 75,
+      "Defense": 110,
+      "SpecialAttack": 100,
+      "SpecialDefense": 80,
+      "Speed": 30,
+      "Total": 490
+    },
+    "Moves": [
+      "WaterGun",
+      "Confusion",
+      "Headbutt",
+      "Growl",
+      "Surf",
+      "Amnesia",
+      "Psychic",
+      "Rest",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 81,
+    "Pokemon": "Magnemite",
+    "PrimaryType": "Electric",
+    "SecondaryType": "Steel",
+    "Stats": {
+      "HP": 25,
+      "Attack": 35,
+      "Defense": 70,
+      "SpecialAttack": 95,
+      "SpecialDefense": 55,
+      "Speed": 45,
+      "Total": 325
+    },
+    "Moves": [
+      "Tackle",
+      "ThunderShock",
+      "SonicBoom",
+      "ThunderWave",
+      "Thunderbolt",
+      "Supersonic",
+      "Flash",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 82,
+    "Pokemon": "Magneton",
+    "PrimaryType": "Electric",
+    "SecondaryType": "Steel",
+    "Stats": {
+      "HP": 50,
+      "Attack": 60,
+      "Defense": 95,
+      "SpecialAttack": 120,
+      "SpecialDefense": 70,
+      "Speed": 70,
+      "Total": 465
+    },
+    "Moves": [
+      "Tackle",
+      "ThunderShock",
+      "SonicBoom",
+      "ThunderWave",
+      "Thunderbolt",
+      "Supersonic",
+      "Flash",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 83,
+    "Pokemon": "Farfetchd",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 52,
+      "Attack": 90,
+      "Defense": 55,
+      "SpecialAttack": 58,
+      "SpecialDefense": 62,
+      "Speed": 60,
+      "Total": 377
+    },
+    "Moves": [
+      "Peck",
+      "Agility",
+      "Slash",
+      "Fly",
+      "FuryAttack",
+      "SwordsDance",
+      "BodySlam",
+      "TakeDown",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 84,
+    "Pokemon": "Doduo",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 35,
+      "Attack": 85,
+      "Defense": 45,
+      "SpecialAttack": 35,
+      "SpecialDefense": 35,
+      "Speed": 75,
+      "Total": 310
+    },
+    "Moves": [
+      "Peck",
+      "Growl",
+      "QuickAttack",
+      "Agility",
+      "DrillPeck",
+      "DoubleTeam",
+      "TakeDown",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 85,
+    "Pokemon": "Dodrio",
+    "PrimaryType": "Normal",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 60,
+      "Attack": 110,
+      "Defense": 70,
+      "SpecialAttack": 60,
+      "SpecialDefense": 60,
+      "Speed": 110,
+      "Total": 470
+    },
+    "Moves": [
+      "Peck",
+      "Growl",
+      "QuickAttack",
+      "Agility",
+      "DrillPeck",
+      "DoubleTeam",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 86,
+    "Pokemon": "Seel",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 45,
+      "Defense": 55,
+      "SpecialAttack": 45,
+      "SpecialDefense": 70,
+      "Speed": 45,
+      "Total": 325
+    },
+    "Moves": [
+      "Headbutt",
+      "Growl",
+      "AuroraBeam",
+      "Rest",
+      "Surf",
+      "TakeDown",
+      "IceBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 87,
+    "Pokemon": "Dewgong",
+    "PrimaryType": "Water",
+    "SecondaryType": "Ice",
+    "Stats": {
+      "HP": 90,
+      "Attack": 70,
+      "Defense": 80,
+      "SpecialAttack": 70,
+      "SpecialDefense": 95,
+      "Speed": 70,
+      "Total": 475
+    },
+    "Moves": [
+      "Headbutt",
+      "Growl",
+      "AuroraBeam",
+      "Rest",
+      "Surf",
+      "TakeDown",
+      "IceBeam",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 88,
+    "Pokemon": "Grimer",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 80,
+      "Attack": 80,
+      "Defense": 50,
+      "SpecialAttack": 40,
+      "SpecialDefense": 50,
+      "Speed": 25,
+      "Total": 325
+    },
+    "Moves": [
+      "Pound",
+      "Harden",
+      "Sludge",
+      "PoisonGas",
+      "Minimize",
+      "Disable",
+      "AcidArmor",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 89,
+    "Pokemon": "Muk",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 105,
+      "Attack": 105,
+      "Defense": 75,
+      "SpecialAttack": 65,
+      "SpecialDefense": 100,
+      "Speed": 50,
+      "Total": 500
+    },
+    "Moves": [
+      "Pound",
+      "Harden",
+      "Sludge",
+      "PoisonGas",
+      "Minimize",
+      "Disable",
+      "AcidArmor",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 90,
+    "Pokemon": "Shellder",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 30,
+      "Attack": 65,
+      "Defense": 100,
+      "SpecialAttack": 45,
+      "SpecialDefense": 25,
+      "Speed": 40,
+      "Total": 305
+    },
+    "Moves": [
+      "Tackle",
+      "Withdraw",
+      "Clamp",
+      "AuroraBeam",
+      "Supersonic",
+      "IceBeam",
+      "Surf",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 91,
+    "Pokemon": "Cloyster",
+    "PrimaryType": "Water",
+    "SecondaryType": "Ice",
+    "Stats": {
+      "HP": 50,
+      "Attack": 95,
+      "Defense": 180,
+      "SpecialAttack": 85,
+      "SpecialDefense": 45,
+      "Speed": 70,
+      "Total": 525
+    },
+    "Moves": [
+      "Tackle",
+      "Withdraw",
+      "Clamp",
+      "AuroraBeam",
+      "Supersonic",
+      "IceBeam",
+      "HyperBeam",
+      "Surf",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 92,
+    "Pokemon": "Gastly",
+    "PrimaryType": "Ghost",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 30,
+      "Attack": 35,
+      "Defense": 30,
+      "SpecialAttack": 100,
+      "SpecialDefense": 35,
+      "Speed": 80,
+      "Total": 310
+    },
+    "Moves": [
+      "Lick",
+      "ConfuseRay",
+      "NightShade",
+      "Hypnosis",
+      "DreamEater",
+      "Toxic",
+      "Thunderbolt",
+      "Psychic"
+    ]
+  },
+  {
+    "Id": 93,
+    "Pokemon": "Haunter",
+    "PrimaryType": "Ghost",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 45,
+      "Attack": 50,
+      "Defense": 45,
+      "SpecialAttack": 115,
+      "SpecialDefense": 55,
+      "Speed": 95,
+      "Total": 405
+    },
+    "Moves": [
+      "Lick",
+      "ConfuseRay",
+      "NightShade",
+      "Hypnosis",
+      "DreamEater",
+      "Toxic",
+      "Thunderbolt",
+      "Psychic"
+    ]
+  },
+  {
+    "Id": 94,
+    "Pokemon": "Gengar",
+    "PrimaryType": "Ghost",
+    "SecondaryType": "Poison",
+    "Stats": {
+      "HP": 60,
+      "Attack": 65,
+      "Defense": 60,
+      "SpecialAttack": 130,
+      "SpecialDefense": 75,
+      "Speed": 110,
+      "Total": 500
+    },
+    "Moves": [
+      "Lick",
+      "ConfuseRay",
+      "NightShade",
+      "Hypnosis",
+      "DreamEater",
+      "Toxic",
+      "Thunderbolt",
+      "Psychic",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 95,
+    "Pokemon": "Onix",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Ground",
+    "Stats": {
+      "HP": 35,
+      "Attack": 45,
+      "Defense": 160,
+      "SpecialAttack": 30,
+      "SpecialDefense": 45,
+      "Speed": 70,
+      "Total": 385
+    },
+    "Moves": [
+      "Tackle",
+      "Screech",
+      "Bind",
+      "RockThrow",
+      "Earthquake",
+      "Explosion",
+      "Harden",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 96,
+    "Pokemon": "Drowzee",
+    "PrimaryType": "Psychic",
+
+    "Stats": {
+      "HP": 60,
+      "Attack": 48,
+      "Defense": 45,
+      "SpecialAttack": 43,
+      "SpecialDefense": 90,
+      "Speed": 42,
+      "Total": 328
+    },
+    "Moves": [
+      "Pound",
+      "Hypnosis",
+      "Confusion",
+      "Headbutt",
+      "Psychic",
+      "Rest",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 97,
+    "Pokemon": "Hypno",
+    "PrimaryType": "Psychic",
+
+    "Stats": {
+      "HP": 85,
+      "Attack": 73,
+      "Defense": 70,
+      "SpecialAttack": 73,
+      "SpecialDefense": 115,
+      "Speed": 67,
+      "Total": 483
+    },
+    "Moves": [
+      "Pound",
+      "Hypnosis",
+      "Confusion",
+      "Headbutt",
+      "Psychic",
+      "Rest",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 98,
+    "Pokemon": "Krabby",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 30,
+      "Attack": 105,
+      "Defense": 90,
+      "SpecialAttack": 25,
+      "SpecialDefense": 25,
+      "Speed": 50,
+      "Total": 325
+    },
+    "Moves": [
+      "Bubble",
+      "ViceGrip",
+      "Harden",
+      "Leer",
+      "Crabhammer",
+      "Guillotine",
+      "Surf",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 99,
+    "Pokemon": "Kingler",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 55,
+      "Attack": 130,
+      "Defense": 115,
+      "SpecialAttack": 50,
+      "SpecialDefense": 50,
+      "Speed": 75,
+      "Total": 475
+    },
+    "Moves": [
+      "Bubble",
+      "ViceGrip",
+      "Harden",
+      "Leer",
+      "Crabhammer",
+      "Guillotine",
+      "HyperBeam",
+      "Surf",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 100,
+    "Pokemon": "Voltorb",
+    "PrimaryType": "Electric",
+
+    "Stats": {
+      "HP": 40,
+      "Attack": 30,
+      "Defense": 50,
+      "SpecialAttack": 55,
+      "SpecialDefense": 55,
+      "Speed": 100,
+      "Total": 330
+    },
+    "Moves": [
+      "Tackle",
+      "Screech",
+      "SonicBoom",
+      "SelfDestruct",
+      "ThunderShock",
+      "Thunderbolt",
+      "Explosion",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 101,
+    "Pokemon": "Electrode",
+    "PrimaryType": "Electric",
+
+    "Stats": {
+      "HP": 60,
+      "Attack": 50,
+      "Defense": 70,
+      "SpecialAttack": 80,
+      "SpecialDefense": 80,
+      "Speed": 150,
+      "Total": 490
+    },
+    "Moves": [
+      "Tackle",
+      "Screech",
+      "SonicBoom",
+      "SelfDestruct",
+      "ThunderShock",
+      "Thunderbolt",
+      "Explosion",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 102,
+    "Pokemon": "Exeggcute",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Psychic",
+    "Stats": {
+      "HP": 60,
+      "Attack": 40,
+      "Defense": 80,
+      "SpecialAttack": 60,
+      "SpecialDefense": 45,
+      "Speed": 40,
+      "Total": 325
+    },
+    "Moves": [
+      "Barrage",
+      "Hypnosis",
+      "Confusion",
+      "StunSpore",
+      "SleepPowder",
+      "SolarBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 103,
+    "Pokemon": "Exeggutor",
+    "PrimaryType": "Grass",
+    "SecondaryType": "Psychic",
+    "Stats": {
+      "HP": 95,
+      "Attack": 95,
+      "Defense": 85,
+      "SpecialAttack": 125,
+      "SpecialDefense": 75,
+      "Speed": 55,
+      "Total": 530
+    },
+    "Moves": [
+      "Barrage",
+      "Hypnosis",
+      "Confusion",
+      "StunSpore",
+      "SleepPowder",
+      "SolarBeam",
+      "Psychic",
+      "Toxic",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 104,
+    "Pokemon": "Cubone",
+    "PrimaryType": "Ground",
+
+    "Stats": {
+      "HP": 50,
+      "Attack": 50,
+      "Defense": 95,
+      "SpecialAttack": 40,
+      "SpecialDefense": 50,
+      "Speed": 35,
+      "Total": 320
+    },
+    "Moves": [
+      "BoneClub",
+      "Growl",
+      "Headbutt",
+      "Leer",
+      "FocusEnergy",
+      "Bonemerang",
+      "Earthquake",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 105,
+    "Pokemon": "Marowak",
+    "PrimaryType": "Ground",
+
+    "Stats": {
+      "HP": 60,
+      "Attack": 80,
+      "Defense": 110,
+      "SpecialAttack": 50,
+      "SpecialDefense": 80,
+      "Speed": 45,
+      "Total": 425
+    },
+    "Moves": [
+      "BoneClub",
+      "Growl",
+      "Headbutt",
+      "Leer",
+      "FocusEnergy",
+      "Bonemerang",
+      "Earthquake",
+      "Toxic",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 106,
+    "Pokemon": "Hitmonlee",
+    "PrimaryType": "Fighting",
+
+    "Stats": {
+      "HP": 50,
+      "Attack": 120,
+      "Defense": 53,
+      "SpecialAttack": 35,
+      "SpecialDefense": 110,
+      "Speed": 87,
+      "Total": 455
+    },
+    "Moves": [
+      "DoubleKick",
+      "RollingKick",
+      "JumpKick",
+      "HighJumpKick",
+      "Counter",
+      "SeismicToss",
+      "BodySlam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 107,
+    "Pokemon": "Hitmonchan",
+    "PrimaryType": "Fighting",
+
+    "Stats": {
+      "HP": 50,
+      "Attack": 105,
+      "Defense": 79,
+      "SpecialAttack": 35,
+      "SpecialDefense": 110,
+      "Speed": 76,
+      "Total": 455
+    },
+    "Moves": [
+      "CometPunch",
+      "FirePunch",
+      "IcePunch",
+      "ThunderPunch",
+      "Counter",
+      "SeismicToss",
+      "BodySlam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 108,
+    "Pokemon": "Lickitung",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 90,
+      "Attack": 55,
+      "Defense": 75,
+      "SpecialAttack": 60,
+      "SpecialDefense": 75,
+      "Speed": 30,
+      "Total": 385
+    },
+    "Moves": [
+      "Lick",
+      "Stomp",
+      "Disable",
+      "Wrap",
+      "Slam",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 109,
+    "Pokemon": "Koffing",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 40,
+      "Attack": 65,
+      "Defense": 95,
+      "SpecialAttack": 60,
+      "SpecialDefense": 45,
+      "Speed": 35,
+      "Total": 340
+    },
+    "Moves": [
+      "Tackle",
+      "Smog",
+      "Sludge",
+      "SmokeScreen",
+      "Explosion",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 110,
+    "Pokemon": "Weezing",
+    "PrimaryType": "Poison",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 90,
+      "Defense": 120,
+      "SpecialAttack": 85,
+      "SpecialDefense": 70,
+      "Speed": 60,
+      "Total": 490
+    },
+    "Moves": [
+      "Tackle",
+      "Smog",
+      "Sludge",
+      "SmokeScreen",
+      "Explosion",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 111,
+    "Pokemon": "Rhyhorn",
+    "PrimaryType": "Ground",
+    "SecondaryType": "Rock",
+    "Stats": {
+      "HP": 80,
+      "Attack": 85,
+      "Defense": 95,
+      "SpecialAttack": 30,
+      "SpecialDefense": 30,
+      "Speed": 25,
+      "Total": 345
+    },
+    "Moves": [
+      "HornAttack",
+      "Stomp",
+      "TailWhip",
+      "FuryAttack",
+      "Earthquake",
+      "RockSlide",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 112,
+    "Pokemon": "Rhydon",
+    "PrimaryType": "Ground",
+    "SecondaryType": "Rock",
+    "Stats": {
+      "HP": 105,
+      "Attack": 130,
+      "Defense": 120,
+      "SpecialAttack": 45,
+      "SpecialDefense": 45,
+      "Speed": 40,
+      "Total": 485
+    },
+    "Moves": [
+      "HornAttack",
+      "Stomp",
+      "TailWhip",
+      "FuryAttack",
+      "Earthquake",
+      "RockSlide",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 113,
+    "Pokemon": "Chansey",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 250,
+      "Attack": 5,
+      "Defense": 5,
+      "SpecialAttack": 35,
+      "SpecialDefense": 105,
+      "Speed": 50,
+      "Total": 450
+    },
+    "Moves": [
+      "Pound",
+      "Growl",
+      "Minimize",
+      "SoftBoiled",
+      "DoubleEdge",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 114,
+    "Pokemon": "Tangela",
+    "PrimaryType": "Grass",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 55,
+      "Defense": 115,
+      "SpecialAttack": 100,
+      "SpecialDefense": 40,
+      "Speed": 60,
+      "Total": 435
+    },
+    "Moves": [
+      "VineWhip",
+      "Bind",
+      "StunSpore",
+      "PoisonPowder",
+      "Growth",
+      "SolarBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 115,
+    "Pokemon": "Kangaskhan",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 105,
+      "Attack": 95,
+      "Defense": 80,
+      "SpecialAttack": 40,
+      "SpecialDefense": 80,
+      "Speed": 90,
+      "Total": 490
+    },
+    "Moves": [
+      "CometPunch",
+      "Bite",
+      "DizzyPunch",
+      "MegaPunch",
+      "Earthquake",
+      "HyperBeam",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 116,
+    "Pokemon": "Horsea",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 30,
+      "Attack": 40,
+      "Defense": 70,
+      "SpecialAttack": 70,
+      "SpecialDefense": 25,
+      "Speed": 60,
+      "Total": 295
+    },
+    "Moves": [
+      "Bubble",
+      "Smokescreen",
+      "Leer",
+      "WaterGun",
+      "HydroPump",
+      "Agility",
+      "Toxic"
+    ]
+  },
+  {
+    "Id": 117,
+    "Pokemon": "Seadra",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 55,
+      "Attack": 65,
+      "Defense": 95,
+      "SpecialAttack": 95,
+      "SpecialDefense": 45,
+      "Speed": 85,
+      "Total": 440
+    },
+    "Moves": [
+      "Bubble",
+      "Smokescreen",
+      "Leer",
+      "WaterGun",
+      "HydroPump",
+      "Agility",
+      "Toxic",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 118,
+    "Pokemon": "Goldeen",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 45,
+      "Attack": 67,
+      "Defense": 60,
+      "SpecialAttack": 35,
+      "SpecialDefense": 50,
+      "Speed": 63,
+      "Total": 260
+    },
+    "Moves": [
+      "Agility",
+      "AuroraBeam",
+      "Bide",
+      "Blizzard",
+      "BodySlam",
+      "Bounce",
+      "Bubble",
+      "BubbleBeam",
+      "Confusion",
+      "DoubleKick",
+      "DoubleTeam",
+      "HornAttack",
+      "HyperBeam",
+      "IcyWind",
+      "Mist",
+      "Peck",
+      "QuickAttack",
+      "RainDance",
+      "Smokescreen",
+      "Splash",
+      "Substitute",
+      "TakeDown",
+      "WaterGun",
+      "Waterfall"
+    ]
+  },
+  {
+    "Id": 119,
+    "Pokemon": "Seaking",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 80,
+      "Attack": 92,
+      "Defense": 65,
+      "SpecialAttack": 65,
+      "SpecialDefense": 80,
+      "Speed": 68,
+      "Total": 450
+    },
+    "Moves": [
+      "Agility",
+      "AuroraBeam",
+      "Bide",
+      "Blizzard",
+      "BodySlam",
+      "Bounce",
+      "Bubble",
+      "BubbleBeam",
+      "Confusion",
+      "DoubleKick",
+      "DoubleTeam",
+      "HornAttack",
+      "HyperBeam",
+      "IcyWind",
+      "Mist",
+      "Peck",
+      "QuickAttack",
+      "RainDance",
+      "Smokescreen",
+      "Splash",
+      "Substitute",
+      "TakeDown",
+      "WaterGun",
+      "Waterfall"
+    ]
+  },
+  {
+    "Id": 120,
+    "Pokemon": "Staryu",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 30,
+      "Attack": 45,
+      "Defense": 55,
+      "SpecialAttack": 70,
+      "SpecialDefense": 55,
+      "Speed": 85,
+      "Total": 340
+    },
+    "Moves": [
+      "Agility",
+      "AuroraBeam",
+      "Blizzard",
+      "Bubble",
+      "BubbleBeam",
+      "CosmicPower",
+      "Harden",
+      "HydroPump",
+      "LightScreen",
+      "RapidSpin",
+      "Recover",
+      "Tackle",
+      "Teleport"
+    ]
+  },
+  {
+    "Id": 121,
+    "Pokemon": "Starmie",
+    "PrimaryType": "Water",
+    "SecondaryType": "Psychic",
+    "Stats": {
+      "HP": 60,
+      "Attack": 75,
+      "Defense": 85,
+      "SpecialAttack": 100,
+      "SpecialDefense": 85,
+      "Speed": 115,
+      "Total": 520
+    },
+    "Moves": [
+      "Agility",
+      "AuroraBeam",
+      "Blizzard",
+      "Bubble",
+      "BubbleBeam",
+      "CosmicPower",
+      "Harden",
+      "HydroPump",
+      "LightScreen",
+      "Psychic",
+      "RapidSpin",
+      "Recover",
+      "Tackle",
+      "Teleport"
+    ]
+  },
+  {
+    "Id": 122,
+    "Pokemon": "MrMime",
+    "PrimaryType": "Psychic",
+    "SecondaryType": "Fairy",
+    "Stats": {
+      "HP": 40,
+      "Attack": 45,
+      "Defense": 65,
+      "SpecialAttack": 100,
+      "SpecialDefense": 120,
+      "Speed": 90,
+      "Total": 460
+    },
+    "Moves": [
+      "Barrier",
+      "Confusion",
+      "DoubleSlap",
+      "DreamEater",
+      "Encore",
+      "FocusPunch",
+      "Hypnosis",
+      "LightScreen",
+      "Meditate",
+      "MirrorMove",
+      "Psychic",
+      "Substitute",
+      "Tackle",
+      "Teleport"
+    ]
+  },
+  {
+    "Id": 123,
+    "Pokemon": "Scyther",
+    "PrimaryType": "Bug",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 70,
+      "Attack": 110,
+      "Defense": 80,
+      "SpecialAttack": 55,
+      "SpecialDefense": 80,
+      "Speed": 105,
+      "Total": 500
+    },
+    "Moves": [
+      "Agility",
+      "BatonPass",
+      "DoubleHit",
+      "DoubleTeam",
+      "FuryCutter",
+      "HyperBeam",
+      "NightSlash",
+      "QuickAttack",
+      "SilverWind",
+      "SwordsDance",
+      "Swift",
+      "Tackle",
+      "Teleport",
+      "WingAttack"
+    ]
+  },
+  {
+    "Id": 124,
+    "Pokemon": "Jynx",
+    "PrimaryType": "Ice",
+    "SecondaryType": "Psychic",
+    "Stats": {
+      "HP": 65,
+      "Attack": 50,
+      "Defense": 35,
+      "SpecialAttack": 115,
+      "SpecialDefense": 95,
+      "Speed": 95,
+      "Total": 455
+    },
+    "Moves": [
+      "Amnesia",
+      "BodySlam",
+      "Confusion",
+      "DoubleSlap",
+      "IceBeam",
+      "IcePunch",
+      "Lick",
+      "LovelyKiss",
+      "MindReader",
+      "Psychic",
+      "ShadowBall",
+      "SweetKiss",
+      "Teleport"
+    ]
+  },
+  {
+    "Id": 125,
+    "Pokemon": "Electabuzz",
+    "PrimaryType": "Electric",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 83,
+      "Defense": 57,
+      "SpecialAttack": 95,
+      "SpecialDefense": 85,
+      "Speed": 105,
+      "Total": 490
+    },
+    "Moves": [
+      "ThunderPunch",
+      "QuickAttack",
+      "LightScreen",
+      "Thunder",
+      "Confusion",
+      "ElectroBall",
+      "Swift",
+      "ShockWave",
+      "CrossChop",
+      "LowKick",
+      "FirePunch",
+      "IcePunch",
+      "Psychic",
+      "Tackle"
+    ]
+  },
+  {
+    "Id": 126,
+    "Pokemon": "Magmar",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 95,
+      "Defense": 57,
+      "SpecialAttack": 100,
+      "SpecialDefense": 85,
+      "Speed": 93,
+      "Total": 495
+    },
+    "Moves": [
+      "ConfuseRay",
+      "FirePunch",
+      "Ember",
+      "FireBlast",
+      "SunnyDay",
+      "Smog",
+      "LavaPlume",
+      "Flamethrower",
+      "Confusion",
+      "Tackle",
+      "Swift",
+      "FocusPunch",
+      "LowKick"
+    ]
+  },
+  {
+    "Id": 127,
+    "Pokemon": "Magmar",
+    "PrimaryType": "Bug",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 125,
+      "Defense": 100,
+      "SpecialAttack": 55,
+      "SpecialDefense": 70,
+      "Speed": 85,
+      "Total": 500
+    },
+    "Moves": [
+      "Bind",
+      "FuryCutter",
+      "SwordsDance",
+      "XScissor",
+      "ViceGrip",
+      "HyperBeam",
+      "QuickAttack",
+      "Tackle",
+      "TakeDown",
+      "Endure",
+      "Substitute",
+      "Revenge",
+      "IronHead"
+    ]
+  },
+  {
+    "Id": 128,
+    "Pokemon": "Tauros",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 75,
+      "Attack": 100,
+      "Defense": 95,
+      "SpecialAttack": 40,
+      "SpecialDefense": 70,
+      "Speed": 110,
+      "Total": 490
+    },
+    "Moves": [
+      "BodySlam",
+      "HyperBeam",
+      "TakeDown",
+      "Rage",
+      "FuryAttack",
+      "QuickAttack",
+      "ZenHeadbutt",
+      "IronTail",
+      "WorkUp",
+      "WildCharge",
+      "Revenge"
+    ]
+  },
+  {
+    "Id": 129,
+    "Pokemon": "Magikarp",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 20,
+      "Attack": 10,
+      "Defense": 55,
+      "SpecialAttack": 15,
+      "SpecialDefense": 20,
+      "Speed": 80,
+      "Total": 200
+    },
+    "Moves": [
+      "Splash",
+      "Tackle",
+      "Bite"
+    ]
+  },
+  {
+    "Id": 130,
+    "Pokemon": "Gyarados",
+    "PrimaryType": "Water",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 95,
+      "Attack": 125,
+      "Defense": 79,
+      "SpecialAttack": 60,
+      "SpecialDefense": 100,
+      "Speed": 81,
+      "Total": 540
+    },
+    "Moves": [
+      "HyperBeam",
+      "HydroPump",
+      "Bite",
+      "DragonRage",
+      "Aquatail",
+      "IceBeam",
+      "Thunder",
+      "Crunch",
+      "DragonDance",
+      "Leer",
+      "Waterfall",
+      "DragonBreath"
+    ]
+  },
+  {
+    "Id": 131,
+    "Pokemon": "Lapras",
+    "PrimaryType": "Water",
+    "SecondaryType": "Ice",
+    "Stats": {
+      "HP": 130,
+      "Attack": 85,
+      "Defense": 80,
+      "SpecialAttack": 85,
+      "SpecialDefense": 95,
+      "Speed": 60,
+      "Total": 535
+    },
+    "Moves": [
+      "ConfuseRay",
+      "IceBeam",
+      "WaterGun",
+      "HydroPump",
+      "Psychic",
+      "BodySlam",
+      "RainDance",
+      "PerishSong",
+      "IceShard",
+      "Surf",
+      "AquaRing",
+      "Waterfall",
+      "AncientPower"
+    ]
+  },
+  {
+    "Id": 132,
+    "Pokemon": "Ditto",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 48,
+      "Attack": 48,
+      "Defense": 48,
+      "SpecialAttack": 48,
+      "SpecialDefense": 48,
+      "Speed": 48,
+      "Total": 240
+    },
+    "Moves": [
+      "Transform"
+    ]
+  },
+  {
+    "Id": 133,
+    "Pokemon": "Eevee",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 55,
+      "Attack": 55,
+      "Defense": 50,
+      "SpecialAttack": 45,
+      "SpecialDefense": 50,
+      "Speed": 55,
+      "Total": 310
+    },
+    "Moves": [
+      "Tackle",
+      "QuickAttack",
+      "SandAttack",
+      "Bite",
+      "HelpingHand",
+      "TakeDown",
+      "Charm",
+      "Growl",
+      "Wish",
+      "HyperVoice"
+    ]
+  },
+  {
+    "Id": 134,
+    "Pokemon": "Vaporeon",
+    "PrimaryType": "Water",
+
+    "Stats": {
+      "HP": 130,
+      "Attack": 65,
+      "Defense": 60,
+      "SpecialAttack": 110,
+      "SpecialDefense": 95,
+      "Speed": 65,
+      "Total": 575
+    },
+    "Moves": [
+      "HydroPump",
+      "Surf",
+      "WaterGun",
+      "Bite",
+      "QuickAttack",
+      "AquaRing",
+      "AcidArmor",
+      "Haze",
+      "Wish",
+      "WaterPulse",
+      "IcyWind"
+    ]
+  },
+  {
+    "Id": 135,
+    "Pokemon": "Jolteon",
+    "PrimaryType": "Electric",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 65,
+      "Defense": 60,
+      "SpecialAttack": 110,
+      "SpecialDefense": 95,
+      "Speed": 130,
+      "Total": 565
+    },
+    "Moves": [
+      "Thunderbolt",
+      "Thunder",
+      "QuickAttack",
+      "VoltTackle",
+      "DoubleKick",
+      "SignalBeam",
+      "ShadowBall",
+      "Toxic",
+      "ChargeBeam",
+      "ThunderWave"
+    ]
+  },
+  {
+    "Id": 136,
+    "Pokemon": "Flareon",
+    "PrimaryType": "Fire",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 130,
+      "Defense": 60,
+      "SpecialAttack": 95,
+      "SpecialDefense": 110,
+      "Speed": 65,
+      "Total": 565
+    },
+    "Moves": [
+      "Flamethrower",
+      "FireBlast",
+      "QuickAttack",
+      "FireFang",
+      "Tackle",
+      "Smog",
+      "SuperPower",
+      "WillOWisp",
+      "LavaPlume",
+      "SunnyDay"
+    ]
+  },
+  {
+    "Id": 137,
+    "Pokemon": "Porygon",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 65,
+      "Attack": 60,
+      "Defense": 70,
+      "SpecialAttack": 85,
+      "SpecialDefense": 75,
+      "Speed": 40,
+      "Total": 395
+    },
+    "Moves": [
+      "Tackle",
+      "Sharpen",
+      "Conversion",
+      "Psybeam",
+      "Recover",
+      "MagnetRise",
+      "Agility",
+      "SignalBeam",
+      "Psychic",
+      "TriAttack",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 138,
+    "Pokemon": "Omanyte",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Water",
+    "Stats": {
+      "HP": 35,
+      "Attack": 40,
+      "Defense": 100,
+      "SpecialAttack": 90,
+      "SpecialDefense": 55,
+      "Speed": 35,
+      "Total": 355
+    },
+    "Moves": [
+      "Tackle",
+      "Bite",
+      "Withdraw",
+      "WaterGun",
+      "RockThrow",
+      "Constrict",
+      "MudShot",
+      "HydroPump",
+      "ShellSmash",
+      "AncientPower"
+    ]
+  },
+  {
+    "Id": 139,
+    "Pokemon": "Omastar",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Water",
+    "Stats": {
+      "HP": 70,
+      "Attack": 60,
+      "Defense": 125,
+      "SpecialAttack": 115,
+      "SpecialDefense": 70,
+      "Speed": 55,
+      "Total": 540
+    },
+    "Moves": [
+      "HydroPump",
+      "Surf",
+      "AncientPower",
+      "RockBlast",
+      "ShellSmash",
+      "Bite",
+      "WaterGun",
+      "Constrict",
+      "FocusEnergy",
+      "IceBeam"
+    ]
+  },
+  {
+    "Id": 140,
+    "Pokemon": "Omastar",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Water",
+    "Stats": {
+      "HP": 30,
+      "Attack": 40,
+      "Defense": 45,
+      "SpecialAttack": 30,
+      "SpecialDefense": 55,
+      "Speed": 55,
+      "Total": 260
+    },
+    "Moves": [
+      "Scratch",
+      "Leer",
+      "Absorb",
+      "Harden",
+      "MudShot",
+      "WaterGun",
+      "AncientPower"
+    ]
+  },
+  {
+    "Id": 141,
+    "Pokemon": "Kabutops",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Water",
+    "Stats": {
+      "HP": 60,
+      "Attack": 115,
+      "Defense": 105,
+      "SpecialAttack": 65,
+      "SpecialDefense": 70,
+      "Speed": 80,
+      "Total": 495
+    },
+    "Moves": [
+      "Slash",
+      "HydroPump",
+      "AquaJet",
+      "AncientPower",
+      "RockSlide",
+      "RazorWind",
+      "XScissor",
+      "Waterfall",
+      "Absorb"
+    ]
+  },
+  {
+    "Id": 142,
+    "Pokemon": "Aerodactyl",
+    "PrimaryType": "Rock",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 80,
+      "Attack": 105,
+      "Defense": 65,
+      "SpecialAttack": 60,
+      "SpecialDefense": 75,
+      "Speed": 130,
+      "Total": 515
+    },
+    "Moves": [
+      "RockSlide",
+      "HyperBeam",
+      "Crunch",
+      "AquaTail",
+      "AncientPower",
+      "WingAttack",
+      "StoneEdge",
+      "SkyDrop",
+      "TakeDown",
+      "Agility"
+    ]
+  },
+  {
+    "Id": 143,
+    "Pokemon": "Snorlax",
+    "PrimaryType": "Normal",
+
+    "Stats": {
+      "HP": 160,
+      "Attack": 110,
+      "Defense": 65,
+      "SpecialAttack": 65,
+      "SpecialDefense": 110,
+      "Speed": 30,
+      "Total": 580
+    },
+    "Moves": [
+      "BodySlam",
+      "HyperBeam",
+      "SleepTalk",
+      "Rest",
+      "Amnesia",
+      "Rollout",
+      "Crunch",
+      "HeavySlam",
+      "GigaImpact"
+    ]
+  },
+  {
+    "Id": 144,
+    "Pokemon": "Articuno",
+    "PrimaryType": "Ice",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 90,
+      "Attack": 100,
+      "Defense": 85,
+      "SpecialAttack": 95,
+      "SpecialDefense": 125,
+      "Speed": 85,
+      "Total": 580
+    },
+    "Moves": [
+      "IceBeam",
+      "Blizzard",
+      "Agility",
+      "Fly",
+      "Hurricane",
+      "ConfuseRay",
+      "Mist",
+      "IcyWind",
+      "AerialAce"
+    ]
+  },
+  {
+    "Id": 145,
+    "Pokemon": "Zapdos",
+    "PrimaryType": "Electric",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 90,
+      "Attack": 90,
+      "Defense": 85,
+      "SpecialAttack": 125,
+      "SpecialDefense": 90,
+      "Speed": 100,
+      "Total": 585
+    },
+    "Moves": [
+      "Thunderbolt",
+      "Thunder",
+      "DrillPeck",
+      "Agility",
+      "AerialAce",
+      "ThunderWave",
+      "RainDance",
+      "ChargeBeam"
+    ]
+  },
+  {
+    "Id": 146,
+    "Pokemon": "Moltres",
+    "PrimaryType": "Fire",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 90,
+      "Attack": 100,
+      "Defense": 90,
+      "SpecialAttack": 125,
+      "SpecialDefense": 85,
+      "Speed": 90,
+      "Total": 585
+    },
+    "Moves": [
+      "Flamethrower",
+      "FireBlast",
+      "Fly",
+      "Agility",
+      "HeatWave",
+      "Hurricane",
+      "SunnyDay",
+      "AerialAce",
+      "MysticalFire"
+    ]
+  },
+  {
+    "Id": 147,
+    "Pokemon": "Dratini",
+    "PrimaryType": "Dragon",
+
+    "Stats": {
+      "HP": 41,
+      "Attack": 64,
+      "Defense": 45,
+      "SpecialAttack": 50,
+      "SpecialDefense": 50,
+      "Speed": 50,
+      "Total": 290
+    },
+    "Moves": [
+      "Wrap",
+      "Leer",
+      "ThunderWave",
+      "DragonBreath",
+      "Slam",
+      "Agility",
+      "DragonRage",
+      "HyperBeam"
+    ]
+  },
+  {
+    "Id": 148,
+    "Pokemon": "Dragonair",
+    "PrimaryType": "Dragon",
+
+    "Stats": {
+      "HP": 61,
+      "Attack": 84,
+      "Defense": 65,
+      "SpecialAttack": 70,
+      "SpecialDefense": 70,
+      "Speed": 70,
+      "Total": 420
+    },
+    "Moves": [
+      "DragonBreath",
+      "ThunderWave",
+      "Slam",
+      "DragonRage",
+      "Agility",
+      "HyperBeam",
+      "DragonPulse",
+      "Outrage"
+    ]
+  },
+  {
+    "Id": 149,
+    "Pokemon": "Dragonite",
+    "PrimaryType": "Dragon",
+    "SecondaryType": "Flying",
+    "Stats": {
+      "HP": 91,
+      "Attack": 134,
+      "Defense": 95,
+      "SpecialAttack": 100,
+      "SpecialDefense": 100,
+      "Speed": 80,
+      "Total": 600
+    },
+    "Moves": [
+      "Outrage",
+      "DragonClaw",
+      "Fly",
+      "HyperBeam",
+      "ThunderPunch",
+      "FirePunch",
+      "DragonDance",
+      "Agility",
+      "AerialAce"
+    ]
+  },
+  {
+    "Id": 150,
+    "Pokemon": "Mewtwo",
+    "PrimaryType": "Psychic",
+
+    "Stats": {
+      "HP": 106,
+      "Attack": 110,
+      "Defense": 90,
+      "SpecialAttack": 154,
+      "SpecialDefense": 90,
+      "Speed": 130,
+      "Total": 680
+    },
+    "Moves": [
+      "Psychic",
+      "HyperBeam",
+      "AuraSphere",
+      "Recover",
+      "IceBeam",
+      "Flamethrower",
+      "ShadowBall",
+      "Amnesia",
+      "Swift",
+      "PsychUp"
+    ]
+  },
+  {
+    "Id": 151,
+    "Pokemon": "Mew",
+    "PrimaryType": "Psychic",
+
+    "Stats": {
+      "HP": 100,
+      "Attack": 100,
+      "Defense": 100,
+      "SpecialAttack": 100,
+      "SpecialDefense": 100,
+      "Speed": 100,
+      "Total": 600
+    },
+    "Moves": [
+      "Psychic",
+      "Transform",
+      "ShadowBall",
+      "AuraSphere",
+      "Mimic",
+      "PsychUp",
+      "HyperBeam",
+      "EnergyBall",
+      "DazzlingGleam"
+    ]
+  }
+]

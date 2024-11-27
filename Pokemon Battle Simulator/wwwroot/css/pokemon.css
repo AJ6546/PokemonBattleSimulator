@@ -1,0 +1,103 @@
+﻿#teams-container {
+    margin: 20px;
+}
+
+.team-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-card-1 {
+    background-color: aquamarine;
+}
+
+.team-card-2 {
+    background-color: palevioletred;
+}
+
+#add-team-btn {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #add-team-btn:hover {
+        background-color: #45a049;
+    }
+
+#add-pokemon-btn {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008B8B;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    #add-pokemon-btn:hover {
+        background-color: #008B8C;
+    }
+
+.remove-team-btn {
+    top: 5px;
+    right: 5px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.remove-team-btn:hover {
+    background-color: #c0392b;
+}
+.pokemon{
+    max-width: 170px;
+}
+
+.pokemon-dropdown {
+    background-color: forestgreen;
+    border: 2px solid white;
+    color: white;
+}
+    .pokemon-dropdown:focus {
+        background-color: forestgreen;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .pokemon-dropdown option {
+        background-color: gray;
+    }
+
+.opponent-pokemon-dropdown {
+    background-color: palevioletred;
+    border: 2px solid white;
+    color: white;
+}
+
+    .opponent-pokemon-dropdown:focus {
+        background-color: palevioletred;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .opponent-pokemon-dropdown option {
+        background-color: gray;
+    }

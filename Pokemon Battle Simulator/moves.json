@@ -1,0 +1,2307 @@
+[
+  {
+    "Id": 1,
+    "Move": "Absorb",
+    "Typing": "Grass",
+    "Category": "Special",
+    "Power": 20,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 2,
+    "Move": "Acid",
+    "Typing": "Poison",
+    "Category": "Special",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 3,
+    "Move": "Agility",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 4,
+    "Move": "Amnesia",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 5,
+    "Move": "AuroraBeam",
+    "Typing": "Ice",
+    "Category": "Special",
+    "Power": 65,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 6,
+    "Move": "Barrage",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 15,
+    "Accuracy": 85,
+    "PP": 20
+  },
+  {
+    "Id": 7,
+    "Move": "Barrier",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 8,
+    "Move": "Bide",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 9,
+    "Move": "Bind",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 15,
+    "Accuracy": 85,
+    "PP": 20
+  },
+  {
+    "Id": 10,
+    "Move": "Bite",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 60,
+    "Accuracy": 100,
+    "PP": 25
+  },
+  {
+    "Id": 11,
+    "Move": "Blizzard",
+    "Typing": "Ice",
+    "Category": "Special",
+    "Power": 110,
+    "Accuracy": 70,
+    "PP": 5
+  },
+  {
+    "Id": 12,
+    "Move": "BodySlam",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 85,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 13,
+    "Move": "BoneClub",
+    "Typing": "Ground",
+    "Category": "Physical",
+    "Power": 65,
+    "Accuracy": 85,
+    "PP": 20
+  },
+  {
+    "Id": 14,
+    "Move": "Bonemerang",
+    "Typing": "Ground",
+    "Category": "Physical",
+    "Power": 50,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 15,
+    "Move": "Bubble",
+    "Typing": "Water",
+    "Category": "Special",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 16,
+    "Move": "BubbleBeam",
+    "Typing": "Water",
+    "Category": "Special",
+    "Power": 65,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 17,
+    "Move": "Clamp",
+    "Typing": "Water",
+    "Category": "Physical",
+    "Power": 35,
+    "Accuracy": 85,
+    "PP": 10
+  },
+  {
+    "Id": 18,
+    "Move": "CometPunch",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 18,
+    "Accuracy": 85,
+    "PP": 15
+  },
+  {
+    "Id": 19,
+    "Move": "ConfuseRay",
+    "Typing": "Ghost",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 20,
+    "Move": "Confusion",
+    "Typing": "Psychic",
+    "Category": "Special",
+    "Power": 50,
+    "Accuracy": 100,
+    "PP": 25
+  },
+  {
+    "Id": 21,
+    "Move": "Counter",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 22,
+    "Move": "Crabhammer",
+    "Typing": "Water",
+    "Category": "Physical",
+    "Power": 100,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 23,
+    "Move": "Cut",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 50,
+    "Accuracy": 95,
+    "PP": 30
+  },
+  {
+    "Id": 24,
+    "Move": "DefenseCurl",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 40
+  },
+  {
+    "Id": 25,
+    "Move": "Dig",
+    "Typing": "Ground",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 26,
+    "Move": "Disable",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 55,
+    "PP": 20
+  },
+  {
+    "Id": 27,
+    "Move": "DizzyPunch",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 70,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 28,
+    "Move": "DoubleKick",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 30,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 29,
+    "Move": "DoubleSlap",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 15,
+    "Accuracy": 85,
+    "PP": 10
+  },
+  {
+    "Id": 30,
+    "Move": "DoubleTeam",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 15
+  },
+  {
+    "Id": 31,
+    "Move": "DoubleEdge",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 120,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 32,
+    "Move": "DragonRage",
+    "Typing": "Dragon",
+    "Category": "Special",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 33,
+    "Move": "DreamEater",
+    "Typing": "Psychic",
+    "Category": "Special",
+    "Power": 100,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 34,
+    "Move": "DrillPeck",
+    "Typing": "Flying",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 35,
+    "Move": "Earthquake",
+    "Typing": "Ground",
+    "Category": "Physical",
+    "Power": 100,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 36,
+    "Move": "EggBomb",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 100,
+    "Accuracy": 75,
+    "PP": 10
+  },
+  {
+    "Id": 37,
+    "Move": "Ember",
+    "Typing": "Fire",
+    "Category": "Special",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 25
+  },
+  {
+    "Id": 38,
+    "Move": "Explosion",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 250,
+    "Accuracy": 100,
+    "PP": 5
+  },
+  {
+    "Id": 39,
+    "Move": "FireBlast",
+    "Typing": "Fire",
+    "Category": "Special",
+    "Power": 110,
+    "Accuracy": 85,
+    "PP": 5
+  },
+  {
+    "Id": 40,
+    "Move": "FirePunch",
+    "Typing": "Fire",
+    "Category": "Physical",
+    "Power": 75,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 41,
+    "Move": "FireSpin",
+    "Typing": "Fire",
+    "Category": "Special",
+    "Power": 35,
+    "Accuracy": 85,
+    "PP": 15
+  },
+  {
+    "Id": 42,
+    "Move": "Fissure",
+    "Typing": "Ground",
+    "Category": "Physical",
+    "Power": 0,
+    "Accuracy": 30,
+    "PP": 5
+  },
+  {
+    "Id": 43,
+    "Move": "Flamethrower",
+    "Typing": "Fire",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 44,
+    "Move": "Flash",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 45,
+    "Move": "Fly",
+    "Typing": "Flying",
+    "Category": "Physical",
+    "Power": 90,
+    "Accuracy": 95,
+    "PP": 15
+  },
+  {
+    "Id": 46,
+    "Move": "FocusEnergy",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 47,
+    "Move": "FuryAttack",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 15,
+    "Accuracy": 85,
+    "PP": 20
+  },
+  {
+    "Id": 48,
+    "Move": "FurySwipes",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 18,
+    "Accuracy": 80,
+    "PP": 15
+  },
+  {
+    "Id": 49,
+    "Move": "Glare",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 75,
+    "PP": 30
+  },
+  {
+    "Id": 50,
+    "Move": "Growl",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 40
+  },
+  {
+    "Id": 51,
+    "Move": "Growth",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 40
+  },
+  {
+    "Id": 52,
+    "Move": "Guillotine",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 0,
+    "Accuracy": 30,
+    "PP": 5
+  },
+  {
+    "Id": 53,
+    "Move": "Gust",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 35
+  },
+  {
+    "Id": 54,
+    "Move": "Harden",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 55,
+    "Move": "Haze",
+    "Typing": "Ice",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 56,
+    "Move": "Headbutt",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 70,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 57,
+    "Move": "HighJumpKick",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 130,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 58,
+    "Move": "HornAttack",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 65,
+    "Accuracy": 100,
+    "PP": 25
+  },
+  {
+    "Id": 59,
+    "Move": "HornDrill",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 0,
+    "Accuracy": 30,
+    "PP": 5
+  },
+  {
+    "Id": 60,
+    "Move": "HydroPump",
+    "Typing": "Water",
+    "Category": "Special",
+    "Power": 110,
+    "Accuracy": 80,
+    "PP": 5
+  },
+  {
+    "Id": 61,
+    "Move": "HyperBeam",
+    "Typing": "Normal",
+    "Category": "Special",
+    "Power": 150,
+    "Accuracy": 90,
+    "PP": 5
+  },
+  {
+    "Id": 62,
+    "Move": "HyperFang",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 90,
+    "PP": 15
+  },
+  {
+    "Id": 63,
+    "Move": "Hypnosis",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 60,
+    "PP": 20
+  },
+  {
+    "Id": 64,
+    "Move": "IceBeam",
+    "Typing": "Ice",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 65,
+    "Move": "IcePunch",
+    "Typing": "Ice",
+    "Category": "Physical",
+    "Power": 75,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 66,
+    "Move": "JumpKick",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 100,
+    "Accuracy": 95,
+    "PP": 10
+  },
+  {
+    "Id": 67,
+    "Move": "KarateChop",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 50,
+    "Accuracy": 100,
+    "PP": 25
+  },
+  {
+    "Id": 68,
+    "Move": "Kinesis",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 80,
+    "PP": 15
+  },
+  {
+    "Id": 69,
+    "Move": "LeechLife",
+    "Typing": "Bug",
+    "Category": "Physical",
+    "Power": 20,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 70,
+    "Move": "LeechSeed",
+    "Typing": "Grass",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 71,
+    "Move": "Leer",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 72,
+    "Move": "Lick",
+    "Typing": "Ghost",
+    "Category": "Physical",
+    "Power": 30,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 73,
+    "Move": "LightScreen",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 74,
+    "Move": "LovelyKiss",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 75,
+    "PP": 10
+  },
+  {
+    "Id": 75,
+    "Move": "LowKick",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 76,
+    "Move": "Meditate",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 40
+  },
+  {
+    "Id": 77,
+    "Move": "MegaDrain",
+    "Typing": "Grass",
+    "Category": "Special",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 78,
+    "Move": "MegaKick",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 120,
+    "Accuracy": 75,
+    "PP": 5
+  },
+  {
+    "Id": 79,
+    "Move": "MegaPunch",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 85,
+    "PP": 20
+  },
+  {
+    "Id": 80,
+    "Move": "Metronome",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 81,
+    "Move": "Mimic",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 82,
+    "Move": "Minimize",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 83,
+    "Move": "MirrorMove",
+    "Typing": "Flying",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 84,
+    "Move": "Mist",
+    "Typing": "Ice",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 85,
+    "Move": "NightShade",
+    "Typing": "Ghost",
+    "Category": "Special",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 86,
+    "Move": "PayDay",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 87,
+    "Move": "Peck",
+    "Typing": "Flying",
+    "Category": "Physical",
+    "Power": 35,
+    "Accuracy": 100,
+    "PP": 35
+  },
+  {
+    "Id": 88,
+    "Move": "PetalDance",
+    "Typing": "Grass",
+    "Category": "Special",
+    "Power": 120,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 89,
+    "Move": "PinMissile",
+    "Typing": "Bug",
+    "Category": "Physical",
+    "Power": 25,
+    "Accuracy": 95,
+    "PP": 20
+  },
+  {
+    "Id": 90,
+    "Move": "PoisonGas",
+    "Typing": "Poison",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 90,
+    "PP": 40
+  },
+  {
+    "Id": 91,
+    "Move": "PoisonPowder",
+    "Typing": "Poison",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 75,
+    "PP": 35
+  },
+  {
+    "Id": 92,
+    "Move": "PoisonSting",
+    "Typing": "Poison",
+    "Category": "Physical",
+    "Power": 15,
+    "Accuracy": 100,
+    "PP": 35
+  },
+  {
+    "Id": 93,
+    "Move": "Pound",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 35
+  },
+  {
+    "Id": 94,
+    "Move": "Psybeam",
+    "Typing": "Psychic",
+    "Category": "Special",
+    "Power": 65,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 95,
+    "Move": "Psychic",
+    "Typing": "Psychic",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 96,
+    "Move": "Psywave",
+    "Typing": "Psychic",
+    "Category": "Special",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 97,
+    "Move": "QuickAttack",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 98,
+    "Move": "Rage",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 20,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 99,
+    "Move": "RazorLeaf",
+    "Typing": "Grass",
+    "Category": "Physical",
+    "Power": 55,
+    "Accuracy": 95,
+    "PP": 25
+  },
+  {
+    "Id": 100,
+    "Move": "RazorWind",
+    "Typing": "Normal",
+    "Category": "Special",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 101,
+    "Move": "Recover",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 102,
+    "Move": "Reflect",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 103,
+    "Move": "Rest",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 104,
+    "Move": "Roar",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 105,
+    "Move": "RockSlide",
+    "Typing": "Rock",
+    "Category": "Physical",
+    "Power": 75,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 106,
+    "Move": "RockThrow",
+    "Typing": "Rock",
+    "Category": "Physical",
+    "Power": 50,
+    "Accuracy": 90,
+    "PP": 15
+  },
+  {
+    "Id": 107,
+    "Move": "RollingKick",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 60,
+    "Accuracy": 85,
+    "PP": 15
+  },
+  {
+    "Id": 108,
+    "Move": "SandAttack",
+    "Typing": "Ground",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 109,
+    "Move": "Scratch",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 35
+  },
+  {
+    "Id": 110,
+    "Move": "Screech",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 85,
+    "PP": 40
+  },
+  {
+    "Id": 111,
+    "Move": "SeismicToss",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 112,
+    "Move": "SelfDestruct",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 200,
+    "Accuracy": 100,
+    "PP": 5
+  },
+  {
+    "Id": 113,
+    "Move": "Sharpen",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 114,
+    "Move": "Sing",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 55,
+    "PP": 15
+  },
+  {
+    "Id": 115,
+    "Move": "SkullBash",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 130,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 116,
+    "Move": "SkyAttack",
+    "Typing": "Flying",
+    "Category": "Physical",
+    "Power": 140,
+    "Accuracy": 90,
+    "PP": 5
+  },
+  {
+    "Id": 117,
+    "Move": "Slam",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 75,
+    "PP": 20
+  },
+  {
+    "Id": 118,
+    "Move": "Slash",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 70,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 119,
+    "Move": "SleepPowder",
+    "Typing": "Grass",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 75,
+    "PP": 15
+  },
+  {
+    "Id": 120,
+    "Move": "Sludge",
+    "Typing": "Poison",
+    "Category": "Special",
+    "Power": 65,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 121,
+    "Move": "Smog",
+    "Typing": "Poison",
+    "Category": "Special",
+    "Power": 30,
+    "Accuracy": 70,
+    "PP": 20
+  },
+  {
+    "Id": 122,
+    "Move": "Smokescreen",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 123,
+    "Move": "SoftBoiled",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 5
+  },
+  {
+    "Id": 124,
+    "Move": "SolarBeam",
+    "Typing": "Grass",
+    "Category": "Special",
+    "Power": 120,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 125,
+    "Move": "SonicBoom",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 0,
+    "Accuracy": 90,
+    "PP": 20
+  },
+  {
+    "Id": 126,
+    "Move": "SpikeCannon",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 20,
+    "Accuracy": 85,
+    "PP": 15
+  },
+  {
+    "Id": 127,
+    "Move": "Splash",
+    "Typing": "Water",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 40
+  },
+  {
+    "Id": 128,
+    "Move": "Spore",
+    "Typing": "Grass",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 129,
+    "Move": "Sprout",
+    "Typing": "Grass",
+    "Category": "Special",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 5
+  },
+  {
+    "Id": 130,
+    "Move": "Stomp",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 65,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 131,
+    "Move": "Strength",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 132,
+    "Move": "StringShot",
+    "Typing": "Bug",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 95,
+    "PP": 40
+  },
+  {
+    "Id": 133,
+    "Move": "Struggle",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 50,
+    "Accuracy": 100,
+    "PP": 1
+  },
+  {
+    "Id": 134,
+    "Move": "Substitute",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 135,
+    "Move": "SuckerPunch",
+    "Typing": "Dark",
+    "Category": "Physical",
+    "Power": 70,
+    "Accuracy": 100,
+    "PP": 5
+  },
+  {
+    "Id": 136,
+    "Move": "SuperFang",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 137,
+    "Move": "Supersonic",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 55,
+    "PP": 20
+  },
+  {
+    "Id": 138,
+    "Move": "Surf",
+    "Typing": "Water",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 139,
+    "Move": "Swift",
+    "Typing": "Normal",
+    "Category": "Special",
+    "Power": 60,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 140,
+    "Move": "SwordsDance",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 141,
+    "Move": "Tackle",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 142,
+    "Move": "TailWhip",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 143,
+    "Move": "TakeDown",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 90,
+    "Accuracy": 85,
+    "PP": 20
+  },
+  {
+    "Id": 144,
+    "Move": "Teleport",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 145,
+    "Move": "Thunder",
+    "Typing": "Electric",
+    "Category": "Special",
+    "Power": 110,
+    "Accuracy": 70,
+    "PP": 5
+  },
+  {
+    "Id": 146,
+    "Move": "Thunderbolt",
+    "Typing": "Electric",
+    "Category": "Special",
+    "Power": 95,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 147,
+    "Move": "ThunderPunch",
+    "Typing": "Electric",
+    "Category": "Physical",
+    "Power": 75,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 148,
+    "Move": "ThunderShock",
+    "Typing": "Electric",
+    "Category": "Special",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 149,
+    "Move": "ThunderWave",
+    "Typing": "Electric",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 150,
+    "Move": "Toxic",
+    "Typing": "Poison",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 151,
+    "Move": "ToxicSpikes",
+    "Typing": "Poison",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 152,
+    "Move": "Transform",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 153,
+    "Move": "TriAttack",
+    "Typing": "Normal",
+    "Category": "Special",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 10
+  },
+
+  {
+    "Id": 154,
+    "Move": "Uproar",
+    "Typing": "Normal",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 155,
+    "Move": "VineWhip",
+    "Typing": "Grass",
+    "Category": "Physical",
+    "Power": 45,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 156,
+    "Move": "WaterGun",
+    "Typing": "Water",
+    "Category": "Special",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 25
+  },
+  {
+    "Id": 157,
+    "Move": "Waterfall",
+    "Typing": "Water",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 158,
+    "Move": "Whirlwind",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 159,
+    "Move": "Withdraw",
+    "Typing": "Water",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 40
+  },
+  {
+    "Id": 160,
+    "Move": "Wrap",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 15,
+    "Accuracy": 85,
+    "PP": 20
+  },
+  {
+    "Id": 161,
+    "Move": "ZapCannon",
+    "Typing": "Electric",
+    "Category": "Special",
+    "Power": 120,
+    "Accuracy": 50,
+    "PP": 5
+  },
+  {
+    "Id": 162,
+    "Move": "StunSpore",
+    "Typing": "Grass",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 75,
+    "PP": 30
+  },
+  {
+    "Id": 163,
+    "Move": "Pursuit",
+    "Typing": "Dark",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 164,
+    "Move": "Stockpile",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 165,
+    "Move": "SpitUp",
+    "Typing": "Normal",
+    "Category": "Special",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 166,
+    "Move": "Swallow",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 167,
+    "Move": "GunkShot",
+    "Typing": "Poison",
+    "Category": "Physical",
+    "Power": 120,
+    "Accuracy": 80,
+    "PP": 5
+  },
+  {
+    "Id": 168,
+    "Move": "SludgeBomb",
+    "Typing": "Poison",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 169,
+    "Move": "Crunch",
+    "Typing": "Dark",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 170,
+    "Move": "ElectroBall",
+    "Typing": "Electric",
+    "Category": "Special",
+    "VariablePower": [40, 60, 80, 120, 150],
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 171,
+    "Move": "Spark",
+    "Typing": "Electric",
+    "Category": "Physical",
+    "Power": 65,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 172,
+    "Move": "Nuzzle",
+    "Typing": "Electric",
+    "Category": "Physical",
+    "Power": 20,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 173,
+    "Move": "IronTail",
+    "Typing": "Steel",
+    "Category": "Physical",
+    "Power": 100,
+    "Accuracy": 75,
+    "PP": 15
+  },
+  {
+    "Id": 174,
+    "Move": "FocusBlast",
+    "Typing": "Fighting",
+    "Category": "Special",
+    "Power": 120,
+    "Accuracy": 70,
+    "PP": 5
+  },
+  {
+    "Id": 175,
+    "Move": "BrickBreak",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 75,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 176,
+    "Move": "Rollout",
+    "Typing": "Rock",
+    "Category": "Physical",
+    "Power": 30,
+    "Accuracy": 90,
+    "PP": 20
+  },
+  {
+    "Id": 177,
+    "Move": "XScissor",
+    "Typing": "Bug",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 178,
+    "Move": "Sandstorm",
+    "Typing": "Rock",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 179,
+    "Move": "HelpingHand",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 180,
+    "Move": "Charm",
+    "Typing": "Fairy",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 181,
+    "Move": "Flatter",
+    "Typing": "Dark",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 182,
+    "Move": "Attract",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 183,
+    "Move": "VenomDrench",
+    "Typing": "Poison",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 184,
+    "Move": "EarthPower",
+    "Typing": "Ground",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 185,
+    "Move": "ShadowBall",
+    "Typing": "Ghost",
+    "Category": "Special",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 186,
+    "Move": "SleepTalk",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 187,
+    "Move": "MoonBlast",
+    "Typing": "Fairy",
+    "Category": "Special",
+    "Power": 95,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 188,
+    "Move": "WillOWisp",
+    "Typing": "Fire",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 85,
+    "PP": 15
+  },
+  {
+    "Id": 189,
+    "Move": "PerishSong",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 5
+  },
+  {
+    "Id": 190,
+    "Move": "AirSlash",
+    "Typing": "Flying",
+    "Category": "Special",
+    "Power": 75,
+    "Accuracy": 95,
+    "PP": 15
+  },
+  {
+    "Id": 191,
+    "Move": "Acrobatics",
+    "Typing": "Flying",
+    "Category": "Physical",
+    "Power": 55,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 192,
+    "Move": "SweetScent",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 193,
+    "Move": "AcidArmor",
+    "Typing": "Poison",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 194,
+    "Move": "Discharge",
+    "Typing": "Electric",
+    "Category": "Special",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 195,
+    "Move": "StealthRock",
+    "Typing": "Rock",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 196,
+    "Move": "Safeguard",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 25
+  },
+  {
+    "Id": 197,
+    "Move": "Astonish",
+    "Typing": "Ghost",
+    "Category": "Physical",
+    "Power": 30,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 198,
+    "Move": "PoisonFang",
+    "Typing": "Poison",
+    "Category": "Physical",
+    "Power": 50,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 199,
+    "Move": "Submission",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 80,
+    "PP": 25
+  },
+  {
+    "Id": 200,
+    "Move": "ViceGrip",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 55,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 201,
+    "Move": "Bounce",
+    "Typing": "Flying",
+    "Category": "Physical",
+    "Power": 85,
+    "Accuracy": 85,
+    "PP": 5
+  },
+  {
+    "Id": 202,
+    "Move": "IcyWind",
+    "Typing": "Ice",
+    "Category": "Special",
+    "Power": 55,
+    "Accuracy": 95,
+    "PP": 15
+  },
+  {
+    "Id": 203,
+    "Move": "Raindance",
+    "Typing": "Water",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 5
+  },
+  {
+    "Id": 204,
+    "Move": "CosmicPower",
+    "Typing": "Psychic",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 205,
+    "Move": "RapidSpin",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 50,
+    "Accuracy": 100,
+    "PP": 40
+  },
+  {
+    "Id": 206,
+    "Move": "FocusPunch",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 150,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 207,
+    "Move": "BatonPass",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 40
+  },
+  {
+    "Id": 208,
+    "Move": "DoubleHit",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 35,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 209,
+    "Move": "FuryCutter",
+    "Typing": "Bug",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 95,
+    "PP": 20
+  },
+  {
+    "Id": 210,
+    "Move": "SilverWind",
+    "Typing": "Bug",
+    "Category": "Special",
+    "Power": 60,
+    "Accuracy": 100,
+    "PP": 5
+  },
+  {
+    "Id": 211,
+    "Move": "NightSlash",
+    "Typing": "Dark",
+    "Category": "Physical",
+    "Power": 70,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 212,
+    "Move": "MindReader",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 5
+  },
+  {
+    "Id": 213,
+    "Move": "SweetKiss",
+    "Typing": "Fairy",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 75,
+    "PP": 10
+  },
+  {
+    "Id": 214,
+    "Move": "ShockWave",
+    "Typing": "Electric",
+    "Category": "Special",
+    "Power": 60,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 215,
+    "Move": "CrossChop",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 100,
+    "Accuracy": 80,
+    "PP": 5
+  },
+  {
+    "Id": 216,
+    "Move": "LavaPlume",
+    "Typing": "Fire",
+    "Category": "Special",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 217,
+    "Move": "Revenge",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 60,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 218,
+    "Move": "IronHead",
+    "Typing": "Steel",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 219,
+    "Move": "ZenHeadbutt",
+    "Typing": "Psychic",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 90,
+    "PP": 15
+  },
+  {
+    "Id": 220,
+    "Move": "WorkUp",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 221,
+    "Move": "WildCharge",
+    "Typing": "Electric",
+    "Category": "Physical",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 222,
+    "Move": "Aquatail",
+    "Typing": "Water",
+    "Category": "Physical",
+    "Power": 90,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 223,
+    "Move": "DragonDance",
+    "Typing": "Dragon",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 224,
+    "Move": "DragonBreath",
+    "Typing": "Dragon",
+    "Category": "Special",
+    "Power": 60,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 225,
+    "Move": "AncientPower",
+    "Typing": "Rock",
+    "Category": "Special",
+    "Power": 60,
+    "Accuracy": 100,
+    "PP": 5
+  },
+  {
+    "Id": 226,
+    "Move": "AquaRing",
+    "Typing": "Water",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 227,
+    "Move": "Wish",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 228,
+    "Move": "HyperVoice",
+    "Typing": "Normal",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 229,
+    "Move": "WaterPulse",
+    "Typing": "Water",
+    "Category": "Special",
+    "Power": 60,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 230,
+    "Move": "SunnyDay",
+    "Typing": "Fire",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 5
+  },
+  {
+    "Id": 231,
+    "Move": "Conversion",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 30
+  },
+  {
+    "Id": 232,
+    "Move": "SignalBeam",
+    "Typing": "Bug",
+    "Category": "Special",
+    "Power": 75,
+    "Accuracy": 100,
+    "PP": 15
+  },
+  {
+    "Id": 233,
+    "Move": "MagnetRise",
+    "Typing": "Electric",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 234,
+    "Move": "Constrict",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 10,
+    "Accuracy": 100,
+    "PP": 35
+  },
+  {
+    "Id": 235,
+    "Move": "MudShot",
+    "Typing": "Ground",
+    "Category": "Special",
+    "Power": 55,
+    "Accuracy": 95,
+    "PP": 15
+  },
+  {
+    "Id": 236,
+    "Move": "AquaJet",
+    "Typing": "Water",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 20
+  },
+  {
+    "Id": 237,
+    "Move": "StoneEdge",
+    "Typing": "Rock",
+    "Category": "Physical",
+    "Power": 100,
+    "Accuracy": 80,
+    "PP": 5
+  },
+  {
+    "Id": 238,
+    "Move": "SkyDrop",
+    "Typing": "Flying",
+    "Category": "Physical",
+    "Power": 60,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 239,
+    "Move": "HeavySlam",
+    "Typing": "Steel",
+    "Category": "Physical",
+    "VariablePower": [40, 60, 80, 100, 120],
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 240,
+    "Move": "GigaImpact",
+    "Typing": "Normal",
+    "Category": "Physical",
+    "Power": 150,
+    "Accuracy": 90,
+    "PP": 5
+  },
+  {
+    "Id": 241,
+    "Move": "Hurricane",
+    "Typing": "Flying",
+    "Category": "Special",
+    "Power": 110,
+    "Accuracy": 70,
+    "PP": 10
+  },
+  {
+    "Id": 242,
+    "Move": "AerialAce",
+    "Typing": "Flying",
+    "Category": "Physical",
+    "Power": 60,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 243,
+    "Move": "MysticalFire",
+    "Typing": "Fire",
+    "Category": "Special",
+    "Power": 75,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 244,
+    "Move": "DragonPulse",
+    "Typing": "Dragon",
+    "Category": "Special",
+    "Power": 85,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 245,
+    "Move": "Outrage",
+    "Typing": "Dragon",
+    "Category": "Physical",
+    "Power": 120,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 246,
+    "Move": "AuraSphere",
+    "Typing": "Fighting",
+    "Category": "Special",
+    "Power": 80,
+    "Accuracy": 0,
+    "PP": 20
+  },
+  {
+    "Id": 247,
+    "Move": "PsychUp",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 248,
+    "Move": "EnergyBall",
+    "Typing": "Grass",
+    "Category": "Special",
+    "Power": 90,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 249,
+    "Move": "DazzlingGleam",
+    "Typing": "Fairy",
+    "Category": "Special",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 10
+  },
+  {
+    "Id": 250,
+    "Move": "Endure",
+    "Typing": "Normal",
+    "Category": "Status",
+    "Power": 0,
+    "Accuracy": 0,
+    "PP": 10
+  },
+  {
+    "Id": 251,
+    "Move": "IceShard",
+    "Typing": "Ice",
+    "Category": "Physical",
+    "Power": 40,
+    "Accuracy": 100,
+    "PP": 30
+  },
+  {
+    "Id": 252,
+    "Move": "FireFang",
+    "Typing": "Fire",
+    "Category": "Physical",
+    "Power": 65,
+    "Accuracy": 95,
+    "PP": 15
+  },
+  {
+    "Id": 253,
+    "Move": "SuperPower",
+    "Typing": "Fighting",
+    "Category": "Physical",
+    "Power": 120,
+    "Accuracy": 100,
+    "PP": 5
+  },
+  {
+    "Id": 254,
+    "Move": "RockBlast",
+    "Typing": "Rock",
+    "Category": "Physical",
+    "Power": 25,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 255,
+    "Move": "HeatWave",
+    "Typing": "Fire",
+    "Category": "Special",
+    "Power": 95,
+    "Accuracy": 90,
+    "PP": 10
+  },
+  {
+    "Id": 256,
+    "Move": "DragonClaw",
+    "Typing": "Dragon",
+    "Category": "Physical",
+    "Power": 80,
+    "Accuracy": 100,
+    "PP": 15
+  }
+]
