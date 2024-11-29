@@ -1,0 +1,44 @@
+﻿@using PokemonBattleSimulator.Models.Enum;
+
+@section scripts{
+    <script asp-add-nonce="true" src="~/js/addteam.js" asp-append-version="true"></script>
+    <script asp-add-nonce="true" src="~/js/addpokemon.js" asp-append-version="true"></script>
+    <script asp-add-nonce="true" src="~/js/pokemon.js" asp-append-version="true"></script>
+}
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link asp-add-nonce="true" rel="stylesheet" href="~/css/pokemon.css" asp-append-version="true" />
+
+<body>
+    <div id="teams-container">
+        <div id="team-1" class="team-card team-card-1">
+            <div class="col-sm-12 team-label">Team 1</div>
+            <div class="col-sm-12">
+                @{
+                    var team = new TeamViewModel
+                    {
+                        TeamId = 1
+                    };
+                }
+                @Html.Partial("_Team", team )
+            </div>
+        </div>
+        <div id="team-2" class="team-card team-card-2">
+            <div class="col-sm-12 team-label">Team 2</div>
+            <div class="col-sm-12">
+                @{
+                    team = new TeamViewModel
+                    {
+                        TeamId = 2
+                    };
+                }
+                @Html.Partial("_Team", team)
+            </div>
+        </div>
+    </div>
+    <button id="add-team-btn">+</button>
+</body>
+

@@ -1,0 +1,46 @@
+﻿@model PokemonModel
+
+<div class="row">
+    <div class="col-auto">
+        <div>
+            @Html.LabelFor(m => m.Id)
+        </div>
+        <div>
+            @Html.DisplayFor(m => m.Id)
+        </div>
+    </div>
+
+    <div class="col-auto">
+        <div>
+            @Html.LabelFor(m => m.PrimaryType)
+        </div>
+        <div>
+            @Html.DisplayFor(m => m.PrimaryType)
+        </div>
+    </div>
+    <div class="col-auto">
+        <div>
+            @Html.LabelFor(m => m.SecondaryType)
+        </div>
+        <div>
+            @Html.DisplayFor(m => m.SecondaryType)
+        </div>
+    </div>
+    <div class="col-auto">
+        <div>
+            @Html.LabelFor(m => m.Stats)
+        </div>
+        <div>
+            @Html.Partial("_Stats", Model.Stats)
+        </div>
+    </div>
+    <div class="col-auto">
+        <div>
+            @Html.LabelFor(m => m.Moves)
+        </div>
+        <div>
+            @Html.Partial("_Moves", Model.Moves)
+        </div>
+    </div>
+</div>
+
