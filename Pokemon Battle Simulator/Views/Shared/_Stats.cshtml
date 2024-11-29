@@ -1,0 +1,28 @@
+﻿@model StatsModel
+
+<div class="card bg-light mb-3">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-auto">
+                <div>@Html.LabelFor(m => m.HP)</div>
+                <div>@Html.LabelFor(m => m.Attack)</div>
+                <div>@Html.LabelFor(m => m.Defense)</div>
+                <div>@Html.LabelFor(m => m.SpecialAttack)</div>
+                <div>@Html.LabelFor(m => m.SpecialDefense)</div>
+                <div>@Html.LabelFor(m => m.Speed)</div>
+                <div>@Html.LabelFor(m => m.Total)</div>
+            </div>
+
+            <div class="col-auto">
+                <div>@Html.DisplayFor(m => m.HP)</div>
+                <div>@Html.DisplayFor(m => m.Attack)</div>
+                <div>@Html.DisplayFor(m => m.Defense)</div>
+                <div>@Html.DisplayFor(m => m.SpecialAttack)</div>
+                <div>@Html.DisplayFor(m => m.SpecialDefense)</div>
+                <div>@Html.DisplayFor(m => m.Speed)</div>
+                <div>@Html.DisplayFor(m => m.Total)</div>
+            </div>
+        </div>
+    </div>
+</div>
+

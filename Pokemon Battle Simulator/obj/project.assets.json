@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\PokemonBattleSimulator.csproj",
+      "projectUniqueName": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\PokemonBattleSimulator.csproj",
       "projectName": "PokemonBattleSimulator",
-      "projectPath": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\PokemonBattleSimulator.csproj",
+      "projectPath": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\PokemonBattleSimulator.csproj",
       "packagesPath": "C:\\Users\\AJ\\.nuget\\packages\\",
-      "outputPath": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\obj\\",
+      "outputPath": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AJ\\AppData\\Roaming\\NuGet\\NuGet.Config",

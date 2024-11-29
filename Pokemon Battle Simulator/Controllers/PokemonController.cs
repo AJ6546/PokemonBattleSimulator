@@ -46,7 +46,7 @@ namespace PokemonBattleSimulator.Controllers
                 .Where(moveModel => selectedPokemon.Moves.Contains(moveModel.Move))
                 .ToList();
 
-            return PartialView("~Views/Shared/_Pokemon.cshtml", selectedPokemon);
+            return PartialView("_Pokemon", selectedPokemon);
         }
     }
 }

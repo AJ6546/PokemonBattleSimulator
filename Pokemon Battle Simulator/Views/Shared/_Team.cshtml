@@ -2,7 +2,7 @@
 @model TeamViewModel
 
 <template id="pokemon-options-template">
-    <option value="Select a Pokemon">Select a Pokemon</option>
+    <option value="Select">Select</option>
     @foreach (var pokemon in Enum.GetValues(typeof(Pokemon)).Cast<Pokemon>())
     {
         <option value="@((int)pokemon)">@pokemon</option>
@@ -10,19 +10,23 @@
 </template>
 
 <div id="team_@Model.TeamId.ToString()_pokemon-container">
-    <div class="col-sm-12 pokemon">
-        <div class="input-group">
-            @Html.DropDownList(
-            "pokemon",
-            new SelectList(
-            Enum.GetValues(typeof(Pokemon)).Cast<Pokemon>().Select(p => new { Value = (int)p, Text = p.ToString() }),
-            "Value", "Text"
-            ),
-            "Select a Pokémon",
-            new { @class = "form-control pokemon-dropdown", id = $"team_{@Model.TeamId.ToString()}_pokemon_1" }
-            )
+    <div class="row" id="team_@Model.TeamId.ToString()_pokemon_1_row">
+        <div class="col-sm-2 pokemon">
+            <div class="input-group">
+                @Html.DropDownList(
+                "pokemon",
+                new SelectList(
+                Enum.GetValues(typeof(Pokemon)).Cast<Pokemon>().Select(p => new { Value = (int)p, Text = p.ToString() }),
+                "Value", "Text"
+                ),
+                "Select",
+                new { @class = "form-control pokemon-dropdown", id = $"team_{@Model.TeamId.ToString()}_pokemon_1" }
+                )
+            </div>
         </div>
-        <div id="selected-pokemon-1">
+        <div class="col-sm-10 selected-pokemon">
+            <div id="team_@Model.TeamId.ToString()_selected-pokemon_1">
+            </div>
         </div>
     </div>
 </div>

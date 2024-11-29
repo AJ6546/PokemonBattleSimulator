@@ -1,30 +1,36 @@
-(function ($) {
-    document.getElementById("pokemonInput").addEventListener("change", handlePokemonChange);
-    document.getElementById("opponentPokemonInput").addEventListener("change", handlePokemonChange);
+document.addEventListener('DOMContentLoaded', function () {
+    handleDropdownSelect();
+});
 
-    function handlePokemonChange() {
-        const selectedPokemon = this.value;
+function handleDropdownSelect() {
+    var dropdowns = document.querySelectorAll('.pokemon-dropdown');
+    dropdowns.forEach(function(dropdown) {
+        dropdown.addEventListener('change', function(event) {
+            var selectedDropdownId = event.target.id;
+            var selectedValue = event.target.value;
 
-        var formData = selectedPokemon;
+            getPokemon(selectedValue, selectedDropdownId);
+        });
+    });
+}
 
-        fetch(`/Pokemon/GetPokemon`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: formData,
+function getPokemon(pokemonId, dropdownId) {
+    fetch('/Pokemon/GetPokemon', {
+        method: 'POST',  
+        headers: {
+            'Content-Type': 'application/json'  
+        },
+        body: JSON.stringify(pokemonId)  
+    })
+        .then(response => response.text())  
+        .then(html => {
+            var targetDivId = dropdownId.replace("pokemon", "selected-pokemon");
+            var targetDiv = document.getElementById(targetDivId);
+            if (targetDiv) {
+                targetDiv.innerHTML = html;
+            }
         })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("Network response was not ok");
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log("Response from server:", data);
-            })
-            .catch(error => {
-                console.error("There was a problem with the fetch operation:", error);
-            });
-    }
-})();
+        .catch(error => {
+            console.error('Error:', error);
+        });
+}

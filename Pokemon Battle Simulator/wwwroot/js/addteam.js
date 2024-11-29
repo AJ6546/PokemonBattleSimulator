@@ -37,6 +37,7 @@ document.getElementById("add-team-btn").addEventListener("click", function () {
 
             document.getElementById("teams-container").appendChild(teamCard);
             initializeAddPokemon();
+            handleDropdownSelect();
         })
         .catch(error => console.error("Error fetching partial view:", error));
 });
