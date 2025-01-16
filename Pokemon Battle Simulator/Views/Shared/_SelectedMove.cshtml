@@ -1,0 +1,44 @@
+﻿@model MoveModel
+
+<div class="card selectd-move-card mb-3">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-auto">
+                <div>@Html.LabelFor(m => m.Move)</div>
+                <div>@Html.LabelFor(m => m.Typing)</div>
+                <div>@Html.LabelFor(m => m.Category)</div>
+                <div>@Html.LabelFor(m => m.Power)</div>
+                <div>@Html.LabelFor(m => m.Accuracy)</div>
+                <div>@Html.LabelFor(m => m.PP)</div>
+                @if (Model.VariablePower != null && Model.VariablePower.Count > 0)
+                {
+                    <div>@Html.LabelFor(m => m.VariablePower)</div>
+                }
+                @if (!string.IsNullOrEmpty(Model.Description))
+                {
+                    <div class="move-description-label">@Html.LabelFor(m => m.Description)</div>
+                }
+            </div>
+
+            <div class="col-auto">
+                <div>@Html.DisplayFor(m => m.Move)</div>
+                <div>@Html.DisplayFor(m => m.Typing)</div>
+                <div>@Html.DisplayFor(m => m.Category)</div>
+                <div>@Html.DisplayFor(m => m.Power)</div>
+                <div>@Html.DisplayFor(m => m.Accuracy)</div>
+                <div>@Html.DisplayFor(m => m.PP)</div>
+                @if (Model.VariablePower != null && Model.VariablePower.Count > 0)
+                {
+                    for(int i = 0; i < Model.VariablePower.Count; i++)
+                    {
+                        <div>@Html.DisplayFor(m => m.VariablePower[i])</div>
+                    }
+                }
+                @if (!string.IsNullOrEmpty(Model.Description))
+                {
+                    <div class="move-description">@Html.DisplayFor(m => m.Description)</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

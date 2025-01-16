@@ -1,33 +1,35 @@
-﻿@model PokemonModel
+﻿@using PokemonBattleSimulator.Models.Enum;
+@model PokemonModel
 
-<div class="row">
+<div id="pokemon-details" class="row">
     <div class="col-auto">
-        <div>
+        <div class="pokemon-header">
             @Html.LabelFor(m => m.Id)
         </div>
-        <div>
+        <div id="pokemon-id" class="pokemon-detail">
             @Html.DisplayFor(m => m.Id)
         </div>
     </div>
-
     <div class="col-auto">
-        <div>
+        <div class="pokemon-header">
             @Html.LabelFor(m => m.PrimaryType)
         </div>
-        <div>
+        <div class="pokemon-detail">
             @Html.DisplayFor(m => m.PrimaryType)
         </div>
     </div>
-    <div class="col-auto">
-        <div>
-            @Html.LabelFor(m => m.SecondaryType)
+    @if(Model.SecondaryType != Typing.None){
+        <div class="col-auto">
+            <div class="pokemon-header">
+                @Html.LabelFor(m => m.SecondaryType)
+            </div>
+            <div class="pokemon-detail">
+                @Html.DisplayFor(m => m.SecondaryType)
+            </div>
         </div>
-        <div>
-            @Html.DisplayFor(m => m.SecondaryType)
-        </div>
-    </div>
+    }
     <div class="col-auto">
-        <div>
+        <div class="pokemon-header">
             @Html.LabelFor(m => m.Stats)
         </div>
         <div>
@@ -35,7 +37,7 @@
         </div>
     </div>
     <div class="col-auto">
-        <div>
+        <div class="pokemon-header">
             @Html.LabelFor(m => m.Moves)
         </div>
         <div>

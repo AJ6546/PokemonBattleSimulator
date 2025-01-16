@@ -2,6 +2,7 @@
 {
     public class TeamViewModel
     {
-        public int TeamId;
+        public int TeamId { get; set; }
+        public List<PokemonModel> Pokemon { get; set; }
     }
 }

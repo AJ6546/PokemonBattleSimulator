@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rjFnLQb1evFhVKgK4QGuCwQLivTLyofUuYNm3ZATBuY=",
+  "Hash": "GaStN+oTnbYMGJ6RmM404gzaw+hrknNsiWhyP0219mY=",
   "Source": "PokemonBattleSimulator",
   "BasePath": "_content/PokemonBattleSimulator",
   "Mode": "Default",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\js\\addteam.js"
     },
     {
+      "Identity": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\js\\move.js",
+      "SourceId": "PokemonBattleSimulator",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "BasePath": "_content/PokemonBattleSimulator",
+      "RelativePath": "js/move.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\move.js"
+    },
+    {
       "Identity": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\js\\pokemon.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\js\\submitteams.js",
+      "SourceId": "PokemonBattleSimulator",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "BasePath": "_content/PokemonBattleSimulator",
+      "RelativePath": "js/submitteams.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\submitteams.js"
     },
     {
       "Identity": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

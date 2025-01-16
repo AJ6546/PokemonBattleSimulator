@@ -1,13 +1,23 @@
 ﻿@using PokemonBattleSimulator.Models.Enum;
 @model List<Move>
 
-<div class="card bg-light mb-3">
+<div class="card moves-card mb-3">
     <div class="card-body">
-        @foreach(var move in Model)
-        {
+        <div class="row">
             <div class="col-auto">
-                @Html.DisplayFor(m => move)
+                @foreach (var move in Model)
+                {
+                    <div class="col-auto">
+                        <button class="move-button" type="button" value="@move" >
+                            @move
+                        </button>
+                    </div>
+                }
             </div>
-        }
+            <div class="col-auto">
+                <div id="selectedMove">
+                </div>
+            </div>
+        </div>
     </div>
 </div>

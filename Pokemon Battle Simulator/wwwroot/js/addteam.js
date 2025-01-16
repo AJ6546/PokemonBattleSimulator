@@ -1,21 +1,35 @@
 let teamCount = 2;
+var errorDiv = document.getElementById("error-text");
+
+const pokemonLimitError = `The number of pokemon in each team must be between ${minimumNumberOfPokemonInATeam} 
+and ${maximumNumberOfPokemonInATeam}.`;
+const teamLimitError = `The number of teams must be ${minimumNumberOfTeams} 
+and ${maximumNumberOfTeams}.`;
+
 document.getElementById("add-team-btn").addEventListener("click", function () {
 
-    const allCards = document.querySelectorAll(".team-card");
+    errorDiv.textContent = '';
+
+    var allCards = document.querySelectorAll(".team-card");
     teamCount = allCards.length + 1;
 
-    const teamCard = document.createElement("div");
+    if (teamCount > maximumNumberOfTeams) {
+        showError(errorDiv, teamLimitError);
+        return;
+    }
+
+    var teamCard = document.createElement("div");
     teamCard.className = "team-card";
     teamCard.setAttribute("data-team-number", teamCount);
     teamCard.style.backgroundColor = getRandomColor();
 
-    const teamLabel = document.createElement("div");
+    var teamLabel = document.createElement("div");
     teamLabel.id = `team-${teamCount}`;
     teamLabel.className = "col-sm-12 team-label";
     teamLabel.textContent = `Team ${teamCount}`;
     teamCard.appendChild(teamLabel);
 
-    const pokemonInputDiv = document.createElement("div");
+    var pokemonInputDiv = document.createElement("div");
     pokemonInputDiv.className = "col-sm-12";
 
     fetch(`/Pokemon/RenderPokemonInput?teamId=${teamCount}`)
@@ -24,7 +38,7 @@ document.getElementById("add-team-btn").addEventListener("click", function () {
             pokemonInputDiv.innerHTML = html;
             teamCard.appendChild(pokemonInputDiv);
 
-            const removeButton = document.createElement("button");
+            var removeButton = document.createElement("button");
             removeButton.className = "remove-team-btn";
             removeButton.textContent = "-";
             removeButton.addEventListener("click", function () {
@@ -33,7 +47,7 @@ document.getElementById("add-team-btn").addEventListener("click", function () {
 
                 updateTeamNumbers();
             });
-            teamCard.appendChild(removeButton);
+            pokemonInputDiv.appendChild(removeButton);
 
             document.getElementById("teams-container").appendChild(teamCard);
             initializeAddPokemon();
@@ -57,4 +71,8 @@ function getRandomColor() {
                              ${Math.floor(Math.random() * 151) + 50}, 
                              ${Math.floor(Math.random() * 151) + 50})`;
     return randomColor;
+}
+
+function showError(errorDiv, message) {
+    errorDiv.textContent = message;
 }

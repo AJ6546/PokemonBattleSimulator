@@ -9,5 +9,7 @@
         public int SpecialDefense { get; set; }
         public int Speed { get; set; }
         public int Total { get; set; }
+
+        public BattleStats BattleStats { get; set; }
     }
 }

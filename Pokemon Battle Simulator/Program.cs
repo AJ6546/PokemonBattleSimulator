@@ -1,3 +1,4 @@
+using PokemonBattleSimulator.Config;
 using PokemonBattleSimulator.Services;
 using PokemonBattleSimulator.Services.Interfaces;
 
@@ -18,6 +19,9 @@ services.AddTransient<IGetPokemon, GetPokemon>();
 services.AddTransient<IGetMoves, GetMoves>();
 services.AddTransient<ICachePokemon, CachePokemon>();
 services.AddTransient<ICacheMoves, CacheMoves>();
+services.AddTransient<IGetSelectedPokemonDetails, GetSelectedPokemonDetails>();
+
+services.AddOptions<BattleConfig>().BindConfiguration("BattleConfig");
 
 var app = builder.Build();
 

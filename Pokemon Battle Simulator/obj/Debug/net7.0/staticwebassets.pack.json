@@ -25,12 +25,20 @@
       "PackagePath": "staticwebassets\\js\\addteam.js"
     },
     {
+      "Id": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\js\\move.js",
+      "PackagePath": "staticwebassets\\js\\move.js"
+    },
+    {
       "Id": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\js\\pokemon.js",
       "PackagePath": "staticwebassets\\js\\pokemon.js"
     },
     {
       "Id": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\js\\submitteams.js",
+      "PackagePath": "staticwebassets\\js\\submitteams.js"
     },
     {
       "Id": "D:\\PokemonBattleSimulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\LICENSE",
