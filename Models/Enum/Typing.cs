@@ -2,6 +2,7 @@
 {
     public enum Typing
     {
+        None,
         Fire,
         Water,
         Grass,

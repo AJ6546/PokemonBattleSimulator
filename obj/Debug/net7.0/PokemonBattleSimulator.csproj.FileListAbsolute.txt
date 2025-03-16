@@ -63,3 +63,88 @@ D:\Pokemon Battle Simulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBat
 D:\Pokemon Battle Simulator\Pokemon Battle Simulator\obj\Debug\net7.0\ref\PokemonBattleSimulator.dll
 D:\Pokemon Battle Simulator\Pokemon Battle Simulator\bin\Debug\net7.0\moves.json
 D:\Pokemon Battle Simulator\Pokemon Battle Simulator\bin\Debug\net7.0\pokemon.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\appsettings.Development.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\appsettings.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\moves.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\pokemon.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\PokemonBattleSimulator.staticwebassets.runtime.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\PokemonBattleSimulator.exe
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\PokemonBattleSimulator.deps.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\PokemonBattleSimulator.runtimeconfig.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\PokemonBattleSimulator.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\PokemonBattleSimulator.pdb
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.csproj.AssemblyReference.cache
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.AssemblyInfoInputs.cache
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.AssemblyInfo.cs
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.csproj.CoreCompileInputs.cache
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.MvcApplicationPartsAssemblyInfo.cache
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.RazorAssemblyInfo.cache
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.RazorAssemblyInfo.cs
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\staticwebassets\msbuild.PokemonBattleSimulator.Microsoft.AspNetCore.StaticWebAssets.props
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\staticwebassets\msbuild.build.PokemonBattleSimulator.props
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.PokemonBattleSimulator.props
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.PokemonBattleSimulator.props
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\staticwebassets.pack.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\staticwebassets.build.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\staticwebassets.development.json
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\scopedcss\bundle\PokemonBattleSimulator.styles.css
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\scopedcss\projectbundle\PokemonBattleSimulator.bundle.scp.css
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\refint\PokemonBattleSimulator.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.pdb
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.genruntimeconfig.cache
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\ref\PokemonBattleSimulator.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\ClosedXML.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\ClosedXML.Parser.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\DocumentFormat.OpenXml.Framework.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\ExcelNumberFormat.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\RBush.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\obj\Debug\net7.0\PokemonBattleSimulator.csproj.CopyComplete
+D:\PokemonBattleSimulator\Pokemon Battle Simulator\bin\Debug\net7.0\Resources\PokemonTypeChart.xls
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\appsettings.Development.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\appsettings.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\moves.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\pokemon.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.staticwebassets.runtime.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.exe
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.deps.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.runtimeconfig.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.pdb
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\ClosedXML.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\ClosedXML.Parser.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\DocumentFormat.OpenXml.Framework.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\ExcelNumberFormat.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\RBush.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.csproj.AssemblyReference.cache
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.AssemblyInfoInputs.cache
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.AssemblyInfo.cs
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.csproj.CoreCompileInputs.cache
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.MvcApplicationPartsAssemblyInfo.cache
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.RazorAssemblyInfo.cache
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.RazorAssemblyInfo.cs
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\staticwebassets\msbuild.PokemonBattleSimulator.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\staticwebassets\msbuild.build.PokemonBattleSimulator.props
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.PokemonBattleSimulator.props
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.PokemonBattleSimulator.props
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\staticwebassets.build.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\staticwebassets.development.json
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\scopedcss\bundle\PokemonBattleSimulator.styles.css
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\scopedcss\projectbundle\PokemonBattleSimulator.bundle.scp.css
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.csproj.CopyComplete
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\refint\PokemonBattleSimulator.dll
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.pdb
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.genruntimeconfig.cache
+D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\ref\PokemonBattleSimulator.dll

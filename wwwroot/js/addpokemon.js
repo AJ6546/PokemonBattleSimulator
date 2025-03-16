@@ -24,11 +24,21 @@ function initializeAddPokemon() {
 }
 
 function addPokemonDropdown(teamId) {
+
+    errorDiv.textContent = '';
+
     var container = document.querySelector(`#team_${teamId}_pokemon-container`);
 
     var pokemonRow = document.createElement('div');
     pokemonRow.classList.add('row');
-    pokemonRow.id = `team_${teamId}_pokemon_${container.children.length + 1}_row`;
+    polemonCount = container.children.length + 1;
+
+    if (polemonCount > maximumNumberOfPokemonInATeam) {
+        showError(errorDiv, pokemonLimitError);
+        return;
+    }
+
+    pokemonRow.id = `team_${teamId}_pokemon_${polemonCount}_row`;
 
     var newPokemonDiv = document.createElement('div');
     newPokemonDiv.classList.add('col-sm-2', 'pokemon');

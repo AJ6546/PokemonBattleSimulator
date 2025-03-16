@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\PokemonBattleSimulator.csproj": {}
+    "D:\\PokemonBattleSimulator\\PokemonBattleSimulator\\PokemonBattleSimulator.csproj": {}
   },
   "projects": {
-    "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\PokemonBattleSimulator.csproj": {
+    "D:\\PokemonBattleSimulator\\PokemonBattleSimulator\\PokemonBattleSimulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\PokemonBattleSimulator.csproj",
+        "projectUniqueName": "D:\\PokemonBattleSimulator\\PokemonBattleSimulator\\PokemonBattleSimulator.csproj",
         "projectName": "PokemonBattleSimulator",
-        "projectPath": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\PokemonBattleSimulator.csproj",
+        "projectPath": "D:\\PokemonBattleSimulator\\PokemonBattleSimulator\\PokemonBattleSimulator.csproj",
         "packagesPath": "C:\\Users\\AJ\\.nuget\\packages\\",
-        "outputPath": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\obj\\",
+        "outputPath": "D:\\PokemonBattleSimulator\\PokemonBattleSimulator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

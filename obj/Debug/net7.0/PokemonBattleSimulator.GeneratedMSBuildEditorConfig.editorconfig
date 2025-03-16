@@ -9,49 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PokemonBattleSimulator
 build_property.RootNamespace = PokemonBattleSimulator
-build_property.ProjectDir = D:\Pokemon Battle Simulator\Pokemon Battle Simulator\
+build_property.ProjectDir = D:\PokemonBattleSimulator\PokemonBattleSimulator\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Pokemon Battle Simulator\Pokemon Battle Simulator
+build_property.MSBuildProjectDirectory = D:\PokemonBattleSimulator\PokemonBattleSimulator
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/Pokemon/Index.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Pokemon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/Shared/Error.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/Shared/_Moves.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Shared/_Moves.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb3Zlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/Shared/_Pokemon.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Shared/_Pokemon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb2tlbW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/Shared/_Stats.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Shared/_SelectedMove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWxlY3RlZE1vdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Shared/_Stats.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdGF0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/Shared/_Team.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Shared/_Team.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZWFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/_ViewImports.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/_ViewStart.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Pokemon Battle Simulator/Pokemon Battle Simulator/Views/Shared/_Layout.cshtml]
+[D:/PokemonBattleSimulator/PokemonBattleSimulator/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ldnem7kpfj

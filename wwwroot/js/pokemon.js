@@ -28,6 +28,8 @@ function getPokemon(pokemonId, dropdownId) {
             var targetDiv = document.getElementById(targetDivId);
             if (targetDiv) {
                 targetDiv.innerHTML = html;
+                assignMoveButtonIds();
+                handleMoveSelection();
             }
         })
         .catch(error => {

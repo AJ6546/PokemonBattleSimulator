@@ -31,7 +31,6 @@ namespace PokemonBattleSimulator.Services
 
             var movesList = JsonSerializer.Deserialize<List<MoveModel>>(jsonData, options);
 
-
             return movesList;
         }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IGj2XMMstXTftOmNMIzn+4LkqtY2us4+Z+QUQZvVMss=",
+  "Hash": "hI0rHQ8nlm5yoAP7tax3zoex9odDQwCZ2P+O2ya1r7c=",
   "Source": "PokemonBattleSimulator",
   "BasePath": "_content/PokemonBattleSimulator",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PokemonBattleSimulator\\wwwroot",
       "Source": "PokemonBattleSimulator",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PokemonBattleSimulator.styles.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PokemonBattleSimulator.styles.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "PokemonBattleSimulator.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PokemonBattleSimulator.styles.css"
+      "OriginalItemSpec": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PokemonBattleSimulator.styles.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PokemonBattleSimulator.bundle.scp.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PokemonBattleSimulator.bundle.scp.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "PokemonBattleSimulator.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PokemonBattleSimulator.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PokemonBattleSimulator.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\css\\pokemon.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\css\\pokemon.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "css/pokemon.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\pokemon.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\css\\site.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\favicon.ico",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\js\\addpokemon.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\js\\addpokemon.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "js/addpokemon.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\js\\addpokemon.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\js\\addteam.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\js\\addteam.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "js/addteam.js",
       "AssetKind": "All",
@@ -136,10 +136,44 @@
       "OriginalItemSpec": "wwwroot\\js\\addteam.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\js\\pokemon.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\js\\battle.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
+      "BasePath": "_content/PokemonBattleSimulator",
+      "RelativePath": "js/battle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\battle.js"
+    },
+    {
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\js\\move.js",
+      "SourceId": "PokemonBattleSimulator",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
+      "BasePath": "_content/PokemonBattleSimulator",
+      "RelativePath": "js/move.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\move.js"
+    },
+    {
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\js\\pokemon.js",
+      "SourceId": "PokemonBattleSimulator",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "js/pokemon.js",
       "AssetKind": "All",
@@ -153,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\js\\pokemon.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\js\\site.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -170,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -187,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -204,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -221,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -238,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -255,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -272,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -289,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -306,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -323,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -340,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -357,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -374,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -391,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -408,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -425,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -442,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -459,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -476,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -493,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -510,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -527,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -544,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -561,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -578,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -595,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -612,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -629,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -646,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -663,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -680,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -697,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -714,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -731,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -748,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -765,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -782,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -799,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -816,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -833,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -850,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -867,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -884,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -901,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -918,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -935,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -952,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -969,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -986,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1003,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1020,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1037,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1054,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1071,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1088,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1105,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1122,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PokemonBattleSimulator",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Pokemon Battle Simulator\\Pokemon Battle Simulator\\wwwroot\\",
+      "ContentRoot": "D:\\Pokemon\\PokemonBattleSimulator\\PokemonBattleSimulator\\wwwroot\\",
       "BasePath": "_content/PokemonBattleSimulator",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

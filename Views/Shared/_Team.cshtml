@@ -1,5 +1,5 @@
 ﻿@using PokemonBattleSimulator.Models.Enum;
-@model TeamViewModel
+@model Team
 
 <template id="pokemon-options-template">
     <option value="Select">Select</option>
@@ -30,4 +30,4 @@
         </div>
     </div>
 </div>
-<button id="team_@Model.TeamId.ToString()_add-pokemon-btn">+</button>
+<button id="team_@Model.TeamId.ToString()_add-pokemon-btn" class="add-pokemon-btn">+</button>

@@ -7,14 +7,22 @@ namespace PokemonBattleSimulator.Controllers
 {
     public class PokemonController : Controller
     {
+        private const int MaxNumberOfMoves = 4;
+
         private readonly ILogger<PokemonController> logger;
         private readonly ICachePokemon cachePokemon;
         private readonly ICacheMoves cacheMoves;
-        public PokemonController(ILogger<PokemonController> logger, ICachePokemon cachePokemon, ICacheMoves cacheMoves)
+        private readonly IGetSelectedPokemonDetails getSelectedPokemonDetails;
+        private readonly IBattleSimulation battleSimulation;
+
+        public PokemonController(ILogger<PokemonController> logger, ICachePokemon cachePokemon,
+            ICacheMoves cacheMoves, IGetSelectedPokemonDetails getSelectedPokemonDetails, IBattleSimulation battleSimulation)
         {
             this.logger = logger;
             this.cachePokemon = cachePokemon;
             this.cacheMoves = cacheMoves;
+            this.getSelectedPokemonDetails = getSelectedPokemonDetails;
+            this.battleSimulation = battleSimulation;
         }
 
         public async Task<IActionResult> Index()
@@ -24,7 +32,7 @@ namespace PokemonBattleSimulator.Controllers
 
         public IActionResult RenderPokemonInput(int teamId)
         {
-            var team = new TeamViewModel { TeamId = teamId };
+            var team = new Team { TeamId = teamId };
             return PartialView("_Team", team);
         }
 
@@ -48,7 +56,51 @@ namespace PokemonBattleSimulator.Controllers
 
             return PartialView("_Pokemon", selectedPokemon);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> GetMove([FromBody] string moveName)
+        {
+            Enum.TryParse<Move>(moveName, true, out var parsedMove);
+            var allMoves = await cacheMoves.ReadCacheAsync();
+            var selectedMove = allMoves.FirstOrDefault(m => m.Move.Equals(parsedMove));
+
+            if (selectedMove == null)
+            {
+                logger.LogError("Selected move was not found.");
+                return NotFound("Move not found");
+            }
+
+            return PartialView("_SelectedMove", selectedMove);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Battle([FromBody] List<Team> teams)
+        {
+            foreach (var team in teams)
+            {
+                for (int i = 0; i < team.Pokemon.Count; i++)
+                {
+                    var pokemon = team.Pokemon[i];
+                    var selectedPokemon = await getSelectedPokemonDetails.ExecuteAsync(pokemon.Id);
+                    if(pokemon.Moves.Any())
+                    {
+                        selectedPokemon.Moves = pokemon.Moves;
+                    }
+                    else
+                    {
+                        selectedPokemon.Moves = selectedPokemon.Moves
+                            .Take(Math.Min(MaxNumberOfMoves, selectedPokemon.Moves.Count))  
+                            .OrderBy(m => new Random().Next()) 
+                            .ToList();
+                    }
+                    team.Pokemon[i] = selectedPokemon;
+                }
+            }
+
+            await battleSimulation.ExecuteAsync(teams);
+
+            return Json(new { success = true, message = "Teams received successfully." });
+        }
     }
 }
 
-// var moves = await cacheMoves.ReadCacheAsync();

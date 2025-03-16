@@ -106,7 +106,6 @@
     "Id": 5,
     "Pokemon": "Charmeleon",
     "PrimaryType": "Fire",
-
     "Stats": {
       "HP": 58,
       "Attack": 64,
@@ -159,7 +158,6 @@
     "Id": 7,
     "Pokemon": "Squirtle",
     "PrimaryType": "Water",
-
     "Stats": {
       "HP": 44,
       "Attack": 48,
@@ -185,7 +183,6 @@
     "Id": 8,
     "Pokemon": "Wartortle",
     "PrimaryType": "Water",
-
     "Stats": {
       "HP": 59,
       "Attack": 63,

@@ -12,6 +12,13 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.team-label {
+    background-color: indianred;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: white;
+    border: 2px solid white;
+}
 .team-card-1 {
     background-color: aquamarine;
 }
@@ -21,52 +28,69 @@
 }
 
 #add-team-btn {
+    border-radius: 5px;
     margin: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    border: none;
-    border-radius: 5px;
     background-color: #4caf50;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border: 2px solid white;
 }
 
     #add-team-btn:hover {
+        font-weight: bold;
         background-color: #45a049;
     }
 
-#add-pokemon-btn {
+.add-pokemon-btn {
+    border-radius: 5px;
     margin: 10px;
     padding: 5px 10px;
     font-size: 16px;
-    border: none;
-    border-radius: 5px;
     background-color: #008B8B;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border: 2px solid white;
 }
 
-    #add-pokemon-btn:hover {
-        background-color: #008B8C;
+    .add-pokemon-btn:hover {
+        font-weight: bold;
+        background-color: gray;
     }
 
 .remove-team-btn {
-    top: 5px;
-    right: 5px;
+    margin: 10px;
     background-color: #e74c3c;
     color: white;
-    border: none;
     padding: 5px 10px;
-    font-size: 14px;
-    border-radius: 3px;
+    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border: 2px solid white;
 }
-.remove-team-btn:hover {
+    .remove-team-btn:hover {
+        font-weight: bold;
+        background-color: #c0392b;
+    }
+
+.remove-pokemon-btn {
     background-color: #c0392b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid white;
 }
+
+    .remove-pokemon-btn:hover {
+        font-weight: bold;
+        background-color: #c0392b;
+    }
+
 .pokemon{
     max-width: 170px;
 }
@@ -77,6 +101,7 @@
     color: white;
 }
     .pokemon-dropdown:focus {
+        font-weight: bold;
         background-color: forestgreen;
         color: white;
         border: 2px solid white;
@@ -86,18 +111,75 @@
         background-color: gray;
     }
 
-.opponent-pokemon-dropdown {
-    background-color: palevioletred;
-    border: 2px solid white;
+.pokemon-header {
+    background-color: forestgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
     color: white;
 }
 
-    .opponent-pokemon-dropdown:focus {
-        background-color: palevioletred;
+.pokemon-detail {
+    background-color: palegoldenrod;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.stats-card {
+    background-color: cadetblue;
+}
+
+.move-button {
+    border-radius: 12px;
+    background-color: darkgray;
+    border: none;
+    margin-bottom: 10px;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+    .move-button.active {
+        font-weight: bold;
+        background-color: mediumpurple;
         color: white;
-        border: 2px solid white;
     }
 
-    .opponent-pokemon-dropdown option {
-        background-color: gray;
+.moves-card {
+    background-color: saddlebrown;
+}
+
+.selected-move-card {
+    background-color: darkgrey;
+    color:whitesmoke;
+}
+
+.move-description-label{
+    font-weight:bold;
+}
+
+.move-description {
+    font-weight: bold;
+    color: palevioletred;
+}
+
+.error-message {
+    font-weight: bold;
+}
+
+.battle-btn {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid white;
+}
+    .battle-btn:hover {
+        font-weight:bold;
+        background-color: #4caf50;
     }

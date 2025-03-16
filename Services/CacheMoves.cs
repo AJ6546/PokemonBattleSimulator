@@ -48,7 +48,7 @@ namespace PokemonBattleSimulator.Services
             return moves;
         }
 
-        public async Task ClearCacheAsync()
+        public void ClearCacheAsync()
         {
             memoryCache.Remove(CacheKeys.Moves);
         }

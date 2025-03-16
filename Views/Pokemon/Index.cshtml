@@ -1,9 +1,20 @@
-﻿@using PokemonBattleSimulator.Models.Enum;
+﻿@using PokemonBattleSimulator.Config;
+@using PokemonBattleSimulator.Models.Enum;
+@inject Microsoft.Extensions.Options.IOptions<BattleConfig> battleConfig
+
 
 @section scripts{
+    <script asp-add-nonce="true">
+        const minimumNumberOfTeams = @battleConfig.Value.MinimumNumberOfTeams;
+        const maximumNumberOfTeams = @battleConfig.Value.MaximumNumberOfTeams;
+        const minimumNumberOfPokemonInATeam = @battleConfig.Value.MinimumNumberOfPokemonInATeam;
+        const maximumNumberOfPokemonInATeam = @battleConfig.Value.MaximumNumberOfPokemonInATeam;
+    </script>
     <script asp-add-nonce="true" src="~/js/addteam.js" asp-append-version="true"></script>
     <script asp-add-nonce="true" src="~/js/addpokemon.js" asp-append-version="true"></script>
     <script asp-add-nonce="true" src="~/js/pokemon.js" asp-append-version="true"></script>
+    <script asp-add-nonce="true" src="~/js/move.js" asp-append-version="true"></script>
+    <script asp-add-nonce="true" src="~/js/battle.js" asp-append-version="true"></script>
 }
 
 @{
@@ -18,7 +29,7 @@
             <div class="col-sm-12 team-label">Team 1</div>
             <div class="col-sm-12">
                 @{
-                    var team = new TeamViewModel
+                    var team = new Team
                     {
                         TeamId = 1
                     };
@@ -30,7 +41,7 @@
             <div class="col-sm-12 team-label">Team 2</div>
             <div class="col-sm-12">
                 @{
-                    team = new TeamViewModel
+                    team = new Team
                     {
                         TeamId = 2
                     };
@@ -40,5 +51,8 @@
         </div>
     </div>
     <button id="add-team-btn">+</button>
+    <button id="battle-btn" class="battle-btn">Battle</button>
+    <div id="error-text" class="text-danger error-message">
+    </div>
 </body>
 

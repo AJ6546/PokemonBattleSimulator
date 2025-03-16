@@ -1,5 +1,4 @@
 ﻿using PokemonBattleSimulator.Models;
-using PokemonBattleSimulator.Models.Enum;
 
 namespace PokemonBattleSimulator.Services.Interfaces
 {
@@ -7,6 +6,6 @@ namespace PokemonBattleSimulator.Services.Interfaces
     {
         public Task PopulateCacheAsync();
         public Task<List<MoveModel>> ReadCacheAsync();
-        public Task ClearCacheAsync();
+        public void ClearCacheAsync();
     }
 }
