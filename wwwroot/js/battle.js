@@ -12,31 +12,31 @@ function battle() {
         var teams = [];
         document.querySelectorAll('[id^="team_"][id$="_pokemon-container"]').forEach(teamContainer => {
             var teamId = teamContainer.id.split("_")[1];
-            var pokemonMoves  = [];
+            var pokemon  = [];
 
             teamContainer.querySelectorAll('[id="pokemon-details"]').forEach(pokemonContainer => {
                 var pokemonId = parseInt(pokemonContainer.querySelector('[id="pokemon-id"]').textContent, 10);
 
                 var selectedMoves = getSelectedMoves(pokemonContainer);
 
-                var pokemonMoveModel = {
+                var pokemonModel = {
                     Id: parseInt(pokemonId, 10),
                     Moves: selectedMoves
                 };
 
-                pokemonMoves.push(pokemonMoveModel);
+                pokemon.push(pokemonModel);
 
             });
 
-            if (pokemonMoves.length < minimumNumberOfPokemonInATeam ||
-                pokemonMoves.length > maximumNumberOfPokemonInATeam) {
+            if (pokemon.length < minimumNumberOfPokemonInATeam ||
+                pokemon.length > maximumNumberOfPokemonInATeam) {
                 showError(errorDiv, pokemonLimitError);
                 return;
             }
 
             var team = {
                 TeamId: parseInt(teamId, 10),
-                Pokemon: pokemonMoves 
+                Pokemon: pokemon 
             };
 
             teams.push(team);

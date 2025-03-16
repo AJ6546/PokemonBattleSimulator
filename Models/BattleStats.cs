@@ -2,7 +2,7 @@
 {
     public class BattleStats
     {
-        public int Evasion { get; set; }
-        public int Accuracy { get; set; }
+        public int Evasion { get; set; } = 100;
+        public int Accuracy { get; set; } = 100;
     }
 }

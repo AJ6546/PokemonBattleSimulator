@@ -22,6 +22,7 @@ services.AddTransient<ICacheMoves, CacheMoves>();
 services.AddTransient<IGetSelectedPokemonDetails, GetSelectedPokemonDetails>();
 services.AddTransient<IBattleSimulation, BattleSimulation>();
 services.AddTransient<ILookupTypeChart,  LookupTypeChart>();
+services.AddTransient<ICalculateDamage,  CalculateDamage>();
 
 services.AddOptions<BattleConfig>().BindConfiguration("BattleConfig");
 

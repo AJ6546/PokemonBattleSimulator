@@ -1,5 +1,4 @@
 ﻿using PokemonBattleSimulator.Models;
-using PokemonBattleSimulator.Models.Enum;
 using PokemonBattleSimulator.Services.Interfaces;
 
 namespace PokemonBattleSimulator.Services
@@ -8,14 +7,14 @@ namespace PokemonBattleSimulator.Services
     {
         private readonly Random random;
         private readonly ICacheMoves cacheMoves;
-        private readonly ILookupTypeChart lookupTypeChart;
+        private readonly ICalculateDamage calculateDamage;
 
         public BattleSimulation(
-            ICacheMoves cacheMoves, ILookupTypeChart lookupTypeChart)
+            ICacheMoves cacheMoves, ICalculateDamage calculateDamage)
         {
             random = new Random();
             this.cacheMoves = cacheMoves;
-            this.lookupTypeChart = lookupTypeChart;
+            this.calculateDamage = calculateDamage;
         }
 
         public async Task ExecuteAsync(List<Team> teamsList)
@@ -26,8 +25,7 @@ namespace PokemonBattleSimulator.Services
             }
 
             var allPokemon = teamsList.SelectMany(team => team.Pokemon).ToList();
-
-            var attackOrder = allPokemon.OrderBy(_ => random.Next()).ToList();
+            List<PokemonModel> attackOrder = DetermineAttackOrder(allPokemon);
 
             int turnIndex = 0;
 
@@ -42,23 +40,40 @@ namespace PokemonBattleSimulator.Services
                     continue;
                 }
 
+                if(attacker.Moves.Count < 1)
+                {
+                    continue;
+                }
+
                 var move = attacker.Moves.OrderBy(_ => random.Next()).FirstOrDefault();
                 var allMoves = await cacheMoves.ReadCacheAsync();
 
                 var selectedMove = allMoves.FirstOrDefault(m => m.Move.Equals(move));
-
-                if(selectedMove != null)
+                
+                if (selectedMove != null)
                 {
+                    if (!attacker.MovesPP.Keys.Contains(selectedMove.Move))
+                    {
+                        attacker.MovesPP[selectedMove.Move] = selectedMove.PP;
+                    }
+
                     var enemies = teamsList
-                        .Where(team => !team.Pokemon.Contains(attacker)) 
+                        .Where(team => !team.Pokemon.Contains(attacker))
                         .SelectMany(team => team.Pokemon)
-                        .Where(p => p.Stats.HP > 0) 
+                        .Where(p => p.Stats.HP > 0)
                         .ToList();
 
                     if (enemies.Any())
                     {
                         var target = enemies[random.Next(enemies.Count)];
-                        ApplyDamage(target, selectedMove);
+                        target.Stats.HP -= Math.Max(0, await calculateDamage.ExecuteAsync(attacker, target, selectedMove));
+                        attacker.MovesPP[selectedMove.Move] -= 1;
+
+                        if (attacker.MovesPP[selectedMove.Move] <= 0)
+                        {
+                            attacker.Moves.Remove(selectedMove.Move);
+                            attacker.MovesPP.Remove(selectedMove.Move);
+                        }
 
                         if (target.Stats.HP <= 0)
                         {
@@ -68,7 +83,16 @@ namespace PokemonBattleSimulator.Services
                 }
 
                 turnIndex = (turnIndex + 1) % attackOrder.Count;
+                attackOrder = DetermineAttackOrder(allPokemon);
             }
+        }
+
+        private List<PokemonModel> DetermineAttackOrder(List<PokemonModel> allPokemon)
+        {
+            return allPokemon
+                            .OrderByDescending(p => p.Stats.Speed)
+                            .ThenBy(_ => random.Next())
+                            .ToList();
         }
 
         public bool IsBattleOver(List<Team> teamsList)
@@ -78,18 +102,6 @@ namespace PokemonBattleSimulator.Services
                 .ToList();
 
             return teamsWithActivePokemon.Count <= 1;
-        }
-
-        public void ApplyDamage(PokemonModel defender, MoveModel selectedMove)
-        {
-            int effectiveness = lookupTypeChart.ExecuteAsync(selectedMove.Typing, defender.PrimaryType);
-
-            if (!defender.SecondaryType.Equals(Typing.None))
-            {
-                effectiveness *= lookupTypeChart.ExecuteAsync(selectedMove.Typing, defender.SecondaryType);
-            }
-
-            defender.Stats.HP -= Math.Max(0, defender.Stats.HP - (effectiveness * selectedMove.Power));
         }
     }
 }

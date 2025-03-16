@@ -10,6 +10,6 @@
         public int Speed { get; set; }
         public int Total { get; set; }
 
-        public BattleStats BattleStats { get; set; }
+        public BattleStats BattleStats = new BattleStats();
     }
 }
