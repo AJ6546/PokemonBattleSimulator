@@ -11,7 +11,7 @@ namespace PokemonBattleSimulator.Services
 
         public GetPokemon()
         {
-            filePath = Path.Combine(Directory.GetCurrentDirectory(), "pokemon.json");
+            filePath = Path.Combine(Directory.GetCurrentDirectory(), "pokemon-base-stats.json");
         }
 
         public async Task<List<PokemonModel>> ExecuteAsync()

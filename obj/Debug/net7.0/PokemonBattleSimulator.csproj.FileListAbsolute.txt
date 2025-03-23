@@ -151,7 +151,6 @@ D:\Pokemon\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\ref\Po
 D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\appsettings.Development.json
 D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\appsettings.json
 D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\moves.json
-D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\pokemon.json
 D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.staticwebassets.runtime.json
 D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.exe
 D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\PokemonBattleSimulator.deps.json
@@ -190,3 +189,5 @@ D:\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\refint\Pokemon
 D:\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.pdb
 D:\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\PokemonBattleSimulator.genruntimeconfig.cache
 D:\PokemonBattleSimulator\PokemonBattleSimulator\obj\Debug\net7.0\ref\PokemonBattleSimulator.dll
+D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\pokemon-base-stats.json
+D:\PokemonBattleSimulator\PokemonBattleSimulator\bin\Debug\net7.0\pokemon-max-stats.json

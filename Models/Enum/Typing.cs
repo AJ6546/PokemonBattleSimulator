@@ -2,24 +2,24 @@
 {
     public enum Typing
     {
-        None,
+        Normal,
         Fire,
         Water,
-        Grass,
         Electric,
-        Bug,
-        Poison,
-        Ghost,
-        Psychic,
-        Fairy,
+        Grass, 
         Ice,
-        Rock,
-        Ground,
-        Steel,
-        Normal,
-        Dark,
-        Flying,
         Fighting,
-        Dragon
+        Poison,
+        Ground,
+        Flying,
+        Psychic,
+        Bug,
+        Rock,
+        Ghost,
+        Dragon,
+        Dark,
+        Steel,
+        Fairy,
+        None
     }
 }

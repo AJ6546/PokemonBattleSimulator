@@ -4,6 +4,6 @@ namespace PokemonBattleSimulator.Services.Interfaces
 {
     public interface ILookupTypeChart
     {
-        public int ExecuteAsync(Typing moveType, Typing defenderType);
+        public Task<float> ExecuteAsync(Typing moveType, Typing defenderType);
     }
 }

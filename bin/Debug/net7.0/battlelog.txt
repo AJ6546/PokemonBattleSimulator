@@ -1,0 +1,380 @@
+﻿Attack Order:
+
+Mewtwo
+Aerodactyl
+Alakazam
+Gengar
+Electabuzz
+Mew
+Zapdos
+Charizard
+Arcanine
+Magmar
+Moltres
+Articuno
+Gyarados
+Dragonite
+Venusaur
+Blastoise
+Lapras
+Snorlax
+
+Turn 1 begins
+
+Mewtwo uses Recover
+Type Effectiveness is *1
+Move did not hit.
+Articuno takes 0 damage
+Articuno health is 90
+Recover - PP: 19
+
+Turn 2 begins
+
+Mewtwo uses AuraSphere
+Type Effectiveness is *1
+Move did not hit.
+Aerodactyl takes 0 damage
+Aerodactyl health is 80
+AuraSphere - PP: 19
+
+Turn 3 begins
+
+Alakazam uses Teleport
+Type Effectiveness is *1
+Move did not hit.
+Gyarados takes 0 damage
+Gyarados health is 95
+Teleport - PP: 19
+
+Turn 4 begins
+
+Gengar uses Hypnosis
+Type Effectiveness is *1
+Lapras takes 0 damage
+Lapras health is 130
+Hypnosis - PP: 19
+
+Turn 5 begins
+
+Electabuzz uses QuickAttack
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Arcanine takes 61 damage
+Arcanine health is 29
+QuickAttack - PP: 29
+
+Turn 6 begins
+
+Zapdos uses Agility
+Type Effectiveness is *2
+Move did not hit.
+Gengar takes 0 damage
+Gengar health is 60
+Agility - PP: 29
+
+Turn 7 begins
+
+Charizard uses Growl
+Type Effectiveness is *1
+Alakazam takes 0 damage
+Alakazam health is 55
+Growl - PP: 39
+
+Turn 8 begins
+
+Zapdos uses DrillPeck
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Arcanine takes 135 damage
+Arcanine health is 0
+Arcanine is no longer able to battle.
+DrillPeck - PP: 19
+
+Turn 9 begins
+
+Magmar uses FireBlast
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Gengar takes 219 damage
+Gengar health is 0
+Gengar is no longer able to battle.
+FireBlast - PP: 4
+
+Turn 10 begins
+
+Articuno uses Agility
+Type Effectiveness is *0.5
+Move did not hit.
+Mew takes 0 damage
+Mew health is 100
+Agility - PP: 29
+
+Turn 11 begins
+
+Gyarados uses HydroPump
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Mewtwo takes 109 damage
+Mewtwo health is 0
+Mewtwo is no longer able to battle.
+HydroPump - PP: 4
+
+Turn 12 begins
+
+Venusaur uses Growl
+Type Effectiveness is *1
+Electabuzz takes 0 damage
+Electabuzz health is 65
+Growl - PP: 39
+
+Turn 13 begins
+
+Blastoise uses TailWhip
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Dragonite takes 0 damage
+Dragonite health is 91
+TailWhip - PP: 29
+
+Turn 14 begins
+
+Lapras uses WaterGun
+Type Effectiveness is *0.5
+Attack gets a stab boost of *1.5
+Gyarados takes 25 damage
+Gyarados health is 70
+WaterGun - PP: 24
+
+Turn 15 begins
+
+Snorlax uses HyperBeam
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Venusaur takes 145 damage
+Venusaur health is 0
+Venusaur is no longer able to battle.
+HyperBeam - PP: 4
+
+Turn 16 begins
+
+Alakazam uses Psybeam
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Articuno takes 105 damage
+Articuno health is 0
+Articuno is no longer able to battle.
+Psybeam - PP: 19
+
+Turn 17 begins
+
+Electabuzz uses QuickAttack
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Gyarados takes 63 damage
+Gyarados health is 7
+QuickAttack - PP: 28
+
+Turn 18 begins
+
+Zapdos uses DrillPeck
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Magmar takes 189 damage
+Magmar health is 0
+Magmar is no longer able to battle.
+DrillPeck - PP: 18
+
+Turn 19 begins
+
+Charizard uses Growl
+Type Effectiveness is *1
+Snorlax takes 0 damage
+Snorlax health is 160
+Growl - PP: 38
+
+Turn 20 begins
+
+Mew uses AuraSphere
+Type Effectiveness is *1
+Move did not hit.
+Alakazam takes 0 damage
+Alakazam health is 55
+AuraSphere - PP: 19
+
+Turn 21 begins
+
+Moltres uses Agility
+Type Effectiveness is *1
+Move did not hit.
+Aerodactyl takes 0 damage
+Aerodactyl health is 80
+Agility - PP: 29
+
+Turn 22 begins
+
+Gyarados uses Bite
+Type Effectiveness is *1
+Charizard takes 96 damage
+Charizard health is 0
+Charizard is no longer able to battle.
+Bite - PP: 24
+
+Turn 23 begins
+
+Blastoise uses TailWhip
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Gyarados takes 0 damage
+Gyarados health is 7
+TailWhip - PP: 28
+
+Turn 24 begins
+
+Lapras uses WaterGun
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Mew takes 51 damage
+Mew health is 49
+WaterGun - PP: 23
+
+Turn 25 begins
+
+Snorlax uses BodySlam
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Mew takes 139 damage
+Mew health is 0
+Mew is no longer able to battle.
+BodySlam - PP: 14
+
+Turn 26 begins
+
+Alakazam uses Psychic
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Aerodactyl takes 243 damage
+Aerodactyl health is 0
+Aerodactyl is no longer able to battle.
+Psychic - PP: 9
+
+Turn 27 begins
+
+Zapdos uses DrillPeck
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Gyarados takes 136 damage
+Gyarados health is 0
+Gyarados is no longer able to battle.
+DrillPeck - PP: 17
+
+Turn 28 begins
+
+Moltres uses Agility
+Type Effectiveness is *1
+Move did not hit.
+Dragonite takes 0 damage
+Dragonite health is 91
+Agility - PP: 28
+
+Turn 29 begins
+
+Dragonite uses HyperBeam
+Type Effectiveness is *1
+Lapras takes 157 damage
+Lapras health is 0
+Lapras is no longer able to battle.
+HyperBeam - PP: 4
+
+Turn 30 begins
+
+Blastoise uses WaterGun
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Zapdos takes 55 damage
+Zapdos health is 35
+WaterGun - PP: 24
+
+Turn 31 begins
+
+Snorlax uses Rest
+Type Effectiveness is *1
+Move did not hit.
+Dragonite takes 0 damage
+Dragonite health is 91
+Rest - PP: 9
+
+Turn 32 begins
+
+Alakazam uses Psychic
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Snorlax takes 165 damage
+Snorlax health is 0
+Snorlax is no longer able to battle.
+Psychic - PP: 8
+
+Turn 33 begins
+
+Electabuzz uses QuickAttack
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Alakazam takes 109 damage
+Alakazam health is 0
+Alakazam is no longer able to battle.
+QuickAttack - PP: 27
+
+Turn 34 begins
+
+Moltres uses Flamethrower
+Type Effectiveness is *0.5
+Attack gets a stab boost of *1.5
+Blastoise takes 80 damage
+Blastoise health is 0
+Blastoise is no longer able to battle.
+Flamethrower - PP: 14
+
+Turn 35 begins
+
+Dragonite uses Fly
+Type Effectiveness is *0.5
+Attack gets a stab boost of *1.5
+Electabuzz takes 158 damage
+Electabuzz health is 0
+Electabuzz is no longer able to battle.
+Fly - PP: 14
+
+Turn 36 begins
+
+Moltres uses Flamethrower
+Type Effectiveness is *0.5
+Attack gets a stab boost of *1.5
+Dragonite takes 84 damage
+Dragonite health is 7
+Flamethrower - PP: 13
+
+Turn 37 begins
+
+Dragonite uses DragonClaw
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Zapdos takes 189 damage
+Zapdos health is 0
+Zapdos is no longer able to battle.
+DragonClaw - PP: 14
+
+Turn 38 begins
+
+Dragonite uses Fly
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Moltres takes 201 damage
+Moltres health is 0
+Moltres is no longer able to battle.
+Fly - PP: 13
+Team 2 wins
+
+Pokemon that survived:
+Dragonite
+
+Battle duration: 1752 ms.
+

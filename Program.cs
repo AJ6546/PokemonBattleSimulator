@@ -23,6 +23,10 @@ services.AddTransient<IGetSelectedPokemonDetails, GetSelectedPokemonDetails>();
 services.AddTransient<IBattleSimulation, BattleSimulation>();
 services.AddTransient<ILookupTypeChart,  LookupTypeChart>();
 services.AddTransient<ICalculateDamage,  CalculateDamage>();
+services.AddTransient<IBattleLog, BattleLog>();
+services.AddTransient<ITurnManager, TurnManager>();
+services.AddTransient<IAttackExecutor, AttackExecutor>();
+services.AddTransient<IMoveSelector, MoveSelector>();   
 
 services.AddOptions<BattleConfig>().BindConfiguration("BattleConfig");
 

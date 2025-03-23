@@ -10,10 +10,4 @@
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.104.2" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Resources\PokemonTypeChart.xls">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>

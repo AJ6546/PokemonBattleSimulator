@@ -1,6 +1,7 @@
 ﻿using PokemonBattleSimulator.Models.Enum;
 using PokemonBattleSimulator.Models;
 using PokemonBattleSimulator.Services.Interfaces;
+using System.Text;
 
 namespace PokemonBattleSimulator.Services
 {
@@ -13,14 +14,17 @@ namespace PokemonBattleSimulator.Services
             this.lookupTypeChart = lookupTypeChart;
         }
 
-        public async Task<int> ExecuteAsync(PokemonModel attacker, PokemonModel defender, MoveModel selectedMove)
+        public async Task<int> ExecuteAsync(PokemonModel attacker, PokemonModel defender,
+            MoveModel selectedMove, StringBuilder logBuilder)
         {
-            int effectiveness = lookupTypeChart.ExecuteAsync(selectedMove.Typing, defender.PrimaryType);
+            float effectiveness = await lookupTypeChart.ExecuteAsync(selectedMove.Typing, defender.PrimaryType);
 
             if (!defender.SecondaryType.Equals(Typing.None))
             {
-                effectiveness *= lookupTypeChart.ExecuteAsync(selectedMove.Typing, defender.SecondaryType);
+                effectiveness *= await lookupTypeChart.ExecuteAsync(selectedMove.Typing, defender.SecondaryType);
             }
+
+            logBuilder.AppendLine($"Type Effectiveness is *{effectiveness}");
 
             var damageFactor = selectedMove.Category.Equals(Category.Special) ?
                 (selectedMove.Power * attacker.Stats.SpecialAttack / defender.Stats.SpecialDefense) :
@@ -31,11 +35,17 @@ namespace PokemonBattleSimulator.Services
 
             if(randomMissChance > hitChance)
             {
+                logBuilder.AppendLine("Move did not hit.");
                 return 0;
             }
 
-            var damage = effectiveness * damageFactor * GetStab(attacker, selectedMove);
+            var stabBoost = GetStab(attacker, selectedMove);
+            if(stabBoost > 1)
+            {
+                logBuilder.AppendLine($"Attack gets a stab boost of *{stabBoost}");
+            }
 
+            var damage = effectiveness * damageFactor * stabBoost;
             return (int) damage;
         }
 

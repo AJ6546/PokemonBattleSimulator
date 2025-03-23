@@ -1,20 +1,26 @@
 ﻿using PokemonBattleSimulator.Models;
 using PokemonBattleSimulator.Services.Interfaces;
+using System.Diagnostics;
+using System.Text;
 
 namespace PokemonBattleSimulator.Services
 {
     public class BattleSimulation: IBattleSimulation
     {
         private readonly Random random;
-        private readonly ICacheMoves cacheMoves;
-        private readonly ICalculateDamage calculateDamage;
+        private readonly IBattleLog battleLog;
+        private readonly IMoveSelector moveSelector;
+        private readonly IAttackExecutor attackExecutor;
+        private readonly ITurnManager turnManager;
 
-        public BattleSimulation(
-            ICacheMoves cacheMoves, ICalculateDamage calculateDamage)
+        public BattleSimulation(IBattleLog battleLog, IMoveSelector moveSelector,
+            IAttackExecutor attackExecutor, ITurnManager turnManager)
         {
             random = new Random();
-            this.cacheMoves = cacheMoves;
-            this.calculateDamage = calculateDamage;
+            this.battleLog = battleLog;
+            this.moveSelector = moveSelector;
+            this.attackExecutor = attackExecutor;
+            this.turnManager = turnManager;
         }
 
         public async Task ExecuteAsync(List<Team> teamsList)
@@ -24,84 +30,88 @@ namespace PokemonBattleSimulator.Services
                 throw new ArgumentException("Battle requires at least two teams.");
             }
 
+            await battleLog.ClearAsync();
+
+            var stopwatch = Stopwatch.StartNew();
+
             var allPokemon = teamsList.SelectMany(team => team.Pokemon).ToList();
-            List<PokemonModel> attackOrder = DetermineAttackOrder(allPokemon);
+            List<PokemonModel> attackOrder = turnManager.ExecuteAsync(allPokemon);
+
+            var logBuilder = new StringBuilder();
+            logBuilder.AppendLine("Attack Order:\n");
+            foreach (var pokemon in attackOrder)
+            {
+                logBuilder.AppendLine(pokemon.Pokemon.ToString());
+            }
 
             int turnIndex = 0;
+            int turnCounter = 1;
 
             while (!IsBattleOver(teamsList))
             {
+                logBuilder.AppendLine($"\nTurn {turnCounter} begins\n");
+
                 var attacker = attackOrder[turnIndex];
 
                 if (attacker.Stats.HP <= 0)
                 {
+                    allPokemon.Remove(attacker);
                     attackOrder.RemoveAt(turnIndex);
                     if (attackOrder.Count == 0) break;
                     continue;
                 }
 
-                if(attacker.Moves.Count < 1)
-                {
-                    continue;
-                }
 
-                var move = attacker.Moves.OrderBy(_ => random.Next()).FirstOrDefault();
-                var allMoves = await cacheMoves.ReadCacheAsync();
+                var selectedMove = await moveSelector.ExecuteAsync(attacker.Moves);
+                if (selectedMove == null) continue;
 
-                var selectedMove = allMoves.FirstOrDefault(m => m.Move.Equals(move));
-                
-                if (selectedMove != null)
-                {
-                    if (!attacker.MovesPP.Keys.Contains(selectedMove.Move))
-                    {
-                        attacker.MovesPP[selectedMove.Move] = selectedMove.PP;
-                    }
-
-                    var enemies = teamsList
+                var enemies = teamsList
                         .Where(team => !team.Pokemon.Contains(attacker))
                         .SelectMany(team => team.Pokemon)
                         .Where(p => p.Stats.HP > 0)
                         .ToList();
 
-                    if (enemies.Any())
+                if (enemies.Any())
+                {
+                    var target = enemies[random.Next(enemies.Count)];
+                    await attackExecutor.ExecuteAsync(attacker, target, selectedMove, logBuilder);
+
+                    if (target.Stats.HP <= 0)
                     {
-                        var target = enemies[random.Next(enemies.Count)];
-                        target.Stats.HP -= Math.Max(0, await calculateDamage.ExecuteAsync(attacker, target, selectedMove));
-                        attacker.MovesPP[selectedMove.Move] -= 1;
-
-                        if (attacker.MovesPP[selectedMove.Move] <= 0)
-                        {
-                            attacker.Moves.Remove(selectedMove.Move);
-                            attacker.MovesPP.Remove(selectedMove.Move);
-                        }
-
-                        if (target.Stats.HP <= 0)
-                        {
-                            attackOrder.Remove(target);
-                        }
+                        attackOrder.Remove(target);
+                        allPokemon.Remove(target);
                     }
                 }
 
+                attackOrder = turnManager.ExecuteAsync(allPokemon);
+                turnCounter++;
                 turnIndex = (turnIndex + 1) % attackOrder.Count;
-                attackOrder = DetermineAttackOrder(allPokemon);
             }
-        }
 
-        private List<PokemonModel> DetermineAttackOrder(List<PokemonModel> allPokemon)
-        {
-            return allPokemon
-                            .OrderByDescending(p => p.Stats.Speed)
-                            .ThenBy(_ => random.Next())
-                            .ToList();
+            foreach (var team in teamsList)
+            {
+                team.Pokemon = team.Pokemon.Where(pokemon => pokemon.Stats.HP > 0).ToList();
+            }
+
+            var winningTeam = teamsList.FirstOrDefault(team => team.Pokemon.Any());
+            if (winningTeam != null)
+            {
+                logBuilder.AppendLine($"\nTeam {winningTeam.TeamId} wins\n");
+                logBuilder.AppendLine("Pokemon that survived:");
+                foreach (var pokemon in winningTeam.Pokemon)
+                {
+                    logBuilder.AppendLine(pokemon.Pokemon.ToString());
+                }
+            }
+
+            logBuilder.AppendLine($"\nBattle duration: {stopwatch.ElapsedMilliseconds} ms.");
+
+            await battleLog.WriteAsync(logBuilder.ToString());
         }
 
         public bool IsBattleOver(List<Team> teamsList)
         {
-            var teamsWithActivePokemon = teamsList
-                .Where(team => team.Pokemon.Any(pokemon => pokemon.Stats.HP > 0))
-                .ToList();
-
-            return teamsWithActivePokemon.Count <= 1;
+            return teamsList.Count(team => team.Pokemon.Any(pokemon => pokemon.Stats.HP > 0)) <= 1;
         }
     }
 }

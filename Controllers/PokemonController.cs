@@ -7,8 +7,6 @@ namespace PokemonBattleSimulator.Controllers
 {
     public class PokemonController : Controller
     {
-        private const int MaxNumberOfMoves = 4;
-
         private readonly ILogger<PokemonController> logger;
         private readonly ICachePokemon cachePokemon;
         private readonly ICacheMoves cacheMoves;
@@ -81,19 +79,7 @@ namespace PokemonBattleSimulator.Controllers
                 for (int i = 0; i < team.Pokemon.Count; i++)
                 {
                     var pokemon = team.Pokemon[i];
-                    var selectedPokemon = await getSelectedPokemonDetails.ExecuteAsync(pokemon.Id);
-                    if(pokemon.Moves.Any())
-                    {
-                        selectedPokemon.Moves = pokemon.Moves;
-                    }
-                    else
-                    {
-                        selectedPokemon.Moves = selectedPokemon.Moves
-                            .Take(Math.Min(MaxNumberOfMoves, selectedPokemon.Moves.Count))  
-                            .OrderBy(m => new Random().Next()) 
-                            .ToList();
-                    }
-                    team.Pokemon[i] = selectedPokemon;
+                    team.Pokemon[i] = await getSelectedPokemonDetails.ExecuteAsync(pokemon.Id);
                 }
             }
 
