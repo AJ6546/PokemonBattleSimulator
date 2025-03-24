@@ -165,6 +165,7 @@
 }
 
 .error-message {
+    margin-left: 25px;
     font-weight: bold;
 }
 
@@ -183,3 +184,25 @@
         font-weight:bold;
         background-color: #4caf50;
     }
+
+.battle-log {
+    display: none;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-left:25px;
+    background-color:black;
+    width: 300px;
+}
+
+.battle-log-header {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    color: deepskyblue;
+}
+
+.battle-log-details {
+    font-family: Arial, sans-serif;
+    color:red;
+}

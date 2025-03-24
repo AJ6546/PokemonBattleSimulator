@@ -59,6 +59,8 @@ function battle() {
         }).then(response => response.json())
             .then(data => {
                 console.log(data.message);
+                document.getElementById('battle-log').style.display = "block";
+                document.getElementById('battle-log-details').innerText = data.log;
             }).catch(error => console.error('Error:', error));
     });
 }

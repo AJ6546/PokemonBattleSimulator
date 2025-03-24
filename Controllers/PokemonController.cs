@@ -12,15 +12,17 @@ namespace PokemonBattleSimulator.Controllers
         private readonly ICacheMoves cacheMoves;
         private readonly IGetSelectedPokemonDetails getSelectedPokemonDetails;
         private readonly IBattleSimulation battleSimulation;
-
+        private readonly IBattleLog battleLog;
         public PokemonController(ILogger<PokemonController> logger, ICachePokemon cachePokemon,
-            ICacheMoves cacheMoves, IGetSelectedPokemonDetails getSelectedPokemonDetails, IBattleSimulation battleSimulation)
+            ICacheMoves cacheMoves, IGetSelectedPokemonDetails getSelectedPokemonDetails, 
+            IBattleSimulation battleSimulation, IBattleLog battleLog)
         {
             this.logger = logger;
             this.cachePokemon = cachePokemon;
             this.cacheMoves = cacheMoves;
             this.getSelectedPokemonDetails = getSelectedPokemonDetails;
             this.battleSimulation = battleSimulation;
+            this.battleLog = battleLog;
         }
 
         public async Task<IActionResult> Index()
@@ -85,7 +87,9 @@ namespace PokemonBattleSimulator.Controllers
 
             await battleSimulation.ExecuteAsync(teams);
 
-            return Json(new { success = true, message = "Teams received successfully." });
+            string log = await battleLog.ReadAsync();
+
+            return Json(new { success = true, message = "Teams received successfully.", log = log });
         }
     }
 }
