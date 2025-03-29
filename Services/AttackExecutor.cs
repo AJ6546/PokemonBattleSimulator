@@ -19,8 +19,6 @@ namespace PokemonBattleSimulator.Services
         {
             if (selectedMove == null) return;
 
-            logBuilder.AppendLine($"{attacker.Pokemon} uses {selectedMove.Move}");
-
             if (!attacker.MovesPP.ContainsKey(selectedMove.Move))
             {
                 attacker.MovesPP[selectedMove.Move] = selectedMove.PP;

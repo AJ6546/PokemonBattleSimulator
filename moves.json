@@ -25,7 +25,14 @@
     "Power": 0,
     "Accuracy": 0,
     "PP": 30,
-    "VariablePower": [10,20,30]
+    "StatEffects": [
+      {
+        "StatEffectType": 7,
+        "Stage": 2,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Sharply increases the user’s SPEED."
   },
   {
     "Id": 4,
@@ -34,7 +41,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 6,
+        "Stage": 2,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Sharply raises user's Special Defense."
   },
   {
     "Id": 5,
@@ -61,7 +76,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 30
+    "PP": 30,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": 2,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Sharply raises user's Defense."
   },
   {
     "Id": 8,
@@ -394,7 +417,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 1,
+        "Stage": -1,
+        "IsForUser": false
+      }
+    ],
+    "Description": "The user flashes a light that lowers the target’s accuracy. It can also be used to illuminate caves."
   },
   {
     "Id": 45,
@@ -448,7 +479,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 40
+    "PP": 40,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": -1
+      }
+    ],
+    "Description": "The user growls cutely, lowering the foe's Attack."
   },
   {
     "Id": 51,
@@ -457,7 +495,20 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 40
+    "PP": 40,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": 1,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 5,
+        "Stage": 1,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Raises user's Attack and Special Attack."
   },
   {
     "Id": 52,
@@ -484,7 +535,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 30
+    "PP": 30,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": 1,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Raises user's Defense."
   },
   {
     "Id": 55,
@@ -610,7 +669,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 80,
-    "PP": 15
+    "PP": 15,
+    "StatEffects": [
+      {
+        "StatEffectType": 1,
+        "Stage": -1
+      }
+    ],
+    "Description": "Lowers opponent's Accuracy."
   },
   {
     "Id": 69,
@@ -637,7 +703,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 30
+    "PP": 30,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": -1,
+        "Probability": 100
+      }
+    ],
+    "Description": "Lowers opponent's Defense."
   },
   {
     "Id": 72,
@@ -682,7 +756,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 40
+    "PP": 40,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": 1,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Raises user's Attack."
   },
   {
     "Id": 77,
@@ -736,7 +818,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 10
+    "PP": 10,
+    "StatEffects": [
+      {
+        "StatEffectType": 4,
+        "Stage": 2,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Sharply raises user's Evasiveness."
   },
   {
     "Id": 83,
@@ -853,7 +943,15 @@
     "Category": "Special",
     "Power": 90,
     "Accuracy": 100,
-    "PP": 10
+    "PP": 10,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": -1,
+        "Probability":  10
+      }
+    ],
+    "Description": "May lower opponent's Special Defense."
   },
   {
     "Id": 96,
@@ -970,7 +1068,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 15
+    "PP": 15,
+    "StatEffects": [
+      {
+        "StatEffectType": 1,
+        "Stage": -1
+      }
+    ],
+    "Description": "Lowers opponent's Accuracy."
   },
   {
     "Id": 109,
@@ -988,7 +1093,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 85,
-    "PP": 40
+    "PP": 40,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": -2
+      }
+    ],
+    "Description": "Sharply lowers opponent's Defense."
   },
   {
     "Id": 111,
@@ -1015,7 +1127,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 30
+    "PP": 30,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": 1,
+        "IsForUser":  true
+      }
+    ],
+    "Description": "Raises user's Attack."
   },
   {
     "Id": 114,
@@ -1096,7 +1216,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 1,
+        "Stage": -1
+      }
+    ],
+    "Description": "Lowers opponent's Accuracy."
   },
   {
     "Id": 123,
@@ -1141,7 +1268,8 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 40
+    "PP": 40,
+    "Description": "Doesn't do ANYTHING."
   },
   {
     "Id": 128,
@@ -1186,7 +1314,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 95,
-    "PP": 40
+    "PP": 40,
+    "StatEffects": [
+      {
+        "StatEffectType": 7,
+        "Stage": -1
+      }
+    ],
+    "Description": "Sharply lowers opponent's Speed."
   },
   {
     "Id": 133,
@@ -1195,7 +1330,8 @@
     "Category": "Physical",
     "Power": 50,
     "Accuracy": 100,
-    "PP": 1
+    "PP": 1,
+
   },
   {
     "Id": 134,
@@ -1258,7 +1394,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 30
+    "PP": 30,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": 2,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Sharply raises user's Attack."
   },
   {
     "Id": 141,
@@ -1276,7 +1420,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 30
+    "PP": 30,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": -1
+      }
+    ],
+    "Description": "Lowers opponent's Defense."
   },
   {
     "Id": 143,
@@ -1339,7 +1490,8 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 20
+    "PP": 20,
+    "Description": "Paralyzes opponent."
   },
   {
     "Id": 150,
@@ -1348,7 +1500,8 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 90,
-    "PP": 10
+    "PP": 10,
+    "Description": "Badly poisons opponent."
   },
   {
     "Id": 151,
@@ -1357,7 +1510,8 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 20
+    "PP": 20,
+    "Description": "Poisons opponents switching into battle."
   },
   {
     "Id": 152,
@@ -1366,7 +1520,8 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 10
+    "PP": 10,
+    "Description": "User takes on the form and attacks of the opponent."
   },
   {
     "Id": 153,
@@ -1430,7 +1585,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 40
+    "PP": 40,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": 1,
+        "IsForUser":  true
+      }
+    ],
+    "Description": "Raises user's Defense."
   },
   {
     "Id": 160,
@@ -1475,7 +1638,20 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": 1,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 6,
+        "Stage": 1,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Stores energy for use with Spit Up and Swallow."
   },
   {
     "Id": 165,
@@ -1628,7 +1804,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 15
+    "PP": 15,
+    "StatEffects": [
+      {
+        "StatEffectType": 5,
+        "Stage": 1
+      }
+    ],
+    "Description": "Confuses opponent, but raises its Special Attack."
   },
   {
     "Id": 182,
@@ -1646,7 +1829,22 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": -2
+      },
+      {
+        "StatEffectType": 5,
+        "Stage": -2
+      },
+      {
+        "StatEffectType": 7,
+        "Stage": -2
+      }
+    ],
+    "Description": "Lowers poisoned opponent's Special Attack and Speed."
   },
   {
     "Id": 184,
@@ -1682,7 +1880,15 @@
     "Category": "Special",
     "Power": 95,
     "Accuracy": 100,
-    "PP": 15
+    "PP": 15,
+    "StatEffects": [
+      {
+        "StatEffectType": 5,
+        "Stage": -1,
+        "Probability": 30
+      }
+    ],
+    "Description": "Lowers poisoned opponent's Special Attack and Speed."
   },
   {
     "Id": 188,
@@ -1727,7 +1933,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 4,
+        "Stage": -1
+      }
+    ],
+    "Description": "Lowers opponent's Evasiveness."
   },
   {
     "Id": 193,
@@ -1736,7 +1949,15 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": 2,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Sharply raises user's Defense."
   },
   {
     "Id": 194,
@@ -1835,7 +2056,20 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 3,
+        "Stage": 1,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 6,
+        "Stage": 1,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Raises user's Defense and Special Defense."
   },
   {
     "Id": 205,
@@ -1979,7 +2213,20 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 30
+    "PP": 30,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": 1,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 5,
+        "Stage": 1,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Raises user's Attack and Special Attack."
   },
   {
     "Id": 221,
@@ -2006,7 +2253,20 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 0,
-    "PP": 20
+    "PP": 20,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": 1,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 7,
+        "Stage": 1,
+        "IsForUser": true
+      }
+    ],
+    "Description": "Raises user's Attack and Speed."
   },
   {
     "Id": 224,
@@ -2212,7 +2472,7 @@
     "Typing": "Fighting",
     "Category": "Special",
     "Power": 80,
-    "Accuracy": 0,
+    "Accuracy": 100,
     "PP": 20
   },
   {
@@ -2342,6 +2602,33 @@
     "Power": 0,
     "Accuracy": 100,
     "PP": 15,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": 2,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 5,
+        "Stage": 2,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 7,
+        "Stage": 2,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 3,
+        "Stage": -1,
+        "IsForUser": true
+      },
+      {
+        "StatEffectType": 6,
+        "Stage": -1,
+        "IsForUser": true
+      }
+    ],
     "Description": "Sharply raises user's Attack, Special Attack and Speed but lowers Defense and Special Defense."
   },
   {

@@ -394,7 +394,8 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 20
+    "PP": 20,
+    "Description": "The user flashes a light that lowers the target’s accuracy. It can also be used to illuminate caves."
   },
   {
     "Id": 45,
@@ -448,7 +449,14 @@
     "Category": "Status",
     "Power": 0,
     "Accuracy": 100,
-    "PP": 40
+    "PP": 40,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": -1
+      }
+    ],
+    "Description": "The user growls cutely, lowering the foe's Attack."
   },
   {
     "Id": 51,
@@ -853,7 +861,15 @@
     "Category": "Special",
     "Power": 90,
     "Accuracy": 100,
-    "PP": 10
+    "PP": 10,
+    "StatEffects": [
+      {
+        "StatEffectType": 2,
+        "Stage": -1,
+        "Probability":  10
+      }
+    ],
+    "Description": "May lower opponent's Special Defense."
   },
   {
     "Id": 96,

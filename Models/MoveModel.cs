@@ -12,10 +12,7 @@ namespace PokemonBattleSimulator.Models
         public List<int> VariablePower { get; set; }
         public int Accuracy { get; set; }
         public int PP { get; set; }
+        public List<StatEffect> StatEffects { get; set; }
         public string Description { get; set; }
-        public Effects EffectsOnOpponent { get; set; }
-        public Effects EffectsOnSelf { get; set; }
-        public StatChanges StatChanges { get; set; }
-        public HPRecovery   HPRecovery { get; set; }
     }
 }

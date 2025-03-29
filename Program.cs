@@ -26,7 +26,8 @@ services.AddTransient<ICalculateDamage,  CalculateDamage>();
 services.AddTransient<IBattleLog, BattleLog>();
 services.AddTransient<ITurnManager, TurnManager>();
 services.AddTransient<IAttackExecutor, AttackExecutor>();
-services.AddTransient<IMoveSelector, MoveSelector>();   
+services.AddTransient<IMoveSelector, MoveSelector>();
+services.AddTransient <IApplyStatEffects, ApplyStatEffects>();
 
 services.AddOptions<BattleConfig>().BindConfiguration("BattleConfig");
 

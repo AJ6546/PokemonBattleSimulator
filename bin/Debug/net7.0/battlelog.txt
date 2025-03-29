@@ -1,423 +1,85 @@
 ﻿Attack Order:
 
-Aerodactyl
-Mewtwo
-Alakazam
-Gengar
-Electabuzz
-Mew
-Charizard
-Zapdos
-Arcanine
-Magmar
-Moltres
-Articuno
-Gyarados
-Dragonite
-Blastoise
-Ivysaur
-Lapras
-Snorlax
+Pikachu
+Charmander
+Eevee
+NidoranMale
+Bulbasaur
+NidoranFemale
 
 Turn 1 begins
 
-Aerodactyl uses Crunch
+Pikachu uses QuickAttack
 Type Effectiveness is *1
-Ivysaur takes 133 damage
-Ivysaur health is 0
-Ivysaur is no longer able to battle.
-Crunch - PP: 14
+Attack gets a stab boost of *1.5
+NidoranFemale takes 63 damage
+NidoranFemale health is 0
+NidoranFemale is no longer able to battle.
+QuickAttack - PP: 29
 
 Turn 2 begins
 
-Mewtwo uses Recover
-Type Effectiveness is *1
-Move did not hit.
-Charizard takes 0 damage
-Charizard health is 78
-Recover - PP: 19
+Charmander uses Growl
+NidoranMale's Attack is decreased from 57 to 38.
 
 Turn 3 begins
 
-Alakazam uses Confusion
+Eevee uses Bite
 Type Effectiveness is *1
 Attack gets a stab boost of *1.5
-Electabuzz takes 118 damage
-Electabuzz health is 0
-Electabuzz is no longer able to battle.
-Confusion - PP: 24
+Bulbasaur takes 101 damage
+Bulbasaur health is 0
+Bulbasaur is no longer able to battle.
+Bite - PP: 24
 
 Turn 4 begins
 
-Gengar uses ConfuseRay
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Gyarados takes 0 damage
-Gyarados health is 95
-ConfuseRay - PP: 9
+NidoranMale uses Growl
+Charmander's Attack is decreased from 52 to 34.67.
 
 Turn 5 begins
 
-Mew uses Transform
+Pikachu uses QuickAttack
 Type Effectiveness is *1
-Move did not hit.
-Articuno takes 0 damage
-Articuno health is 90
-Transform - PP: 9
+Attack gets a stab boost of *1.5
+NidoranMale takes 82 damage
+NidoranMale health is 0
+NidoranMale is no longer able to battle.
+QuickAttack - PP: 28
 
 Turn 6 begins
 
-Mew uses ShadowBall
-Type Effectiveness is *0
-Arcanine takes 0 damage
-Arcanine health is 90
-ShadowBall - PP: 14
+Charmander uses Ember
+Type Effectiveness is *1
+Attack gets a stab boost of *1.5
+Pikachu takes 72 damage
+Pikachu health is 0
+Pikachu is no longer able to battle.
+Ember - PP: 24
 
 Turn 7 begins
 
-Mew uses Psychic
+Charmander uses Scratch
 Type Effectiveness is *1
 Attack gets a stab boost of *1.5
-Magmar takes 157 damage
-Magmar health is 0
-Magmar is no longer able to battle.
-Psychic - PP: 9
+Eevee takes 41 damage
+Eevee health is 14
+Scratch - PP: 34
 
 Turn 8 begins
 
-Arcanine uses Bite
-Type Effectiveness is *0.5
-Attack gets a stab boost of *1.5
-Aerodactyl takes 75 damage
-Aerodactyl health is 5
-Bite - PP: 24
-
-Turn 9 begins
-
-Moltres uses Agility
-Type Effectiveness is *0.5
-Move did not hit.
-Mew takes 0 damage
-Mew health is 100
-Agility - PP: 29
-
-Turn 10 begins
-
-Articuno uses IceBeam
-Type Effectiveness is *4
-Attack gets a stab boost of *1.5
-Dragonite takes 510 damage
-Dragonite health is 0
-Dragonite is no longer able to battle.
-IceBeam - PP: 9
-
-Turn 11 begins
-
-Gyarados uses Bite
-Type Effectiveness is *1
-Articuno takes 88 damage
-Articuno health is 2
-Bite - PP: 24
-
-Turn 12 begins
-
-Blastoise uses Bubble
+Eevee uses QuickAttack
 Type Effectiveness is *1
 Attack gets a stab boost of *1.5
-Zapdos takes 55 damage
-Zapdos health is 35
-Bubble - PP: 29
+Charmander takes 76 damage
+Charmander health is 0
+Charmander is no longer able to battle.
+QuickAttack - PP: 29
 
-Turn 13 begins
-
-Lapras uses HydroPump
-Type Effectiveness is *2
-Attack gets a stab boost of *1.5
-Charizard takes 330 damage
-Charizard health is 0
-Charizard is no longer able to battle.
-HydroPump - PP: 4
-
-Turn 14 begins
-
-Aerodactyl uses Aquatail
-Type Effectiveness is *1
-Mewtwo takes 105 damage
-Mewtwo health is 1
-Aquatail - PP: 9
-
-Turn 15 begins
-
-Mewtwo uses AuraSphere
-Type Effectiveness is *0.5
-Move did not hit.
-Moltres takes 0 damage
-Moltres health is 90
-AuraSphere - PP: 19
-
-Turn 16 begins
-
-Alakazam uses Teleport
-Type Effectiveness is *1
-Move did not hit.
-Blastoise takes 0 damage
-Blastoise health is 79
-Teleport - PP: 19
-
-Turn 17 begins
-
-Gengar uses NightShade
-Type Effectiveness is *0
-Attack gets a stab boost of *1.5
-Mew takes 0 damage
-Mew health is 100
-NightShade - PP: 14
-
-Turn 18 begins
-
-Mew uses AuraSphere
-Type Effectiveness is *0.5
-Move did not hit.
-Zapdos takes 0 damage
-Zapdos health is 35
-AuraSphere - PP: 19
-
-Turn 19 begins
-
-Zapdos uses Agility
-Type Effectiveness is *1
-Move did not hit.
-Arcanine takes 0 damage
-Arcanine health is 90
-Agility - PP: 29
-
-Turn 20 begins
-
-Arcanine uses Leer
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Lapras takes 0 damage
-Lapras health is 130
-Leer - PP: 29
-
-Turn 21 begins
-
-Moltres uses Agility
-Type Effectiveness is *1
-Move did not hit.
-Blastoise takes 0 damage
-Blastoise health is 79
-Agility - PP: 28
-
-Turn 22 begins
-
-Articuno uses IceBeam
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Mewtwo takes 142 damage
-Mewtwo health is 0
-Mewtwo is no longer able to battle.
-IceBeam - PP: 8
-
-Turn 23 begins
-
-Blastoise uses Tackle
-Type Effectiveness is *0.5
-Attack gets a stab boost of *1.5
-Aerodactyl takes 38 damage
-Aerodactyl health is 0
-Aerodactyl is no longer able to battle.
-Tackle - PP: 19
-
-Turn 24 begins
-
-Snorlax uses SleepTalk
-Type Effectiveness is *1
-Move did not hit.
-Articuno takes 0 damage
-Articuno health is 2
-SleepTalk - PP: 9
-
-Turn 25 begins
-
-Alakazam uses Psychic
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Snorlax takes 165 damage
-Snorlax health is 0
-Snorlax is no longer able to battle.
-Psychic - PP: 9
-
-Turn 26 begins
-
-Gengar uses Lick
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Lapras takes 36 damage
-Lapras health is 94
-Lick - PP: 29
-
-Turn 27 begins
-
-Mew uses AuraSphere
-Type Effectiveness is *2
-Move did not hit.
-Blastoise takes 0 damage
-Blastoise health is 79
-AuraSphere - PP: 18
-
-Turn 28 begins
-
-Mew uses ShadowBall
-Type Effectiveness is *1
-Lapras takes 84 damage
-Lapras health is 10
-ShadowBall - PP: 13
-
-Turn 29 begins
-
-Arcanine uses Bite
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Mew takes 99 damage
-Mew health is 1
-Bite - PP: 23
-
-Turn 30 begins
-
-Moltres uses FireBlast
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Gengar takes 274 damage
-Gengar health is 0
-Gengar is no longer able to battle.
-FireBlast - PP: 4
-
-Turn 31 begins
-
-Gyarados uses HyperBeam
-Type Effectiveness is *1
-Lapras takes 94 damage
-Lapras health is 0
-Lapras is no longer able to battle.
-HyperBeam - PP: 4
-
-Turn 32 begins
-
-Blastoise uses Tackle
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Alakazam takes 109 damage
-Alakazam health is 0
-Alakazam is no longer able to battle.
-Tackle - PP: 18
-
-Turn 33 begins
-
-Mew uses ShadowBall
-Type Effectiveness is *1
-Zapdos takes 88 damage
-Zapdos health is 0
-Zapdos is no longer able to battle.
-ShadowBall - PP: 12
-
-Turn 34 begins
-
-Moltres uses Fly
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Blastoise takes 135 damage
-Blastoise health is 0
-Blastoise is no longer able to battle.
-Fly - PP: 14
-
-Turn 35 begins
-
-Articuno uses Agility
-Type Effectiveness is *0.5
-Move did not hit.
-Mew takes 0 damage
-Mew health is 1
-Agility - PP: 29
-
-Turn 36 begins
-
-Gyarados uses HyperBeam
-Type Effectiveness is *1
-Moltres takes 105 damage
-Moltres health is 0
-Moltres is no longer able to battle.
-HyperBeam - PP: 3
-
-Turn 37 begins
-
-Arcanine uses Leer
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Gyarados takes 0 damage
-Gyarados health is 95
-Leer - PP: 28
-
-Turn 38 begins
-
-Articuno uses Fly
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Arcanine takes 168 damage
-Arcanine health is 0
-Arcanine is no longer able to battle.
-Fly - PP: 14
-
-Turn 39 begins
-
-Mew uses Transform
-Type Effectiveness is *1
-Move did not hit.
-Articuno takes 0 damage
-Articuno health is 2
-Transform - PP: 8
-
-Turn 40 begins
-
-Articuno uses Agility
-Type Effectiveness is *1
-Move did not hit.
-Gyarados takes 0 damage
-Gyarados health is 95
-Agility - PP: 28
-
-Turn 41 begins
-
-Gyarados uses DragonRage
-Type Effectiveness is *1
-Mew takes 0 damage
-Mew health is 1
-DragonRage - PP: 9
-
-Turn 42 begins
-
-Mew uses Psychic
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Articuno takes 108 damage
-Articuno health is 0
-Articuno is no longer able to battle.
-Psychic - PP: 8
-
-Turn 43 begins
-
-Gyarados uses HydroPump
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Mew takes 99 damage
-Mew health is 0
-Mew is no longer able to battle.
-HydroPump - PP: 4
-
-Team 4 wins
+Team 3 wins
 
 Pokemon that survived:
-Gyarados
+Eevee
 
-Battle duration: 0 ms.
+Battle duration: 149 ms.
 

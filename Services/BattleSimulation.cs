@@ -11,15 +11,17 @@ namespace PokemonBattleSimulator.Services
         private readonly IBattleLog battleLog;
         private readonly IMoveSelector moveSelector;
         private readonly IAttackExecutor attackExecutor;
+        private readonly IApplyStatEffects applyStatEffects;
         private readonly ITurnManager turnManager;
 
         public BattleSimulation(IBattleLog battleLog, IMoveSelector moveSelector,
-            IAttackExecutor attackExecutor, ITurnManager turnManager)
+            IAttackExecutor attackExecutor, ITurnManager turnManager, IApplyStatEffects applyStatEffects)
         {
             random = new Random();
             this.battleLog = battleLog;
             this.moveSelector = moveSelector;
             this.attackExecutor = attackExecutor;
+            this.applyStatEffects = applyStatEffects;
             this.turnManager = turnManager;
         }
 
@@ -74,7 +76,19 @@ namespace PokemonBattleSimulator.Services
                 if (enemies.Any())
                 {
                     var target = enemies[random.Next(enemies.Count)];
-                    await attackExecutor.ExecuteAsync(attacker, target, selectedMove, logBuilder);
+
+                    logBuilder.AppendLine($"{attacker.Pokemon} uses {selectedMove.Move}");
+
+                    if (selectedMove.StatEffects != null && selectedMove.StatEffects.Count > 0)
+                    {
+                        await applyStatEffects.ExecuteAsync(attacker, target, selectedMove.StatEffects, logBuilder);
+                    }
+
+                    if(selectedMove.Power > 0 || (selectedMove.VariablePower != null && 
+                        selectedMove.VariablePower.Count > 0))
+                    {
+                        await attackExecutor.ExecuteAsync(attacker, target, selectedMove, logBuilder);
+                    }
 
                     if (target.Stats.HP <= 0)
                     {
