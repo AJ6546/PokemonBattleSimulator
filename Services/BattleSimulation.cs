@@ -40,10 +40,10 @@ namespace PokemonBattleSimulator.Services
             List<PokemonModel> attackOrder = turnManager.ExecuteAsync(allPokemon);
 
             var logBuilder = new StringBuilder();
-            logBuilder.AppendLine("Attack Order:\n");
+            logBuilder.AppendLine("Attack Order - Speed");
             foreach (var pokemon in attackOrder)
             {
-                logBuilder.AppendLine(pokemon.Pokemon.ToString());
+                logBuilder.AppendLine($"{pokemon.Pokemon.ToString()} - {pokemon.Stats.Speed}");
             }
 
             int turnIndex = 0;
@@ -102,12 +102,8 @@ namespace PokemonBattleSimulator.Services
                 turnIndex = (turnIndex + 1) % attackOrder.Count;
             }
 
-            foreach (var team in teamsList)
-            {
-                team.Pokemon = team.Pokemon.Where(pokemon => pokemon.Stats.HP > 0).ToList();
-            }
-
-            var winningTeam = teamsList.FirstOrDefault(team => team.Pokemon.Any());
+            var winningTeam = teamsList.FirstOrDefault(team => team.Pokemon.Any(pokemon => pokemon.Stats.HP > 0));
+            
             if (winningTeam != null)
             {
                 logBuilder.AppendLine($"\nTeam {winningTeam.TeamId} wins\n");
@@ -116,6 +112,38 @@ namespace PokemonBattleSimulator.Services
                 {
                     logBuilder.AppendLine(pokemon.Pokemon.ToString());
                 }
+            }
+
+            logBuilder.AppendLine($"\nCombat Detail\n");
+
+            foreach(var team in teamsList)
+            {
+                logBuilder.AppendLine($"Team {team.TeamId}");
+                foreach(var pokemon in team.Pokemon)
+                {
+                    logBuilder.AppendLine($"Pokemon: {pokemon.Pokemon}")
+                        .AppendLine($"Damage Dealt: {pokemon.CombatDetails.DamageDealt}")
+                        .AppendLine($"KnockOuts: {pokemon.CombatDetails.KnockOutCount}");
+                        if (pokemon.CombatDetails.KnockedOutPokemon.Count > 0)
+                        {
+                            logBuilder.AppendLine($"Knocked out Pokémon: " +
+                                $"{string.Join(", ", pokemon.CombatDetails.KnockedOutPokemon)}");
+                        }
+                    logBuilder.AppendLine();
+                }
+                logBuilder.AppendLine();
+            }
+            var mvp = teamsList
+                .SelectMany(team => team.Pokemon, (team, pokemon) => new { TeamId = team.TeamId, Pokemon = pokemon })
+                .OrderByDescending(entry => entry.Pokemon.CombatDetails.KnockOutCount)
+                .ThenByDescending(entry => entry.Pokemon.CombatDetails.DamageDealt)   
+                .ThenByDescending(entry => entry.TeamId.Equals(winningTeam?.TeamId))
+                .FirstOrDefault();
+
+            if (mvp != null && mvp.Pokemon.CombatDetails.KnockOutCount > 0)
+            {
+                logBuilder.AppendLine($"MVP: {mvp.Pokemon.Pokemon} (Knockouts: {mvp.Pokemon.CombatDetails.KnockOutCount}) " +
+                    $"- Team {mvp.TeamId}");
             }
 
             logBuilder.AppendLine($"\nBattle duration: {stopwatch.ElapsedMilliseconds} ms.");

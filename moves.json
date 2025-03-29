@@ -1330,8 +1330,7 @@
     "Category": "Physical",
     "Power": 50,
     "Accuracy": 100,
-    "PP": 1,
-
+    "PP": 1
   },
   {
     "Id": 134,
