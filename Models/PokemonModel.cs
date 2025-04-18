@@ -12,5 +12,6 @@ namespace PokemonBattleSimulator.Models
         public List<Move> Moves { get; set; }
         public Dictionary<Move, int> MovesPP = new Dictionary<Move, int>();
         public CombatDetails CombatDetails = new CombatDetails();
+        public ActiveStatusEffect ActiveStatusEffect { get; set; }
     }
 }

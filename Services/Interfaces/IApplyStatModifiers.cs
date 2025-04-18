@@ -3,9 +3,9 @@ using System.Text;
 
 namespace PokemonBattleSimulator.Services.Interfaces
 {
-    public interface IApplyStatEffects
+    public interface IApplyStatModifiers
     {
         public Task ExecuteAsync(PokemonModel attacker,
-            PokemonModel target, List<StatEffect> statEffects, StringBuilder logBuilder);
+            PokemonModel target, List<StatModifier> statModifiers, StringBuilder logBuilder);
     }
 }

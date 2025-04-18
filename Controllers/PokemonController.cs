@@ -81,7 +81,7 @@ namespace PokemonBattleSimulator.Controllers
                 for (int i = 0; i < team.Pokemon.Count; i++)
                 {
                     var pokemon = team.Pokemon[i];
-                    team.Pokemon[i] = await getSelectedPokemonDetails.ExecuteAsync(pokemon.Id);
+                    team.Pokemon[i] = await getSelectedPokemonDetails.ExecuteAsync(pokemon.Id, pokemon.Moves);
                 }
             }
 

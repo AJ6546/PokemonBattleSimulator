@@ -24,30 +24,33 @@ namespace PokemonBattleSimulator.Services
                 attacker.MovesPP[selectedMove.Move] = selectedMove.PP;
             }
 
-            int damage = Math.Max(0, await calculateDamage.ExecuteAsync(attacker, target, selectedMove, 
+            for( int i = 0; i < selectedMove.TimesHit; i++ )
+            {
+                int damage = Math.Max(0, await calculateDamage.ExecuteAsync(attacker, target, selectedMove,
                 logBuilder));
 
-            attacker.CombatDetails.DamageDealt += damage;
+                attacker.CombatDetails.DamageDealt += damage;
 
-            logBuilder.AppendLine($"{target.Pokemon} takes {damage} damage");
-            target.Stats.HP = Math.Max(0, target.Stats.HP - damage);
-            logBuilder.AppendLine($"{target.Pokemon} health is {target.Stats.HP}");
+                logBuilder.AppendLine($"{target.Pokemon} takes {damage} damage");
+                target.Stats.HP = Math.Max(0, target.Stats.HP - damage);
+                logBuilder.AppendLine($"{target.Pokemon} health is {target.Stats.HP}");
 
-            if (target.Stats.HP <= 0)
-            {
-                attacker.CombatDetails.KnockOutCount += 1;
-                attacker.CombatDetails.KnockedOutPokemon.Add(target.Pokemon);
-                logBuilder.AppendLine($"{target.Pokemon} is no longer able to battle.");
-            }
+                if (target.Stats.HP <= 0)
+                {
+                    attacker.CombatDetails.KnockOutCount += 1;
+                    attacker.CombatDetails.KnockedOutPokemon.Add(target.Pokemon);
+                    logBuilder.AppendLine($"{target.Pokemon} is no longer able to battle.");
+                }
 
-            attacker.MovesPP[selectedMove.Move] -= 1;
-            logBuilder.AppendLine($"{selectedMove.Move} - PP: {attacker.MovesPP[selectedMove.Move]}");
+                attacker.MovesPP[selectedMove.Move] -= 1;
+                logBuilder.AppendLine($"{selectedMove.Move} - PP: {attacker.MovesPP[selectedMove.Move]}");
 
-            if (attacker.MovesPP[selectedMove.Move] <= 0)
-            {
-                attacker.Moves.Remove(selectedMove.Move);
-                attacker.MovesPP.Remove(selectedMove.Move);
-                logBuilder.AppendLine($"{attacker.Pokemon} can no longer use {selectedMove.Move}");
+                if (attacker.MovesPP[selectedMove.Move] <= 0)
+                {
+                    attacker.Moves.Remove(selectedMove.Move);
+                    attacker.MovesPP.Remove(selectedMove.Move);
+                    logBuilder.AppendLine($"{attacker.Pokemon} can no longer use {selectedMove.Move}");
+                }
             }
         }
     }

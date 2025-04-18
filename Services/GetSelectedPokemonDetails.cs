@@ -17,7 +17,7 @@ namespace PokemonBattleSimulator.Services
             random = new Random();
         }
 
-        public async Task<PokemonModel> ExecuteAsync(int id)
+        public async Task<PokemonModel> ExecuteAsync(int id, List<Move> moves = null)
         {
             var allPokemon = await cachePokemon.ReadCacheAsync();
             var pokemon = allPokemon.FirstOrDefault(p => p.Pokemon.Equals((Pokemon)id));
@@ -40,11 +40,11 @@ namespace PokemonBattleSimulator.Services
                     SpecialDefense = pokemon.Stats.SpecialDefense,
                     BattleStats = pokemon.Stats.BattleStats,
                 },
-                Moves = pokemon.Moves.Any()
-                    ? pokemon.Moves
-                        .Take(Math.Min(MaxNumberOfMoves, pokemon.Moves.Count))
+                Moves = moves != null && moves.Any() ? 
+                        moves: pokemon.Moves
                         .OrderBy(m => random.Next())
-                        .ToList() : new List<Move>(),
+                        .Take(Math.Min(MaxNumberOfMoves, pokemon.Moves.Count))
+                        .ToList(),
                 MovesPP = new Dictionary<Move, int>(pokemon.MovesPP)
             };
 

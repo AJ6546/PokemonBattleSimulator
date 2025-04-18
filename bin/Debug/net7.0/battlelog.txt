@@ -1,397 +1,46 @@
 ﻿Attack Order - Speed
-Mewtwo - 130
-Aerodactyl - 130
-Alakazam - 120
-Gengar - 110
-Electabuzz - 105
-Zapdos - 100
-Charizard - 100
-Mew - 100
-Arcanine - 95
-Magmar - 93
-Moltres - 90
-Nidoking - 85
-Articuno - 85
-Gyarados - 81
-Venusaur - 80
-Dragonite - 80
-Blastoise - 78
-Snorlax - 30
+Pikachu - 90
+Bulbasaur - 45
 
 Turn 1 begins
 
-Mewtwo uses HyperBeam
-Type Effectiveness is *1
+Pikachu uses Nuzzle
+Type Effectiveness is *0.5
 Attack gets a stab boost of *1.5
-Venusaur takes 346 damage
-Venusaur health is 0
-Venusaur is no longer able to battle.
-HyperBeam - PP: 4
+Bulbasaur takes 16 damage
+Bulbasaur health is 29
+Nuzzle - PP: 19
 
 Turn 2 begins
 
-Aerodactyl uses HyperBeam
+Bulbasaur uses Tackle
 Type Effectiveness is *1
-Dragonite takes 90 damage
-Dragonite health is 1
-HyperBeam - PP: 4
-
-Turn 3 begins
-
-Alakazam uses Psychic
-Stats effect did not work.
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Snorlax takes 165 damage
-Snorlax health is 0
-Snorlax is no longer able to battle.
-Psychic - PP: 9
-
-Turn 4 begins
-
-Gengar uses Lick
-Type Effectiveness is *0
-Attack gets a stab boost of *1.5
-Alakazam takes 0 damage
-Alakazam health is 55
-Lick - PP: 29
-
-Turn 5 begins
-
-Electabuzz uses QuickAttack
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Arcanine takes 62 damage
-Arcanine health is 28
-QuickAttack - PP: 29
-
-Turn 6 begins
-
-Zapdos uses Thunder
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Arcanine takes 257 damage
-Arcanine health is 0
-Arcanine is no longer able to battle.
-Thunder - PP: 4
-
-Turn 7 begins
-
-Zapdos uses DrillPeck
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Mew takes 108 damage
-Mew health is 0
-Mew is no longer able to battle.
-DrillPeck - PP: 19
-
-Turn 8 begins
-
-Magmar uses ConfuseRay
-
-Turn 9 begins
-
-Moltres uses Fly
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Blastoise takes 135 damage
-Blastoise health is 0
-Blastoise is no longer able to battle.
-Fly - PP: 14
-
-Turn 10 begins
-
-Articuno uses Agility
-Articuno's Speed is increased from 85 to 170.
-
-Turn 11 begins
-
-Nidoking uses PoisonSting
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Electabuzz takes 40 damage
-Electabuzz health is 25
-PoisonSting - PP: 34
-
-Turn 12 begins
-
-Gyarados uses HyperBeam
-Type Effectiveness is *1
-Moltres takes 105 damage
-Moltres health is 0
-Moltres is no longer able to battle.
-HyperBeam - PP: 4
-
-Turn 13 begins
-
-Articuno uses Blizzard
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Electabuzz takes 184 damage
-Electabuzz health is 0
-Electabuzz is no longer able to battle.
-Blizzard - PP: 4
-
-Turn 14 begins
-
-Aerodactyl uses Aquatail
-Type Effectiveness is *2
-Magmar takes 331 damage
-Magmar health is 0
-Magmar is no longer able to battle.
-Aquatail - PP: 9
-
-Turn 15 begins
-
-Aerodactyl uses RockSlide
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Alakazam takes 262 damage
-Alakazam health is 0
-Alakazam is no longer able to battle.
-RockSlide - PP: 9
-
-Turn 16 begins
-
-Gengar uses NightShade
-
-Turn 17 begins
-
-Zapdos uses Agility
-Zapdos's Speed is increased from 100 to 200.
-
-Turn 18 begins
-
-Charizard uses Smokescreen
-Mewtwo's Accuracy is decreased from 100 to 75.
-
-Turn 19 begins
-
-Nidoking uses TailWhip
-Charizard's Defense is decreased from 78 to 52.
-
-Turn 20 begins
-
-Gyarados uses DragonRage
-
-Turn 21 begins
-
-Dragonite uses Outrage
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Zapdos takes 283 damage
-Zapdos health is 0
-Zapdos is no longer able to battle.
-Outrage - PP: 9
-
-Turn 22 begins
-
-Aerodactyl uses HyperBeam
-Type Effectiveness is *1
-Nidoking takes 120 damage
-Nidoking health is 0
-Nidoking is no longer able to battle.
-HyperBeam - PP: 3
-
-Turn 23 begins
-
-Mewtwo uses AuraSphere
-Type Effectiveness is *0
-Move did not hit.
-Gengar takes 0 damage
-Gengar health is 60
-AuraSphere - PP: 19
-
-Turn 24 begins
-
-Gengar uses NightShade
-
-Turn 25 begins
-
-Charizard uses Smokescreen
-Gengar's Accuracy is decreased from 100 to 75.
-
-Turn 26 begins
-
-Gyarados uses Bite
-Type Effectiveness is *1
-Charizard takes 144 damage
-Charizard health is 0
-Charizard is no longer able to battle.
-Bite - PP: 24
-
-Turn 27 begins
-
-Articuno uses Fly
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Mewtwo takes 150 damage
-Mewtwo health is 0
-Mewtwo is no longer able to battle.
-Fly - PP: 14
-
-Turn 28 begins
-
-Aerodactyl uses RockSlide
-Type Effectiveness is *2
-Attack gets a stab boost of *1.5
-Dragonite takes 248 damage
-Dragonite health is 0
-Dragonite is no longer able to battle.
-RockSlide - PP: 8
-
-Turn 29 begins
-
-Gengar uses NightShade
-
-Turn 30 begins
-
-Gyarados uses Bite
-Type Effectiveness is *1
-Articuno takes 88 damage
-Articuno health is 2
-Bite - PP: 23
-
-Turn 31 begins
-
-Articuno uses Fly
-Type Effectiveness is *0.5
-Attack gets a stab boost of *1.5
-Aerodactyl takes 103 damage
-Aerodactyl health is 0
-Aerodactyl is no longer able to battle.
-Fly - PP: 13
-
-Turn 32 begins
-
-Gengar uses NightShade
-
-Turn 33 begins
-
-Gyarados uses HydroPump
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Gengar takes 132 damage
-Gengar health is 0
-Gengar is no longer able to battle.
-HydroPump - PP: 4
-
-Turn 34 begins
-
-Gyarados uses DragonRage
-
-Turn 35 begins
-
-Articuno uses IceBeam
-Type Effectiveness is *1
-Attack gets a stab boost of *1.5
-Gyarados takes 128 damage
-Gyarados health is 0
-Gyarados is no longer able to battle.
-IceBeam - PP: 9
-
-Team 3 wins
+Pikachu takes 49 damage
+Pikachu health is 0
+Pikachu is no longer able to battle.
+Tackle - PP: 19
+
+Team 1 wins
 
 Pokemon that survived:
-Moltres
-Zapdos
-Articuno
+Bulbasaur
 
 Combat Detail
 
 Team 1
-Pokemon: Charizard
-Damage Dealt: 0
-KnockOuts: 0
-
-Pokemon: Blastoise
-Damage Dealt: 0
-KnockOuts: 0
-
-Pokemon: Venusaur
-Damage Dealt: 0
-KnockOuts: 0
+Pokemon: Bulbasaur
+Damage Dealt: 49
+KnockOuts: 1
+Knocked out Pokémon: Pikachu
 
 
 Team 2
-Pokemon: Mew
-Damage Dealt: 0
-KnockOuts: 0
-
-Pokemon: Mewtwo
-Damage Dealt: 346
-KnockOuts: 1
-Knocked out Pokémon: Venusaur
-
-Pokemon: Dragonite
-Damage Dealt: 283
-KnockOuts: 1
-Knocked out Pokémon: Zapdos
-
-
-Team 3
-Pokemon: Moltres
-Damage Dealt: 135
-KnockOuts: 1
-Knocked out Pokémon: Blastoise
-
-Pokemon: Zapdos
-Damage Dealt: 365
-KnockOuts: 2
-Knocked out Pokémon: Arcanine, Mew
-
-Pokemon: Articuno
-Damage Dealt: 565
-KnockOuts: 4
-Knocked out Pokémon: Electabuzz, Mewtwo, Aerodactyl, Gyarados
-
-
-Team 4
-Pokemon: Snorlax
-Damage Dealt: 0
-KnockOuts: 0
-
-Pokemon: Aerodactyl
-Damage Dealt: 1051
-KnockOuts: 4
-Knocked out Pokémon: Magmar, Alakazam, Nidoking, Dragonite
-
-Pokemon: Gyarados
-Damage Dealt: 469
-KnockOuts: 3
-Knocked out Pokémon: Moltres, Charizard, Gengar
-
-
-Team 5
-Pokemon: Electabuzz
-Damage Dealt: 62
-KnockOuts: 0
-
-Pokemon: Magmar
-Damage Dealt: 0
-KnockOuts: 0
-
-Pokemon: Gengar
-Damage Dealt: 0
+Pokemon: Pikachu
+Damage Dealt: 16
 KnockOuts: 0
 
 
-Team 6
-Pokemon: Nidoking
-Damage Dealt: 40
-KnockOuts: 0
+MVP: Bulbasaur (Knockouts: 1) - Team 1
 
-Pokemon: Alakazam
-Damage Dealt: 165
-KnockOuts: 1
-Knocked out Pokémon: Snorlax
-
-Pokemon: Arcanine
-Damage Dealt: 0
-KnockOuts: 0
-
-
-MVP: Articuno (Knockouts: 4) - Team 3
-
-Battle duration: 92 ms.
+Battle duration: 0 ms.
 

@@ -11,18 +11,21 @@ namespace PokemonBattleSimulator.Services
         private readonly IBattleLog battleLog;
         private readonly IMoveSelector moveSelector;
         private readonly IAttackExecutor attackExecutor;
-        private readonly IApplyStatEffects applyStatEffects;
+        private readonly IApplyStatModifiers applyStatModifiers;
         private readonly ITurnManager turnManager;
+        private readonly IStatusEffectHandler statusEffectHandler;
 
         public BattleSimulation(IBattleLog battleLog, IMoveSelector moveSelector,
-            IAttackExecutor attackExecutor, ITurnManager turnManager, IApplyStatEffects applyStatEffects)
+            IAttackExecutor attackExecutor, ITurnManager turnManager, IApplyStatModifiers applyStatModifiers,
+            IStatusEffectHandler statusEffectHandler)
         {
             random = new Random();
             this.battleLog = battleLog;
             this.moveSelector = moveSelector;
             this.attackExecutor = attackExecutor;
-            this.applyStatEffects = applyStatEffects;
+            this.applyStatModifiers = applyStatModifiers;
             this.turnManager = turnManager;
+            this.statusEffectHandler = statusEffectHandler;
         }
 
         public async Task ExecuteAsync(List<Team> teamsList)
@@ -55,6 +58,8 @@ namespace PokemonBattleSimulator.Services
 
                 var attacker = attackOrder[turnIndex];
 
+                
+
                 if (attacker.Stats.HP <= 0)
                 {
                     allPokemon.Remove(attacker);
@@ -63,9 +68,15 @@ namespace PokemonBattleSimulator.Services
                     continue;
                 }
 
+                var preventsAttack = await statusEffectHandler.ProcessStatusEffectTurnAsync(attacker, logBuilder);
+                if(preventsAttack)
+                {
+                    turnIndex = (turnIndex + 1) % attackOrder.Count;
+                    turnCounter++;
+                    continue;
+                }
 
                 var selectedMove = await moveSelector.ExecuteAsync(attacker.Moves);
-                if (selectedMove == null) continue;
 
                 var enemies = teamsList
                         .Where(team => !team.Pokemon.Contains(attacker))
@@ -79,9 +90,9 @@ namespace PokemonBattleSimulator.Services
 
                     logBuilder.AppendLine($"{attacker.Pokemon} uses {selectedMove.Move}");
 
-                    if (selectedMove.StatEffects != null && selectedMove.StatEffects.Count > 0)
+                    if (selectedMove.StatModifiers != null && selectedMove.StatModifiers.Count > 0)
                     {
-                        await applyStatEffects.ExecuteAsync(attacker, target, selectedMove.StatEffects, logBuilder);
+                        await applyStatModifiers.ExecuteAsync(attacker, target, selectedMove.StatModifiers, logBuilder);
                     }
 
                     if(selectedMove.Power > 0 || (selectedMove.VariablePower != null && 
@@ -89,6 +100,8 @@ namespace PokemonBattleSimulator.Services
                     {
                         await attackExecutor.ExecuteAsync(attacker, target, selectedMove, logBuilder);
                     }
+
+                    await statusEffectHandler.ApplyStatusEffectAsync(attacker, target, selectedMove, logBuilder);
 
                     if (target.Stats.HP <= 0)
                     {
@@ -98,6 +111,10 @@ namespace PokemonBattleSimulator.Services
                 }
 
                 attackOrder = turnManager.ExecuteAsync(allPokemon);
+
+                if (attackOrder.Count == 0)
+                    break;
+
                 turnCounter++;
                 turnIndex = (turnIndex + 1) % attackOrder.Count;
             }

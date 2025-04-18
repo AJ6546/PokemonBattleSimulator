@@ -2,9 +2,9 @@
 
 namespace PokemonBattleSimulator.Models
 {
-    public class StatEffect
+    public class StatModifier
     {
-        public StatEffectType StatEffectType { get; set; }
+        public StatModifierType StatModifierType { get; set; }
         public int Stage { get; set; }
         public int Probability { get; set; } = 100;
         public bool IsForUser { get; set; }

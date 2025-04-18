@@ -5,16 +5,16 @@ using System.Text;
 
 namespace PokemonBattleSimulator.Services
 {
-    public class ApplyStatEffects: IApplyStatEffects
+    public class ApplyStatModifiers: IApplyStatModifiers
     {
         private const int StageConstant = 2;
         private const int BattleStatsStageConstant = 3;
         private const int SpeedLimitConst = 10000;
 
         public async Task ExecuteAsync(PokemonModel attacker,
-            PokemonModel target, List<StatEffect> statEffects, StringBuilder logBuilder)
+            PokemonModel target, List<StatModifier> statModifiers, StringBuilder logBuilder)
         {
-            foreach (StatEffect statEffect in statEffects)
+            foreach (StatModifier statEffect in statModifiers)
             {
                 var statEffectProbability = new Random().NextDouble() * 100;
 
@@ -30,57 +30,57 @@ namespace PokemonBattleSimulator.Services
             }
         }
 
-        private void ApplyChange(StatEffect statEffect, PokemonModel pokemon, StringBuilder logBuilder)
+        private void ApplyChange(StatModifier statEffect, PokemonModel pokemon, StringBuilder logBuilder)
         {
             var statChange = statEffect.Stage > 0 ? "increased" : "decreased";
             double oldStat = 0;
 
-            switch (statEffect.StatEffectType)
+            switch (statEffect.StatModifierType)
             {
-                case StatEffectType.Accuracy:
+                case StatModifierType.Accuracy:
                     oldStat = pokemon.Stats.BattleStats.Accuracy;
                     pokemon.Stats.BattleStats.Accuracy *= GetStageMultiplier(statEffect.Stage, BattleStatsStageConstant);
                     break;
-                case StatEffectType.Attack:
+                case StatModifierType.Attack:
                     oldStat = pokemon.Stats.Attack;
                     pokemon.Stats.Attack *= GetStageMultiplier(statEffect.Stage, StageConstant);
                     break;
-                case StatEffectType.Defense:
+                case StatModifierType.Defense:
                     oldStat = pokemon.Stats.Defense;
                     pokemon.Stats.Defense *= GetStageMultiplier(statEffect.Stage, StageConstant);
                     break;
-                case StatEffectType.Evasion:
+                case StatModifierType.Evasion:
                     oldStat = pokemon.Stats.BattleStats.Evasion;
                     pokemon.Stats.BattleStats.Evasion *= GetStageMultiplier(statEffect.Stage, BattleStatsStageConstant);
                     break;
-                case StatEffectType.SpecialAttack:
+                case StatModifierType.SpecialAttack:
                     oldStat = pokemon.Stats.SpecialAttack;
                     pokemon.Stats.SpecialAttack *= GetStageMultiplier(statEffect.Stage, StageConstant);
                     break;
-                case StatEffectType.SpecialDefense:
+                case StatModifierType.SpecialDefense:
                     oldStat = pokemon.Stats.SpecialDefense;
                     pokemon.Stats.SpecialDefense *= GetStageMultiplier(statEffect.Stage, StageConstant);
                     break;
-                case StatEffectType.Speed:
+                case StatModifierType.Speed:
                     oldStat = pokemon.Stats.Speed;
                     pokemon.Stats.Speed = Math.Min(SpeedLimitConst, pokemon.Stats.Speed * GetStageMultiplier(statEffect.Stage, StageConstant));
                     break;
             }
 
-            logBuilder.AppendLine($"{pokemon.Pokemon}'s {statEffect.StatEffectType} is {statChange} from {Math.Round(oldStat, 2)} to {Math.Round(GetStatValue(statEffect, pokemon), 2)}.");
+            logBuilder.AppendLine($"{pokemon.Pokemon}'s {statEffect.StatModifierType} is {statChange} from {Math.Round(oldStat, 2)} to {Math.Round(GetStatValue(statEffect, pokemon), 2)}.");
         }
 
-        private double GetStatValue(StatEffect statEffect, PokemonModel pokemon)
+        private double GetStatValue(StatModifier statEffect, PokemonModel pokemon)
         {
-            return statEffect.StatEffectType switch
+            return statEffect.StatModifierType switch
             {
-                StatEffectType.Accuracy => pokemon.Stats.BattleStats.Accuracy,
-                StatEffectType.Attack => pokemon.Stats.Attack,
-                StatEffectType.Defense => pokemon.Stats.Defense,
-                StatEffectType.Evasion => pokemon.Stats.BattleStats.Evasion,
-                StatEffectType.SpecialAttack => pokemon.Stats.SpecialAttack,
-                StatEffectType.SpecialDefense => pokemon.Stats.SpecialDefense,
-                StatEffectType.Speed => pokemon.Stats.Speed,
+                StatModifierType.Accuracy => pokemon.Stats.BattleStats.Accuracy,
+                StatModifierType.Attack => pokemon.Stats.Attack,
+                StatModifierType.Defense => pokemon.Stats.Defense,
+                StatModifierType.Evasion => pokemon.Stats.BattleStats.Evasion,
+                StatModifierType.SpecialAttack => pokemon.Stats.SpecialAttack,
+                StatModifierType.SpecialDefense => pokemon.Stats.SpecialDefense,
+                StatModifierType.Speed => pokemon.Stats.Speed,
                 _ => 0
             };
         }
