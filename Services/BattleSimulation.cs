@@ -72,7 +72,7 @@ namespace PokemonBattleSimulator.Services
                 if(preventsAttack)
                 {
                     turnIndex = (turnIndex + 1) % attackOrder.Count;
-                    turnCounter++;
+                    turnCounter ++;
                     continue;
                 }
 

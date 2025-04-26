@@ -4,5 +4,6 @@
     {
         public StatusEffect Effect { get; set; }
         public int RemainingTurns { get; set; }
+        public PokemonModel SourcePokemon { get; set; }
     }
 }

@@ -17,64 +17,100 @@ namespace PokemonBattleSimulator.Services
 
         public Task ApplyStatusEffectAsync(PokemonModel attacker, PokemonModel target, MoveModel move, StringBuilder logBuilder)
         {
-            if (move.StatusEffect != null && random.Next(0, 100) < move.Probability)
+            var effect = move.StatusEffect;
+            if (effect != null && random.Next(0, 100) < move.Probability)
             {
-                if (target.ActiveStatusEffect == null)
+                if (effect.IsMajorStatus)
                 {
-                    var effect = move.StatusEffect;
-                    int duration = effect.MinDuration.HasValue && effect.MaxDuration.HasValue
-                        ? random.Next(effect.MinDuration.Value, effect.MaxDuration.Value + 1)
-                        : int.MaxValue;
+                    var oldStatusEffect = target.ActiveStatusEffects.FirstOrDefault(e => e.Effect.IsMajorStatus);
+                    target.ActiveStatusEffects.RemoveAll(e => e.Effect.IsMajorStatus);
 
-                    target.ActiveStatusEffect = new ActiveStatusEffect
+                    AddEffect(attacker, target, effect);
+
+                    if (oldStatusEffect != null)
                     {
-                        Effect = effect,
-                        RemainingTurns = duration
-                    };
+                        logBuilder.AppendLine($"{target.Pokemon} is no longet affected by {oldStatusEffect.Effect.Name}!");
+                    }
 
                     logBuilder.AppendLine($"{target.Pokemon} is now affected by {effect.Name}!");
+                }
+                else
+                {
+                    if (target.ActiveStatusEffects.All(e => e.Effect != effect))
+                    {
+                        AddEffect(attacker, target, effect);
+
+                        logBuilder.AppendLine($"{target.Pokemon} is now affected by {effect.Name}!");
+                    }
                 }
             }
 
             return Task.CompletedTask;
         }
 
+        private void AddEffect(PokemonModel attacker, PokemonModel target, StatusEffect effect)
+        {
+            int duration = effect.MinDuration.HasValue && effect.MaxDuration.HasValue
+                ? random.Next(effect.MinDuration.Value, effect.MaxDuration.Value + 1)
+                : int.MaxValue;
+
+            target.ActiveStatusEffects.Add(new ActiveStatusEffect
+            {
+                Effect = effect,
+                RemainingTurns = duration,
+                SourcePokemon = attacker
+            });
+        }
+
         public async Task<bool> ProcessStatusEffectTurnAsync(PokemonModel pokemon, StringBuilder logBuilder)
         {
-            if (pokemon.ActiveStatusEffect == null) return false; 
+            if (!pokemon.ActiveStatusEffects.Any()) return false;
+            var preventsAction = false;
 
-            var statusEffect = pokemon.ActiveStatusEffect.Effect;
-
-            if (pokemon.ActiveStatusEffect.RemainingTurns > 0)
+            foreach (var activeStatusEffect in pokemon.ActiveStatusEffects)
             {
-                if (statusEffect.DamagePerTurn > 0)
-                {
-                    var MaxHp = (await getSelectedPokemonDetails.ExecuteAsync(pokemon.Id)).Stats.HP;
-                    int damage = (int)(MaxHp * statusEffect.DamagePerTurn.Value);
-                    pokemon.Stats.HP -= damage;
-                    logBuilder.AppendLine($"{pokemon.Pokemon} takes {damage} damage from {statusEffect.Name}!");
+                var statusEffect = activeStatusEffect.Effect;
 
-                    if (pokemon.Stats.HP <= 0)
+                if (activeStatusEffect.RemainingTurns > 0)
+                {
+                    if (statusEffect.DamagePerTurn > 0)
                     {
-                        logBuilder.AppendLine($"{pokemon.Pokemon} fainted due to {statusEffect.Name}!");
-                        return true;
+                        var MaxHp = (await getSelectedPokemonDetails.ExecuteAsync(pokemon.Id)).Stats.HP;
+                        int damage = (int)(MaxHp * statusEffect.DamagePerTurn.Value);
+                        pokemon.Stats.HP -= damage;
+                        logBuilder.AppendLine($"{pokemon.Pokemon} takes {damage} damage from {statusEffect.Name}!");
+
+                        if(statusEffect.HealsAttacker && activeStatusEffect.SourcePokemon != null)
+                        {
+                            var attackerMaxHp = (await getSelectedPokemonDetails.ExecuteAsync(activeStatusEffect.SourcePokemon.Id)).Stats.HP;
+                            activeStatusEffect.SourcePokemon.Stats.HP = Math.Min(attackerMaxHp, activeStatusEffect.SourcePokemon.Stats.HP + damage);
+
+                            logBuilder.AppendLine($"{activeStatusEffect.SourcePokemon.Pokemon} heals {damage} HP from {statusEffect.Name}!");
+                        }
+
+                        if (pokemon.Stats.HP <= 0)
+                        {
+                            logBuilder.AppendLine($"{pokemon.Pokemon} fainted due to {statusEffect.Name}!");
+                            return true;
+                        }
                     }
+
+                    if (statusEffect.PreventsAction && random.NextDouble() < (statusEffect.ActionFailChance ?? 0))
+                    {
+                        logBuilder.AppendLine($"{pokemon.Pokemon} is affected by {statusEffect.Name} and can't move!");
+                        preventsAction = true;
+                    }
+
+                    activeStatusEffect.RemainingTurns--;
                 }
-                pokemon.ActiveStatusEffect.RemainingTurns--;
-                if (statusEffect.PreventsAction && random.NextDouble() < (statusEffect.ActionFailChance ?? 0))
+                else
                 {
-                    logBuilder.AppendLine($"{pokemon.Pokemon} is affected by {statusEffect.Name} and can't move!");
-
-                    return true;
+                    logBuilder.AppendLine($"{pokemon.Pokemon} is no longer affected by {statusEffect.Name}!");
+                    pokemon.ActiveStatusEffects.Remove(activeStatusEffect);
                 }
             }
-            else
-            {
-                logBuilder.AppendLine($"{pokemon.Pokemon} is no longer affected by {statusEffect.Name}!");
-                pokemon.ActiveStatusEffect = null;
-            }
 
-            return false;
+            return preventsAction;
         }
     }
 }

@@ -8,5 +8,7 @@
         public double? DamagePerTurn { get; set; }
         public bool PreventsAction { get; set; }
         public double? ActionFailChance { get; set; }
+        public bool HealsAttacker { get; set; }
+        public bool IsMajorStatus { get; set; }
     }
 }
