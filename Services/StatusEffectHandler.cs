@@ -83,9 +83,10 @@ namespace PokemonBattleSimulator.Services
                         if(statusEffect.HealsAttacker && activeStatusEffect.SourcePokemon != null)
                         {
                             var attackerMaxHp = (await getSelectedPokemonDetails.ExecuteAsync(activeStatusEffect.SourcePokemon.Id)).Stats.HP;
-                            activeStatusEffect.SourcePokemon.Stats.HP = Math.Min(attackerMaxHp, activeStatusEffect.SourcePokemon.Stats.HP + damage);
+                            activeStatusEffect.SourcePokemon.Stats.HP = Math.Min(attackerMaxHp, activeStatusEffect.SourcePokemon.Stats.HP
+                                + (int)(MaxHp * statusEffect.HealFraction));
 
-                            logBuilder.AppendLine($"{activeStatusEffect.SourcePokemon.Pokemon} heals {damage} HP from {statusEffect.Name}!");
+                            logBuilder.AppendLine($"{activeStatusEffect.SourcePokemon.Pokemon} is healed by HP from {statusEffect.Name}!");
                         }
 
                         if (pokemon.Stats.HP <= 0)

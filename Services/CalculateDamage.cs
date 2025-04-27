@@ -8,10 +8,11 @@ namespace PokemonBattleSimulator.Services
     public class CalculateDamage: ICalculateDamage
     {
         private readonly ILookupTypeChart lookupTypeChart;
-
+        private Random random;
         public CalculateDamage(ILookupTypeChart lookupTypeChart)
         {
             this.lookupTypeChart = lookupTypeChart;
+            random  = new Random();
         }
 
         public async Task<int> ExecuteAsync(PokemonModel attacker, PokemonModel defender,
@@ -26,12 +27,16 @@ namespace PokemonBattleSimulator.Services
 
             logBuilder.AppendLine($"Type Effectiveness is *{effectiveness}");
 
+            var variablePower = selectedMove.VariablePower;
+            var power = variablePower!= null && variablePower.Any() 
+                ? variablePower[random.Next(variablePower.Count)] : selectedMove.Power;
+
             var damageFactor = selectedMove.Category.Equals(Category.Special) ?
-                (selectedMove.Power * attacker.Stats.SpecialAttack / defender.Stats.SpecialDefense) :
-                (selectedMove.Power * attacker.Stats.Attack / defender.Stats.Defense);
+                (power * attacker.Stats.SpecialAttack / defender.Stats.SpecialDefense) :
+                (power * attacker.Stats.Attack / defender.Stats.Defense);
 
             var hitChance = selectedMove.Accuracy * attacker.Stats.BattleStats.Accuracy / defender.Stats.BattleStats.Evasion;
-            var randomMissChance = new Random().NextDouble() * 100;
+            var randomMissChance = random.NextDouble() * 100;
 
             if(randomMissChance > hitChance)
             {

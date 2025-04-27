@@ -1,5 +1,4 @@
-﻿using PokemonBattleSimulator.Models.Enum;
-using PokemonBattleSimulator.Models;
+﻿using PokemonBattleSimulator.Models;
 using PokemonBattleSimulator.Services.Interfaces;
 using System.Text;
 
@@ -8,10 +7,13 @@ namespace PokemonBattleSimulator.Services
     public class AttackExecutor : IAttackExecutor
     {
         private readonly ICalculateDamage calculateDamage;
-
-        public AttackExecutor(ICalculateDamage calculateDamage)
+        private readonly IGetSelectedPokemonDetails getSelectedPokemonDetails;
+        private Random random;
+        public AttackExecutor(ICalculateDamage calculateDamage, IGetSelectedPokemonDetails getSelectedPokemonDetails)
         {
             this.calculateDamage = calculateDamage;
+            random = new Random();
+            this.getSelectedPokemonDetails = getSelectedPokemonDetails;
         }
 
         public async Task ExecuteAsync(PokemonModel attacker, 
@@ -24,10 +26,35 @@ namespace PokemonBattleSimulator.Services
                 attacker.MovesPP[selectedMove.Move] = selectedMove.PP;
             }
 
-            for( int i = 0; i < selectedMove.TimesHit; i++ )
+            var timesHit = selectedMove.MaxTimesHit == 0 ? selectedMove.MinTimesHit:
+                random.Next(selectedMove.MinTimesHit, selectedMove.MaxTimesHit + 1);
+
+            for( int i = 0; i < timesHit; i++ )
             {
                 int damage = Math.Max(0, await calculateDamage.ExecuteAsync(attacker, target, selectedMove,
                 logBuilder));
+                if (selectedMove.UserHealthModifier != 0)
+                {
+                    if (selectedMove.UserHealthModifier > 0)
+                    {
+                        var MaxHp = (await getSelectedPokemonDetails.ExecuteAsync(attacker.Id)).Stats.HP;
+                        var healAmout = (int)(damage * selectedMove.UserHealthModifier);
+                        attacker.Stats.HP = Math.Min(MaxHp, attacker.Stats.HP + healAmout);
+
+                        logBuilder.AppendLine($"\n{attacker.Pokemon} healed by {healAmout} the effect of {selectedMove.Move}.\n");
+                    }
+                    else
+                    {
+                        var damageAmount = (int)(damage * selectedMove.UserHealthModifier);
+                        attacker.Stats.HP = Math.Max(0, attacker.Stats.HP + damageAmount);
+                        logBuilder.AppendLine($"\n{attacker.Pokemon} takes recoil damage of {damageAmount} from {selectedMove.Move}.\n");
+                        if (attacker.Stats.HP <= 0)
+                        {
+                            logBuilder.AppendLine($"{attacker.Pokemon} fainted.\n");
+                        }
+                    }
+                }
+                
 
                 attacker.CombatDetails.DamageDealt += damage;
 

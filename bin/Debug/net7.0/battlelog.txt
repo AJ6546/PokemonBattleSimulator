@@ -1,46 +1,38 @@
 ﻿Attack Order - Speed
-Pikachu - 90
-Bulbasaur - 45
+Caterpie - 45
+Oddish - 30
 
 Turn 1 begins
 
-Pikachu uses Nuzzle
-Type Effectiveness is *0.5
-Attack gets a stab boost of *1.5
-Bulbasaur takes 16 damage
-Bulbasaur health is 29
-Nuzzle - PP: 19
+Caterpie uses StringShot
 
 Turn 2 begins
 
-Bulbasaur uses Tackle
-Type Effectiveness is *1
-Pikachu takes 49 damage
-Pikachu health is 0
-Pikachu is no longer able to battle.
-Tackle - PP: 19
-
-Team 1 wins
-
-Pokemon that survived:
-Bulbasaur
+Oddish uses Absorb
+Type Effectiveness is *0.5
+Attack gets a stab boost of *1.5
+Oddish takes recoil damage from Absorb.
+Caterpie takes 56 damage
+Caterpie health is 0
+Caterpie is no longer able to battle.
+Absorb - PP: 19
 
 Combat Detail
 
 Team 1
-Pokemon: Bulbasaur
-Damage Dealt: 49
+Pokemon: Oddish
+Damage Dealt: 56
 KnockOuts: 1
-Knocked out Pokémon: Pikachu
+Knocked out Pokémon: Caterpie
 
 
 Team 2
-Pokemon: Pikachu
-Damage Dealt: 16
+Pokemon: Caterpie
+Damage Dealt: 0
 KnockOuts: 0
 
 
-MVP: Bulbasaur (Knockouts: 1) - Team 1
+MVP: Oddish (Knockouts: 1) - Team 1
 
-Battle duration: 0 ms.
+Battle duration: 4691 ms.
 

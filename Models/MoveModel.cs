@@ -8,9 +8,13 @@ namespace PokemonBattleSimulator.Models
         public Move Move { get; set; }
         public Typing Typing { get; set; }
         public Category Category { get; set; }
-        public int TimesHit { get; set; } = 1;
+        public int MinTimesHit { get; set; } = 1;
+        public int MaxTimesHit { get; set; }
+        public bool RequiresCharging { get; set; }
+        public int ChargeTurnsRequired { get; set; }
         public int Power { get; set; }
         public List<int> VariablePower { get; set; }
+        public double UserHealthModifier { get; set; } = 0;
         public int Accuracy { get; set; }
         public int PP { get; set; }
         public List<StatModifier> StatModifiers { get; set; }

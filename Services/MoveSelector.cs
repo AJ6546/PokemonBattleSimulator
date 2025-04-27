@@ -23,5 +23,11 @@ namespace PokemonBattleSimulator.Services
             var allMoves = await cacheMoves.ReadCacheAsync();
             return allMoves.FirstOrDefault(m => m.Move.Equals(move));
         }
+
+        public async Task<MoveModel> GetSelectedMoveDetails (Move move)
+        {
+            var allMoves = await cacheMoves.ReadCacheAsync();
+            return allMoves.FirstOrDefault(m => m.Move.Equals(move));
+        }
     }
 }

@@ -9,6 +9,7 @@
         public bool PreventsAction { get; set; }
         public double? ActionFailChance { get; set; }
         public bool HealsAttacker { get; set; }
+        public double HealFraction { get; set; } = 1;
         public bool IsMajorStatus { get; set; }
     }
 }

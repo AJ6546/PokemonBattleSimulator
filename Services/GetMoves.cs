@@ -25,6 +25,7 @@ namespace PokemonBattleSimulator.Services
 
             var options = new JsonSerializerOptions
             {
+                NumberHandling = JsonNumberHandling.AllowNamedFloatingPointLiterals,
                 PropertyNameCaseInsensitive = true,
                 Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
             };

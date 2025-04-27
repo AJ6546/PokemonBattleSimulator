@@ -58,8 +58,6 @@ namespace PokemonBattleSimulator.Services
 
                 var attacker = attackOrder[turnIndex];
 
-                
-
                 if (attacker.Stats.HP <= 0)
                 {
                     allPokemon.Remove(attacker);
@@ -76,7 +74,24 @@ namespace PokemonBattleSimulator.Services
                     continue;
                 }
 
-                var selectedMove = await moveSelector.ExecuteAsync(attacker.Moves);
+                if(attacker.MoveChargeTurnCounter.Any())
+                {
+                    var key = attacker.MoveChargeTurnCounter.First().Key;
+                    attacker.MoveChargeTurnCounter[key]--;
+
+                    if (attacker.MoveChargeTurnCounter[key] > 0)
+                    {
+                        turnIndex = (turnIndex + 1) % attackOrder.Count;
+                        turnCounter++;
+                        continue;
+                    }
+                    else
+                    {
+                        attacker.MoveChargeTurnCounter.Remove(key);
+                    }
+                }
+
+                var selectedMove = await GetMoveAsync(attacker);
 
                 var enemies = teamsList
                         .Where(team => !team.Pokemon.Contains(attacker))
@@ -166,6 +181,16 @@ namespace PokemonBattleSimulator.Services
             logBuilder.AppendLine($"\nBattle duration: {stopwatch.ElapsedMilliseconds} ms.");
 
             await battleLog.WriteAsync(logBuilder.ToString());
+        }
+
+        private async Task<MoveModel> GetMoveAsync(PokemonModel attacker)
+        {
+            var selectedMove = await moveSelector.ExecuteAsync(attacker.Moves);
+            if (selectedMove.RequiresCharging)
+            {
+                attacker.MoveChargeTurnCounter[selectedMove.Move] = selectedMove.ChargeTurnsRequired;
+            }
+            return selectedMove;
         }
 
         public bool IsBattleOver(List<Team> teamsList)

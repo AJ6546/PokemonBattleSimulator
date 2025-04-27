@@ -10,8 +10,10 @@ namespace PokemonBattleSimulator.Models
         public Typing SecondaryType { get; set; }
         public StatsModel Stats { get; set; }
         public List<Move> Moves { get; set; }
+
         public Dictionary<Move, int> MovesPP = new Dictionary<Move, int>();
         public CombatDetails CombatDetails = new CombatDetails();
+        public Dictionary<Move, int> MoveChargeTurnCounter { get; set; } = new Dictionary<Move, int>();
         public List<ActiveStatusEffect> ActiveStatusEffects { get; set; } = new();
     }
 }

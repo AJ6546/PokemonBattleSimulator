@@ -15,7 +15,14 @@
     "Category": "Special",
     "Power": 40,
     "Accuracy": 100,
-    "PP": 30
+    "PP": 30,
+    "StatEffects": [
+      {
+        "StatEffectType": 6,
+        "Stage": 2,
+        "Probability": 10
+      }
+    ]
   },
   {
     "Id": 3,
@@ -28,7 +35,7 @@
     "StatEffects": [
       {
         "StatEffectType": 7,
-        "Stage": 2,
+        "Stage": -1,
         "IsForUser": true
       }
     ],
