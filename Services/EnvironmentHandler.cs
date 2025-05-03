@@ -1,6 +1,5 @@
 ﻿using PokemonBattleSimulator.Contexts;
 using PokemonBattleSimulator.Models;
-using PokemonBattleSimulator.Models.Enum;
 using PokemonBattleSimulator.Services.Interfaces;
 using System.Text;
 
