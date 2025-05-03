@@ -13,21 +13,24 @@ namespace PokemonBattleSimulator.Services
             this.applyStatModifiers = applyStatModifiers;
         }
 
-        public async Task<Dictionary<PokemonModel, double>> ExecuteAsync(List<PokemonModel> allPokemon, EnvironmentSetter environment)
+        public async Task<List<PokemonModel>> ExecuteAsync(List<PokemonModel> allPokemon, EnvironmentSetter environment)
         {
             var getPokemonSpeedTasks = allPokemon
                 .Select(async p => new
                 {
                     Pokemon = p,
-                    Speed = await applyStatModifiers.GetEffectiveStat(Models.Enum.StatModifierType.Speed, p, environment)
+                    Speed = await applyStatModifiers.GetEffectiveStat(
+                        Models.Enum.StatModifierType.Speed, p, environment)
                 });
+
 
             var results = await Task.WhenAll(getPokemonSpeedTasks);
 
             return results
                 .OrderByDescending(x => x.Speed)
                 .ThenBy(_ => random.Next())
-                .ToDictionary(x => x.Pokemon, x => x.Speed);
+                .Select(x => x.Pokemon)
+                .ToList();
         }
     }
 }

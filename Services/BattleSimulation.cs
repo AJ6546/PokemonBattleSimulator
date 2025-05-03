@@ -45,14 +45,13 @@ namespace PokemonBattleSimulator.Services
             var stopwatch = Stopwatch.StartNew();
 
             var allPokemon = teamsList.SelectMany(team => team.Pokemon).ToList();
-            Dictionary<PokemonModel, double> attackOrder = 
-                await turnManager.ExecuteAsync(allPokemon, battleContext.CurrentEnvironment);
+            List<PokemonModel> attackOrder = await turnManager.ExecuteAsync(allPokemon, battleContext.CurrentEnvironment);
 
             var logBuilder = new StringBuilder();
             logBuilder.AppendLine("Attack Order - Speed");
             foreach (var pokemon in attackOrder)
             {
-                logBuilder.AppendLine($"{pokemon.Key.Pokemon.ToString()} - {pokemon.Value}");
+                logBuilder.AppendLine($"{pokemon.Pokemon.ToString()} - {pokemon.Stats.Speed}");
             }
 
             int turnIndex = 0;
