@@ -137,7 +137,7 @@ namespace PokemonBattleSimulator.Services
                     }
                 }
 
-                attackOrder = turnManager.ExecuteAsync(allPokemon);
+                attackOrder = await turnManager.ExecuteAsync(allPokemon, battleContext.CurrentEnvironment);
 
                 if (attackOrder.Count == 0)
                     break;
