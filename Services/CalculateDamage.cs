@@ -2,21 +2,24 @@
 using PokemonBattleSimulator.Models;
 using PokemonBattleSimulator.Services.Interfaces;
 using System.Text;
+using PokemonBattleSimulator.Contexts;
 
 namespace PokemonBattleSimulator.Services
 {
     public class CalculateDamage: ICalculateDamage
     {
         private readonly ILookupTypeChart lookupTypeChart;
+        private readonly IApplyStatModifiers applyStatModifiers;
         private Random random;
-        public CalculateDamage(ILookupTypeChart lookupTypeChart)
+        public CalculateDamage(ILookupTypeChart lookupTypeChart, IApplyStatModifiers applyStatModifiers)
         {
             this.lookupTypeChart = lookupTypeChart;
-            random  = new Random();
+            this.applyStatModifiers = applyStatModifiers;
+            random = new Random();
         }
 
         public async Task<int> ExecuteAsync(PokemonModel attacker, PokemonModel defender,
-            MoveModel selectedMove, StringBuilder logBuilder)
+            MoveModel selectedMove, BattleContext context, StringBuilder logBuilder)
         {
             float effectiveness = await lookupTypeChart.ExecuteAsync(selectedMove.Typing, defender.PrimaryType);
 
@@ -32,10 +35,23 @@ namespace PokemonBattleSimulator.Services
                 ? variablePower[random.Next(variablePower.Count)] : selectedMove.Power;
 
             var damageFactor = selectedMove.Category.Equals(Category.Special) ?
-                (power * attacker.Stats.SpecialAttack / defender.Stats.SpecialDefense) :
-                (power * attacker.Stats.Attack / defender.Stats.Defense);
+                (power * 
+                (await applyStatModifiers.GetEffectiveStat(StatModifierType.SpecialAttack, 
+                attacker, context.CurrentEnvironment)) 
+                / (await applyStatModifiers.GetEffectiveStat(StatModifierType.SpecialDefense, 
+                defender, context.CurrentEnvironment))) :
+                (power * 
+                (await applyStatModifiers.GetEffectiveStat(StatModifierType.Attack, 
+                attacker, context.CurrentEnvironment))
+                / (await applyStatModifiers.GetEffectiveStat(StatModifierType.Defense, 
+                defender, context.CurrentEnvironment)));
 
-            var hitChance = selectedMove.Accuracy * attacker.Stats.BattleStats.Accuracy / defender.Stats.BattleStats.Evasion;
+            var hitChance = selectedMove.Accuracy *
+                (await applyStatModifiers.GetEffectiveStat(StatModifierType.Accuracy,
+                attacker, context.CurrentEnvironment)) /
+                (await applyStatModifiers.GetEffectiveStat(StatModifierType.Evasion,
+                defender, context.CurrentEnvironment));
+
             var randomMissChance = random.NextDouble() * 100;
 
             if(randomMissChance > hitChance)
@@ -50,7 +66,15 @@ namespace PokemonBattleSimulator.Services
                 logBuilder.AppendLine($"Attack gets a stab boost of *{stabBoost}");
             }
 
-            var damage = effectiveness * damageFactor * stabBoost;
+            var envMultiplier = 1.0;
+            if (context?.CurrentEnvironment?.MoveTypeMultipliers != null &&
+                context.CurrentEnvironment.MoveTypeMultipliers.TryGetValue(selectedMove.Typing, out var boost))
+            {
+                envMultiplier = boost;
+                logBuilder.AppendLine($"Environmental boost applied: *{envMultiplier} to {selectedMove.Typing} moves.");
+            }
+
+            var damage = effectiveness * damageFactor * stabBoost * envMultiplier;
             return (int) damage;
         }
 

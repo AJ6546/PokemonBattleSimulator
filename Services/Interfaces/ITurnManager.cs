@@ -4,6 +4,6 @@ namespace PokemonBattleSimulator.Services.Interfaces
 {
     public interface ITurnManager
     {
-        List<PokemonModel> ExecuteAsync(List<PokemonModel> allPokemon);
+        public Task<Dictionary<PokemonModel, double>> ExecuteAsync(List<PokemonModel> allPokemon, EnvironmentSetter environment);
     }
 }

@@ -1,4 +1,6 @@
-﻿using PokemonBattleSimulator.Models;
+﻿using PokemonBattleSimulator.Contexts;
+using PokemonBattleSimulator.Models;
+using PokemonBattleSimulator.Models.Enum;
 using PokemonBattleSimulator.Services.Interfaces;
 using System.Diagnostics;
 using System.Text;
@@ -14,10 +16,11 @@ namespace PokemonBattleSimulator.Services
         private readonly IApplyStatModifiers applyStatModifiers;
         private readonly ITurnManager turnManager;
         private readonly IStatusEffectHandler statusEffectHandler;
-
+        private readonly IEnvironmentHandler environmentHandler;
+        private BattleContext battleContext;
         public BattleSimulation(IBattleLog battleLog, IMoveSelector moveSelector,
             IAttackExecutor attackExecutor, ITurnManager turnManager, IApplyStatModifiers applyStatModifiers,
-            IStatusEffectHandler statusEffectHandler)
+            IStatusEffectHandler statusEffectHandler, IEnvironmentHandler environmentHandler)
         {
             random = new Random();
             this.battleLog = battleLog;
@@ -26,6 +29,8 @@ namespace PokemonBattleSimulator.Services
             this.applyStatModifiers = applyStatModifiers;
             this.turnManager = turnManager;
             this.statusEffectHandler = statusEffectHandler;
+            this.environmentHandler = environmentHandler;
+            battleContext = new BattleContext();
         }
 
         public async Task ExecuteAsync(List<Team> teamsList)
@@ -40,13 +45,14 @@ namespace PokemonBattleSimulator.Services
             var stopwatch = Stopwatch.StartNew();
 
             var allPokemon = teamsList.SelectMany(team => team.Pokemon).ToList();
-            List<PokemonModel> attackOrder = turnManager.ExecuteAsync(allPokemon);
+            Dictionary<PokemonModel, double> attackOrder = 
+                await turnManager.ExecuteAsync(allPokemon, battleContext.CurrentEnvironment);
 
             var logBuilder = new StringBuilder();
             logBuilder.AppendLine("Attack Order - Speed");
             foreach (var pokemon in attackOrder)
             {
-                logBuilder.AppendLine($"{pokemon.Pokemon.ToString()} - {pokemon.Stats.Speed}");
+                logBuilder.AppendLine($"{pokemon.Key.Pokemon.ToString()} - {pokemon.Value}");
             }
 
             int turnIndex = 0;
@@ -93,6 +99,13 @@ namespace PokemonBattleSimulator.Services
 
                 var selectedMove = await GetMoveAsync(attacker);
 
+                if(selectedMove.Environment != null && !selectedMove.Environment
+                    .EnvironmentEffect.Equals(EnvironmentEffect.None))
+                {
+                    await environmentHandler.ApplyEnvironmentEffect(selectedMove.Environment, 
+                        attacker, battleContext);
+                }
+
                 var enemies = teamsList
                         .Where(team => !team.Pokemon.Contains(attacker))
                         .SelectMany(team => team.Pokemon)
@@ -113,7 +126,7 @@ namespace PokemonBattleSimulator.Services
                     if(selectedMove.Power > 0 || (selectedMove.VariablePower != null && 
                         selectedMove.VariablePower.Count > 0))
                     {
-                        await attackExecutor.ExecuteAsync(attacker, target, selectedMove, logBuilder);
+                        await attackExecutor.ExecuteAsync(attacker, target, selectedMove, battleContext, logBuilder);
                     }
 
                     await statusEffectHandler.ApplyStatusEffectAsync(attacker, target, selectedMove, logBuilder);
@@ -129,6 +142,11 @@ namespace PokemonBattleSimulator.Services
 
                 if (attackOrder.Count == 0)
                     break;
+
+                if ((turnIndex + 1) % attackOrder.Count == 0)
+                {
+                    await environmentHandler.TickEnvironment(battleContext, logBuilder, allPokemon);
+                }
 
                 turnCounter++;
                 turnIndex = (turnIndex + 1) % attackOrder.Count;

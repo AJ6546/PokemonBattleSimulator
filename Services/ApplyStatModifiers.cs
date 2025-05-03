@@ -30,6 +30,26 @@ namespace PokemonBattleSimulator.Services
             }
         }
 
+        public async Task<double> GetEffectiveStat(StatModifierType stat, PokemonModel pokemon,
+            EnvironmentSetter environment)
+        {
+            double baseStat = GetStatValue(stat, pokemon);
+            var types = new[] { pokemon.PrimaryType, pokemon.SecondaryType };
+
+            foreach (var type in types)
+            {
+                if (type.Equals(pokemon.PrimaryType)) continue;
+
+                if (environment?.TypingStatModifiers != null &&
+                    environment.TypingStatModifiers.TryGetValue(type, out var statModifier) &&
+                    statModifier.TryGetValue(stat, out var modifier))
+                {
+                    baseStat *= modifier;
+                }
+            }
+            return baseStat;
+        }
+
         private void ApplyChange(StatModifier statEffect, PokemonModel pokemon, StringBuilder logBuilder)
         {
             var statChange = statEffect.Stage > 0 ? "increased" : "decreased";
@@ -67,12 +87,12 @@ namespace PokemonBattleSimulator.Services
                     break;
             }
 
-            logBuilder.AppendLine($"{pokemon.Pokemon}'s {statEffect.StatModifierType} is {statChange} from {Math.Round(oldStat, 2)} to {Math.Round(GetStatValue(statEffect, pokemon), 2)}.");
+            logBuilder.AppendLine($"{pokemon.Pokemon}'s {statEffect.StatModifierType} is {statChange} from {Math.Round(oldStat, 2)} to {Math.Round(GetStatValue(statEffect.StatModifierType, pokemon), 2)}.");
         }
 
-        private double GetStatValue(StatModifier statEffect, PokemonModel pokemon)
+        private double GetStatValue(StatModifierType statEffect, PokemonModel pokemon)
         {
-            return statEffect.StatModifierType switch
+            return statEffect switch
             {
                 StatModifierType.Accuracy => pokemon.Stats.BattleStats.Accuracy,
                 StatModifierType.Attack => pokemon.Stats.Attack,

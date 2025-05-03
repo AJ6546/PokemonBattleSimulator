@@ -6,18 +6,28 @@ namespace PokemonBattleSimulator.Services
     public class TurnManager: ITurnManager
     {
         private readonly Random random;
-
-        public TurnManager()
+        private readonly IApplyStatModifiers applyStatModifiers;
+        public TurnManager(IApplyStatModifiers applyStatModifiers)
         {
             random = new Random();
+            this.applyStatModifiers = applyStatModifiers;
         }
 
-        public List<PokemonModel> ExecuteAsync(List<PokemonModel> allPokemon)
+        public async Task<Dictionary<PokemonModel, double>> ExecuteAsync(List<PokemonModel> allPokemon, EnvironmentSetter environment)
         {
-            return allPokemon
-                .OrderByDescending(p => p.Stats.Speed)
+            var getPokemonSpeedTasks = allPokemon
+                .Select(async p => new
+                {
+                    Pokemon = p,
+                    Speed = await applyStatModifiers.GetEffectiveStat(Models.Enum.StatModifierType.Speed, p, environment)
+                });
+
+            var results = await Task.WhenAll(getPokemonSpeedTasks);
+
+            return results
+                .OrderByDescending(x => x.Speed)
                 .ThenBy(_ => random.Next())
-                .ToList();
+                .ToDictionary(x => x.Pokemon, x => x.Speed);
         }
     }
 }

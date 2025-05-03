@@ -19,6 +19,7 @@ namespace PokemonBattleSimulator.Models
         public int PP { get; set; }
         public List<StatModifier> StatModifiers { get; set; }
         public StatusEffect StatusEffect { get; set; }
+        public EnvironmentSetter Environment { get; set; }
         public string Description { get; set; }
         public int Probability { get; set; }
     }

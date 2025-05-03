@@ -1,4 +1,5 @@
-﻿using PokemonBattleSimulator.Models;
+﻿using PokemonBattleSimulator.Contexts;
+using PokemonBattleSimulator.Models;
 using PokemonBattleSimulator.Services.Interfaces;
 using System.Text;
 
@@ -17,7 +18,7 @@ namespace PokemonBattleSimulator.Services
         }
 
         public async Task ExecuteAsync(PokemonModel attacker, 
-            PokemonModel target, MoveModel selectedMove, StringBuilder logBuilder)
+            PokemonModel target, MoveModel selectedMove, BattleContext context, StringBuilder logBuilder)
         {
             if (selectedMove == null) return;
 
@@ -32,7 +33,7 @@ namespace PokemonBattleSimulator.Services
             for( int i = 0; i < timesHit; i++ )
             {
                 int damage = Math.Max(0, await calculateDamage.ExecuteAsync(attacker, target, selectedMove,
-                logBuilder));
+               context, logBuilder));
                 if (selectedMove.UserHealthModifier != 0)
                 {
                     if (selectedMove.UserHealthModifier > 0)
