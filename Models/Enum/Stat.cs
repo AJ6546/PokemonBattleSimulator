@@ -1,6 +1,6 @@
 ﻿namespace PokemonBattleSimulator.Models.Enum
 {
-    public enum StatModifierType
+    public enum Stat
     {
         None,
         Accuracy,

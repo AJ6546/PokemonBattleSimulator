@@ -8,7 +8,7 @@ namespace PokemonBattleSimulator.Services.Interfaces
     {
         public Task ExecuteAsync(PokemonModel attacker,
             PokemonModel target, List<StatModifier> statModifiers, StringBuilder logBuilder);
-        public Task<double> GetEffectiveStat(StatModifierType stat, PokemonModel pokemon,
+        public Task<double> GetEffectiveStat(Stat stat, PokemonModel pokemon,
             EnvironmentSetter environment);
     }
 }

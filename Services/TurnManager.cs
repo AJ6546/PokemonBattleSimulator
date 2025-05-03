@@ -20,7 +20,7 @@ namespace PokemonBattleSimulator.Services
                 {
                     Pokemon = p,
                     Speed = await applyStatModifiers.GetEffectiveStat(
-                        Models.Enum.StatModifierType.Speed, p, environment)
+                        Models.Enum.Stat.Speed, p, environment)
                 });
 
 

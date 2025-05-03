@@ -30,7 +30,7 @@ namespace PokemonBattleSimulator.Services
             }
         }
 
-        public async Task<double> GetEffectiveStat(StatModifierType stat, PokemonModel pokemon,
+        public async Task<double> GetEffectiveStat(Stat stat, PokemonModel pokemon,
             EnvironmentSetter environment)
         {
             double baseStat = GetStatValue(stat, pokemon);
@@ -57,31 +57,31 @@ namespace PokemonBattleSimulator.Services
 
             switch (statEffect.StatModifierType)
             {
-                case StatModifierType.Accuracy:
+                case Stat.Accuracy:
                     oldStat = pokemon.Stats.BattleStats.Accuracy;
                     pokemon.Stats.BattleStats.Accuracy *= GetStageMultiplier(statEffect.Stage, BattleStatsStageConstant);
                     break;
-                case StatModifierType.Attack:
+                case Stat.Attack:
                     oldStat = pokemon.Stats.Attack;
                     pokemon.Stats.Attack *= GetStageMultiplier(statEffect.Stage, StageConstant);
                     break;
-                case StatModifierType.Defense:
+                case Stat.Defense:
                     oldStat = pokemon.Stats.Defense;
                     pokemon.Stats.Defense *= GetStageMultiplier(statEffect.Stage, StageConstant);
                     break;
-                case StatModifierType.Evasion:
+                case Stat.Evasion:
                     oldStat = pokemon.Stats.BattleStats.Evasion;
                     pokemon.Stats.BattleStats.Evasion *= GetStageMultiplier(statEffect.Stage, BattleStatsStageConstant);
                     break;
-                case StatModifierType.SpecialAttack:
+                case Stat.SpecialAttack:
                     oldStat = pokemon.Stats.SpecialAttack;
                     pokemon.Stats.SpecialAttack *= GetStageMultiplier(statEffect.Stage, StageConstant);
                     break;
-                case StatModifierType.SpecialDefense:
+                case Stat.SpecialDefense:
                     oldStat = pokemon.Stats.SpecialDefense;
                     pokemon.Stats.SpecialDefense *= GetStageMultiplier(statEffect.Stage, StageConstant);
                     break;
-                case StatModifierType.Speed:
+                case Stat.Speed:
                     oldStat = pokemon.Stats.Speed;
                     pokemon.Stats.Speed = Math.Min(SpeedLimitConst, pokemon.Stats.Speed * GetStageMultiplier(statEffect.Stage, StageConstant));
                     break;
@@ -90,17 +90,17 @@ namespace PokemonBattleSimulator.Services
             logBuilder.AppendLine($"{pokemon.Pokemon}'s {statEffect.StatModifierType} is {statChange} from {Math.Round(oldStat, 2)} to {Math.Round(GetStatValue(statEffect.StatModifierType, pokemon), 2)}.");
         }
 
-        private double GetStatValue(StatModifierType statEffect, PokemonModel pokemon)
+        private double GetStatValue(Stat statEffect, PokemonModel pokemon)
         {
             return statEffect switch
             {
-                StatModifierType.Accuracy => pokemon.Stats.BattleStats.Accuracy,
-                StatModifierType.Attack => pokemon.Stats.Attack,
-                StatModifierType.Defense => pokemon.Stats.Defense,
-                StatModifierType.Evasion => pokemon.Stats.BattleStats.Evasion,
-                StatModifierType.SpecialAttack => pokemon.Stats.SpecialAttack,
-                StatModifierType.SpecialDefense => pokemon.Stats.SpecialDefense,
-                StatModifierType.Speed => pokemon.Stats.Speed,
+                Stat.Accuracy => pokemon.Stats.BattleStats.Accuracy,
+                Stat.Attack => pokemon.Stats.Attack,
+                Stat.Defense => pokemon.Stats.Defense,
+                Stat.Evasion => pokemon.Stats.BattleStats.Evasion,
+                Stat.SpecialAttack => pokemon.Stats.SpecialAttack,
+                Stat.SpecialDefense => pokemon.Stats.SpecialDefense,
+                Stat.Speed => pokemon.Stats.Speed,
                 _ => 0
             };
         }

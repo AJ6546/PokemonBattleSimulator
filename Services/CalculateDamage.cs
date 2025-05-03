@@ -36,20 +36,20 @@ namespace PokemonBattleSimulator.Services
 
             var damageFactor = selectedMove.Category.Equals(Category.Special) ?
                 (power * 
-                (await applyStatModifiers.GetEffectiveStat(StatModifierType.SpecialAttack, 
+                (await applyStatModifiers.GetEffectiveStat(Stat.SpecialAttack, 
                 attacker, context.CurrentEnvironment)) 
-                / (await applyStatModifiers.GetEffectiveStat(StatModifierType.SpecialDefense, 
+                / (await applyStatModifiers.GetEffectiveStat(Stat.SpecialDefense, 
                 defender, context.CurrentEnvironment))) :
                 (power * 
-                (await applyStatModifiers.GetEffectiveStat(StatModifierType.Attack, 
+                (await applyStatModifiers.GetEffectiveStat(Stat.Attack, 
                 attacker, context.CurrentEnvironment))
-                / (await applyStatModifiers.GetEffectiveStat(StatModifierType.Defense, 
+                / (await applyStatModifiers.GetEffectiveStat(Stat.Defense, 
                 defender, context.CurrentEnvironment)));
 
             var hitChance = selectedMove.Accuracy *
-                (await applyStatModifiers.GetEffectiveStat(StatModifierType.Accuracy,
+                (await applyStatModifiers.GetEffectiveStat(Stat.Accuracy,
                 attacker, context.CurrentEnvironment)) /
-                (await applyStatModifiers.GetEffectiveStat(StatModifierType.Evasion,
+                (await applyStatModifiers.GetEffectiveStat(Stat.Evasion,
                 defender, context.CurrentEnvironment));
 
             var randomMissChance = random.NextDouble() * 100;
