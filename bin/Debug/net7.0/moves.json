@@ -18,7 +18,7 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 6,
+        "Stat": 6,
         "Stage": 2,
         "Probability": 10
       }
@@ -34,7 +34,7 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 7,
+        "Stat": 7,
         "Stage": -1,
         "IsForUser": true
       }
@@ -51,7 +51,7 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 6,
+        "Stat": 6,
         "Stage": 2,
         "IsForUser": true
       }
@@ -86,7 +86,7 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": 2,
         "IsForUser": true
       }
@@ -427,7 +427,7 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 1,
+        "Stat": 1,
         "Stage": -1,
         "IsForUser": false
       }
@@ -489,7 +489,7 @@
     "PP": 40,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": -1
       }
     ],
@@ -505,12 +505,12 @@
     "PP": 40,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": 1,
         "IsForUser": true
       },
       {
-        "StatEffectType": 5,
+        "Stat": 5,
         "Stage": 1,
         "IsForUser": true
       }
@@ -545,7 +545,7 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": 1,
         "IsForUser": true
       }
@@ -679,7 +679,7 @@
     "PP": 15,
     "StatEffects": [
       {
-        "StatEffectType": 1,
+        "Stat": 1,
         "Stage": -1
       }
     ],
@@ -713,7 +713,7 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": -1,
         "Probability": 100
       }
@@ -766,7 +766,7 @@
     "PP": 40,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": 1,
         "IsForUser": true
       }
@@ -828,7 +828,7 @@
     "PP": 10,
     "StatEffects": [
       {
-        "StatEffectType": 4,
+        "Stat": 4,
         "Stage": 2,
         "IsForUser": true
       }
@@ -953,7 +953,7 @@
     "PP": 10,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": -1,
         "Probability":  10
       }
@@ -1078,7 +1078,7 @@
     "PP": 15,
     "StatEffects": [
       {
-        "StatEffectType": 1,
+        "Stat": 1,
         "Stage": -1
       }
     ],
@@ -1103,7 +1103,7 @@
     "PP": 40,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": -2
       }
     ],
@@ -1137,7 +1137,7 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": 1,
         "IsForUser":  true
       }
@@ -1226,7 +1226,7 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 1,
+        "Stat": 1,
         "Stage": -1
       }
     ],
@@ -1324,7 +1324,7 @@
     "PP": 40,
     "StatEffects": [
       {
-        "StatEffectType": 7,
+        "Stat": 7,
         "Stage": -1
       }
     ],
@@ -1403,7 +1403,7 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": 2,
         "IsForUser": true
       }
@@ -1429,7 +1429,7 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": -1
       }
     ],
@@ -1601,7 +1601,7 @@
     "PP": 40,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": 1,
         "IsForUser":  true
       }
@@ -1654,12 +1654,12 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": 1,
         "IsForUser": true
       },
       {
-        "StatEffectType": 6,
+        "Stat": 6,
         "Stage": 1,
         "IsForUser": true
       }
@@ -1820,7 +1820,7 @@
     "PP": 15,
     "StatEffects": [
       {
-        "StatEffectType": 5,
+        "Stat": 5,
         "Stage": 1
       }
     ],
@@ -1845,15 +1845,15 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": -2
       },
       {
-        "StatEffectType": 5,
+        "Stat": 5,
         "Stage": -2
       },
       {
-        "StatEffectType": 7,
+        "Stat": 7,
         "Stage": -2
       }
     ],
@@ -1896,7 +1896,7 @@
     "PP": 15,
     "StatEffects": [
       {
-        "StatEffectType": 5,
+        "Stat": 5,
         "Stage": -1,
         "Probability": 30
       }
@@ -1949,7 +1949,7 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 4,
+        "Stat": 4,
         "Stage": -1
       }
     ],
@@ -1965,7 +1965,7 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": 2,
         "IsForUser": true
       }
@@ -2072,12 +2072,12 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": 1,
         "IsForUser": true
       },
       {
-        "StatEffectType": 6,
+        "Stat": 6,
         "Stage": 1,
         "IsForUser": true
       }
@@ -2229,12 +2229,12 @@
     "PP": 30,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": 1,
         "IsForUser": true
       },
       {
-        "StatEffectType": 5,
+        "Stat": 5,
         "Stage": 1,
         "IsForUser": true
       }
@@ -2269,12 +2269,12 @@
     "PP": 20,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": 1,
         "IsForUser": true
       },
       {
-        "StatEffectType": 7,
+        "Stat": 7,
         "Stage": 1,
         "IsForUser": true
       }
@@ -2617,27 +2617,27 @@
     "PP": 15,
     "StatEffects": [
       {
-        "StatEffectType": 2,
+        "Stat": 2,
         "Stage": 2,
         "IsForUser": true
       },
       {
-        "StatEffectType": 5,
+        "Stat": 5,
         "Stage": 2,
         "IsForUser": true
       },
       {
-        "StatEffectType": 7,
+        "Stat": 7,
         "Stage": 2,
         "IsForUser": true
       },
       {
-        "StatEffectType": 3,
+        "Stat": 3,
         "Stage": -1,
         "IsForUser": true
       },
       {
-        "StatEffectType": 6,
+        "Stat": 6,
         "Stage": -1,
         "IsForUser": true
       }

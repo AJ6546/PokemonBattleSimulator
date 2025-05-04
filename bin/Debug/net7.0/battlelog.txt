@@ -1,38 +1,38 @@
 ﻿Attack Order - Speed
-Caterpie - 45
-Oddish - 30
+Charmeleon - 80
+Beedrill - 75
 
 Turn 1 begins
 
-Caterpie uses StringShot
-
-Turn 2 begins
-
-Oddish uses Absorb
-Type Effectiveness is *0.5
+Charmeleon uses Flamethrower
+Type Effectiveness is *2
 Attack gets a stab boost of *1.5
-Oddish takes recoil damage from Absorb.
-Caterpie takes 56 damage
-Caterpie health is 0
-Caterpie is no longer able to battle.
-Absorb - PP: 19
+Beedrill takes 270 damage
+Beedrill health is 0
+Beedrill is no longer able to battle.
+Flamethrower - PP: 14
+
+Team 1 wins
+
+Pokemon that survived:
+Charmeleon
 
 Combat Detail
 
 Team 1
-Pokemon: Oddish
-Damage Dealt: 56
+Pokemon: Charmeleon
+Damage Dealt: 270
 KnockOuts: 1
-Knocked out Pokémon: Caterpie
+Knocked out Pokémon: Beedrill
 
 
 Team 2
-Pokemon: Caterpie
+Pokemon: Beedrill
 Damage Dealt: 0
 KnockOuts: 0
 
 
-MVP: Oddish (Knockouts: 1) - Team 1
+MVP: Charmeleon (Knockouts: 1) - Team 1
 
-Battle duration: 4691 ms.
+Battle duration: 114 ms.
 
