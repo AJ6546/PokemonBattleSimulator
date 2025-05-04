@@ -9,6 +9,6 @@ namespace PokemonBattleSimulator.Models
         public int DamageFactor { get; set; }
         public List<Typing> ImmuneTypes { get; set; }
         public Dictionary<Typing, double> MoveTypeMultipliers { get; set; } = new();
-        public Dictionary<Typing, Dictionary<Stat, double>> TypingStatModifiers { get; set; } 
+        public Dictionary<Typing, Dictionary<Stat, double>> TypingStatModifiers { get; set; }
     }
 }

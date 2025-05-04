@@ -8,5 +8,6 @@ namespace PokemonBattleSimulator.Services.Interfaces
     {
         public Task ApplyEnvironmentEffect(EnvironmentSetter environmentSetter, PokemonModel user, BattleContext context);
         public Task TickEnvironment(BattleContext context, StringBuilder logBuilder, List<PokemonModel> allPokemon);
+        public Task ApplyStatusEffect(MoveModel move, PokemonModel user, List<PokemonModel> allPokemon, StringBuilder logBuilder);
     }
 }

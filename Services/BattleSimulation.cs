@@ -103,6 +103,11 @@ namespace PokemonBattleSimulator.Services
                 {
                     await environmentHandler.ApplyEnvironmentEffect(selectedMove.Environment, 
                         attacker, battleContext);
+                    if (selectedMove.StatusEffect != null)
+                    {
+                        await environmentHandler.ApplyStatusEffect(selectedMove, attacker, 
+                            allPokemon, logBuilder);
+                    }
                 }
 
                 var enemies = teamsList

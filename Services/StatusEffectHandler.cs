@@ -18,7 +18,7 @@ namespace PokemonBattleSimulator.Services
         public Task ApplyStatusEffectAsync(PokemonModel attacker, PokemonModel target, MoveModel move, StringBuilder logBuilder)
         {
             var effect = move.StatusEffect;
-            if (effect != null && random.Next(0, 100) < move.Probability)
+            if (effect != null && IsStatusEffectTriggered(move.Probability))
             {
                 if (effect.IsMajorStatus)
                 {
@@ -29,7 +29,7 @@ namespace PokemonBattleSimulator.Services
 
                     if (oldStatusEffect != null)
                     {
-                        logBuilder.AppendLine($"{target.Pokemon} is no longet affected by {oldStatusEffect.Effect.Name}!");
+                        logBuilder.AppendLine($"{target.Pokemon} is no longer affected by {oldStatusEffect.Effect.Name}!");
                     }
 
                     logBuilder.AppendLine($"{target.Pokemon} is now affected by {effect.Name}!");
@@ -47,6 +47,9 @@ namespace PokemonBattleSimulator.Services
 
             return Task.CompletedTask;
         }
+
+        private bool IsStatusEffectTriggered(int probability) => 
+            random.Next(0, 100) < probability;
 
         private void AddEffect(PokemonModel attacker, PokemonModel target, StatusEffect effect)
         {

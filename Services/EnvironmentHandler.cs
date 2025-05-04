@@ -1,5 +1,6 @@
 ﻿using PokemonBattleSimulator.Contexts;
 using PokemonBattleSimulator.Models;
+using PokemonBattleSimulator.Models.Enum;
 using PokemonBattleSimulator.Services.Interfaces;
 using System.Text;
 
@@ -8,16 +9,35 @@ namespace PokemonBattleSimulator.Services
     public class EnvironmentHandler: IEnvironmentHandler
     {
         private readonly IGetSelectedPokemonDetails getSelectedPokemonDetails;
+        private readonly IStatusEffectHandler statusEffectHandler;
 
-        public EnvironmentHandler(IGetSelectedPokemonDetails getSelectedPokemonDetails)
+        public EnvironmentHandler(IGetSelectedPokemonDetails getSelectedPokemonDetails, 
+            IStatusEffectHandler statusEffectHandler)
         {
             this.getSelectedPokemonDetails = getSelectedPokemonDetails;
+            this.statusEffectHandler = statusEffectHandler;
         }
 
         public async Task ApplyEnvironmentEffect(EnvironmentSetter environmentSetter , PokemonModel user, BattleContext context)
         {
             context.CurrentEnvironment = environmentSetter;
             context.SourcePokemon = user;
+        }
+
+        public async Task ApplyStatusEffect(MoveModel move,  
+            PokemonModel user, List<PokemonModel> allPokemon, StringBuilder logBuilder)
+        {
+            foreach (PokemonModel pokemon in allPokemon)
+            {
+                var primaryTypeImmune = move.Environment.ImmuneTypes.Contains(pokemon.PrimaryType);   
+                var secondaryTypeImmune = !pokemon.SecondaryType.Equals(Typing.None) &&
+                    move.Environment.ImmuneTypes.Contains(pokemon.SecondaryType);
+
+                if(!primaryTypeImmune && !secondaryTypeImmune)
+                {
+                    await statusEffectHandler.ApplyStatusEffectAsync(user, pokemon, move, logBuilder);
+                }
+            }
         }
 
         public async Task TickEnvironment(BattleContext context, StringBuilder logBuilder, List<PokemonModel> allPokemon)
